@@ -1,5 +1,6 @@
 {
-  "generated_at": "2026-05-26T10:21:37",
+  "generated_at": "2026-05-26T10:46:13",
+  "source_graph_file": "psych_drug_kg.json",
   "node_count": 282,
   "edge_count": 753,
   "node_type_counts": {

@@ -3,50 +3,50 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Psychiatric Drug Knowledge Graph</title>
+  <title>精神科药物知识图谱</title>
   <style>
     :root {
       --bg: #0b1220;
       --panel: #111a2b;
-      --line: #22324b;
+      --line: #243653;
       --text: #dbe7ff;
-      --muted: #90a5cb;
-      --accent: #5f8eff;
-      --chip: #0f182b;
-      --chip-on: #1b2d4f;
+      --muted: #96abd0;
+      --chip: #0f182a;
+      --chip-on: #1c2c4a;
+      --accent: #5e88ff;
     }
     * { box-sizing: border-box; }
+    html, body { margin: 0; width: 100%; height: 100%; }
     body {
-      margin: 0;
       font-family: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
       background: var(--bg);
       color: var(--text);
-      height: 100vh;
       overflow: hidden;
     }
-    .layout {
+    .app {
       display: grid;
-      grid-template-columns: 360px 1fr;
-      height: 100vh;
+      grid-template-columns: 348px 1fr;
+      width: 100%;
+      height: 100%;
     }
     .sidebar {
-      background: var(--panel);
       border-right: 1px solid var(--line);
+      background: var(--panel);
       padding: 12px;
       overflow: auto;
     }
     .title {
       font-size: 18px;
       font-weight: 700;
-      margin: 4px 0 4px;
+      margin: 2px 0 4px;
     }
     .meta {
       color: var(--muted);
       font-size: 12px;
       line-height: 1.6;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
-    .control {
+    .group {
       margin-top: 10px;
       padding-top: 10px;
       border-top: 1px solid var(--line);
@@ -55,13 +55,12 @@
       color: var(--muted);
       font-size: 12px;
       margin-bottom: 6px;
-      letter-spacing: 0.4px;
     }
     .input {
       width: 100%;
-      border: 1px solid #304462;
+      border: 1px solid #344c72;
       border-radius: 8px;
-      background: #0a1322;
+      background: #0a1426;
       color: var(--text);
       padding: 8px 10px;
       outline: none;
@@ -74,25 +73,24 @@
       align-items: center;
     }
     .range-wrap input[type="range"] { width: 100%; }
-    .range-val { color: #bcd0f5; font-size: 12px; min-width: 14px; text-align: right; }
+    .range-val { color: #c2d4f6; font-size: 12px; min-width: 12px; text-align: right; }
     .chip-grid {
       display: flex;
       flex-wrap: wrap;
       gap: 6px;
     }
     .chip {
-      border: 1px solid #324765;
+      border: 1px solid #37517c;
       border-radius: 999px;
-      padding: 4px 10px;
       background: var(--chip);
-      color: #d0dffa;
+      color: #cfe0ff;
+      padding: 4px 10px;
       font-size: 12px;
       cursor: pointer;
       user-select: none;
     }
     .chip.on {
       background: var(--chip-on);
-      border-color: #4c71ac;
       color: #e7f0ff;
     }
     .row {
@@ -102,72 +100,61 @@
       margin-top: 8px;
     }
     .btn {
-      border: 1px solid #35507a;
-      background: #11203a;
-      color: #dbe7ff;
+      border: 1px solid #37517c;
       border-radius: 8px;
+      background: #10203b;
+      color: #dce8ff;
       padding: 6px 10px;
       font-size: 12px;
       cursor: pointer;
     }
-    .btn:hover { background: #17315a; }
-    .checkbox {
+    .btn:hover { background: #17345f; }
+    .check {
+      font-size: 12px;
+      color: #c8d9f7;
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      color: #c5d6f4;
-      font-size: 12px;
     }
     .details {
       margin-top: 12px;
       border-top: 1px solid var(--line);
       padding-top: 10px;
       font-size: 12px;
-      line-height: 1.55;
-      color: #d6e3fa;
+      line-height: 1.6;
       word-break: break-word;
     }
     .d-title {
       font-size: 15px;
       font-weight: 700;
-      margin-bottom: 4px;
-      color: #e9f1ff;
+      color: #edf4ff;
+      margin-bottom: 2px;
     }
-    .d-type {
-      color: #9fb4d8;
+    .d-sub {
+      color: #a3b8de;
       margin-bottom: 8px;
     }
-    .kv {
-      margin: 4px 0;
-    }
-    .k {
-      color: var(--muted);
-      margin-right: 6px;
-    }
+    .kv { margin: 4px 0; }
+    .k { color: var(--muted); margin-right: 6px; }
     .rel-list {
       margin-top: 8px;
       display: grid;
       gap: 6px;
     }
     .rel-item {
-      border: 1px solid #2e4263;
+      border: 1px solid #304665;
       border-radius: 8px;
+      background: #0f1a2d;
       padding: 6px 8px;
-      background: #0f182a;
       cursor: pointer;
     }
-    .rel-item:hover { border-color: #567fbf; }
-    .rel-head {
-      color: #d9e8ff;
-      margin-bottom: 3px;
-    }
-    .rel-meta {
-      color: #9bb0d2;
-      font-size: 11px;
-    }
+    .rel-item:hover { border-color: #5f89cf; }
+    .rel-head { color: #d8e8ff; margin-bottom: 3px; }
+    .rel-meta { color: #9db3d7; font-size: 11px; }
     .canvas {
       position: relative;
-      height: 100vh;
+      width: 100%;
+      height: 100%;
     }
     #graph {
       width: 100%;
@@ -176,30 +163,30 @@
     }
     .hud {
       position: absolute;
-      right: 12px;
       top: 12px;
+      right: 12px;
       z-index: 10;
-      font-size: 12px;
-      color: #c9daf6;
-      background: rgba(10, 18, 33, 0.8);
-      border: 1px solid #2a3f61;
+      border: 1px solid #2b4368;
       border-radius: 8px;
+      background: rgba(11, 20, 36, 0.82);
+      color: #c9dcff;
       padding: 8px 10px;
-      backdrop-filter: blur(6px);
+      font-size: 12px;
       line-height: 1.5;
+      backdrop-filter: blur(6px);
     }
     .tooltip {
       position: fixed;
+      z-index: 9999;
       pointer-events: none;
-      background: rgba(15, 24, 41, 0.96);
       border: 1px solid #3a5480;
       border-radius: 8px;
-      color: #e8f2ff;
+      background: rgba(15, 24, 41, 0.95);
+      color: #eaf2ff;
+      max-width: 380px;
       padding: 8px 10px;
       font-size: 12px;
-      max-width: 360px;
       line-height: 1.5;
-      z-index: 9999;
       opacity: 0;
       transform: translateY(4px);
       transition: opacity 120ms ease, transform 120ms ease;
@@ -208,58 +195,58 @@
       opacity: 1;
       transform: translateY(0);
     }
+    @media (max-width: 1100px) {
+      .app { grid-template-columns: 320px 1fr; }
+    }
   </style>
 </head>
 <body>
-  <div class="layout">
+  <div class="app">
     <aside class="sidebar">
-      <div class="title">Psychiatric Drug Graph</div>
-      <div id="meta" class="meta">Loading…</div>
+      <div class="title">精神科药物知识图谱</div>
+      <div id="meta" class="meta">加载中...</div>
 
-      <div class="control">
-        <div class="label">Search</div>
-        <input id="search" class="input" placeholder="Drug / Target / Disease / Gene" />
+      <div class="group">
+        <div class="label">搜索</div>
+        <input id="search" class="input" placeholder="药物 / 靶点 / 疾病 / 基因" />
       </div>
 
-      <div class="control">
-        <div class="label">Neighborhood hops (for search/selection)</div>
+      <div class="group">
+        <div class="label">邻域跳数（搜索/选中生效）</div>
         <div class="range-wrap">
-          <input id="hops" type="range" min="1" max="3" step="1" value="2" />
+          <input id="hops" type="range" min="1" max="3" value="2" />
           <span id="hops-val" class="range-val">2</span>
         </div>
       </div>
 
-      <div class="control">
-        <div class="label">Node types</div>
+      <div class="group">
+        <div class="label">节点类型</div>
         <div id="type-chips" class="chip-grid"></div>
       </div>
 
-      <div class="control">
-        <div class="label">Relations</div>
+      <div class="group">
+        <div class="label">关系类型</div>
         <div id="rel-chips" class="chip-grid"></div>
       </div>
 
-      <div class="control">
+      <div class="group">
         <div class="row">
-          <label class="checkbox">
+          <label class="check">
             <input id="show-labels" type="checkbox" checked />
-            Show labels (drug and selected neighbors)
+            显示标签（药物 + 选中邻居）
           </label>
         </div>
         <div class="row">
-          <button id="reset-btn" class="btn">Reset view</button>
+          <button id="reset-btn" class="btn">重置视图</button>
         </div>
       </div>
 
-      <div id="details" class="details">Click a node to view details.</div>
+      <div id="details" class="details">点击节点查看详情。</div>
     </aside>
 
     <main class="canvas">
       <svg id="graph"></svg>
-      <div id="hud" class="hud">
-        Nodes: 0<br />
-        Edges: 0
-      </div>
+      <div id="hud" class="hud">Nodes: 0<br />Edges: 0</div>
     </main>
   </div>
 
@@ -267,33 +254,33 @@
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script>
-    const TYPE_COLORS = {
-      "药物": "#79a5ff",
-      "疾病/适应症": "#f8c760",
-      "受体/靶点": "#f48bc2",
-      "代谢酶": "#5ed3b2",
-      "基因": "#ff9561",
-      "特殊人群": "#72c8ff"
+    const NODE_COLOR_MAP = {
+      "药物": "#6ea1ff",
+      "疾病/适应症": "#f5c56a",
+      "受体/靶点": "#f48fc5",
+      "代谢酶": "#63d7b7",
+      "基因": "#ffa06c",
+      "特殊人群": "#78ceff"
     };
 
-    const REL_COLORS = {
-      "代谢_经由": "#5ed3b2",
-      "治疗": "#f8c760",
-      "基因关联": "#ff9561",
-      "特殊人群_注意": "#72c8ff"
+    const REL_COLOR_MAP = {
+      "代谢_经由": "#63d7b7",
+      "治疗": "#f5c56a",
+      "基因关联": "#ffa06c",
+      "特殊人群_注意": "#78ceff"
     };
 
     const state = {
       raw: null,
+      activeTypes: new Set(),
+      activeRelations: new Set(),
+      selectedNodeId: null,
+      query: "",
+      hops: 2,
+      showLabels: true,
       visibleNodes: [],
       visibleEdges: [],
-      nodeMap: new Map(),
-      activeTypes: new Set(),
-      activeRels: new Set(),
-      selectedNodeId: null,
-      search: "",
-      hops: 2,
-      showLabels: true
+      visibleNodeMap: new Map()
     };
 
     const metaEl = document.getElementById("meta");
@@ -309,183 +296,180 @@
     const tooltipEl = document.getElementById("tooltip");
 
     const svg = d3.select("#graph");
-    const g = svg.append("g");
-    const linkLayer = g.append("g");
-    const nodeLayer = g.append("g");
-    const labelLayer = g.append("g");
+    const root = svg.append("g");
+    const linkLayer = root.append("g");
+    const nodeLayer = root.append("g");
+    const labelLayer = root.append("g");
 
     const zoom = d3.zoom().scaleExtent([0.2, 5]).on("zoom", (event) => {
-      g.attr("transform", event.transform);
+      root.attr("transform", event.transform);
     });
     svg.call(zoom);
 
-    function safe(v) {
-      return String(v == null ? "" : v);
+    let simulation = null;
+
+    function safeText(value) {
+      return String(value == null ? "" : value).trim();
     }
 
-    function ellipsis(v, n = 120) {
-      const s = safe(v).trim();
-      if (!s) return "";
-      return s.length > n ? s.slice(0, n - 1).trim() + "…" : s;
+    function escapeHtml(value) {
+      return safeText(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll("\"", "&quot;")
+        .replaceAll("'", "&#39;");
     }
 
-    function relColor(rel) {
-      if (REL_COLORS[rel]) return REL_COLORS[rel];
-      if (rel.startsWith("结合_")) return "#9e89ff";
-      return "#7f95bd";
+    function shortText(value, n = 160) {
+      const text = safeText(value);
+      if (!text) return "";
+      return text.length > n ? text.slice(0, n - 3).trim() + "..." : text;
     }
 
-    function typeColor(type) {
-      return TYPE_COLORS[type] || "#95abcf";
+    function hashHue(text) {
+      let hash = 0;
+      for (let i = 0; i < text.length; i += 1) {
+        hash = (hash * 31 + text.charCodeAt(i)) >>> 0;
+      }
+      return hash % 360;
     }
 
-    function buildChips(container, entries, activeSet, onChange, colorFn) {
-      container.innerHTML = "";
-      entries.forEach((entry) => {
-        const key = entry.key;
-        const chip = document.createElement("button");
-        chip.className = "chip on";
-        chip.style.borderColor = colorFn(key);
-        chip.textContent = `${key} (${entry.count})`;
-        chip.onclick = () => {
-          if (activeSet.has(key)) {
-            activeSet.delete(key);
-            chip.classList.remove("on");
-          } else {
-            activeSet.add(key);
-            chip.classList.add("on");
-          }
-          onChange();
-        };
-        container.appendChild(chip);
+    function colorByHash(text, sat = 55, light = 58) {
+      return `hsl(${hashHue(text)}, ${sat}%, ${light}%)`;
+    }
+
+    function nodeColor(type) {
+      return NODE_COLOR_MAP[type] || colorByHash(type || "unknown", 52, 63);
+    }
+
+    function relationColor(relation) {
+      if (REL_COLOR_MAP[relation]) return REL_COLOR_MAP[relation];
+      if (safeText(relation).startsWith("结合_")) return "#9f8af7";
+      return colorByHash(relation || "unknown", 45, 56);
+    }
+
+    function normalizeRef(value) {
+      if (typeof value === "string") return value;
+      if (value && typeof value === "object") return safeText(value.id || value.name || "");
+      return safeText(value);
+    }
+
+    function normalizeGraph(raw) {
+      const nodes = [];
+      const nodeSeen = new Set();
+      (raw.nodes || []).forEach((node) => {
+        const id = safeText(node.id);
+        const type = safeText(node.type);
+        if (!id || !type || nodeSeen.has(id)) return;
+        nodeSeen.add(id);
+        nodes.push({ ...node, id, type });
       });
-    }
 
-    function nodeMatchesQuery(node, queryLower) {
-      const blob = [
-        node.id,
-        node.type,
-        node.category,
-        node.name_en,
-        node.half_life,
-        node.tmax,
-        node.tdm_range,
-        node.tdm_alert,
-        node.bbw
-      ].map(safe).join(" ").toLowerCase();
-      return blob.includes(queryLower);
+      const edges = [];
+      const edgeSeen = new Set();
+      (raw.edges || []).forEach((edge) => {
+        const source = normalizeRef(edge.source);
+        const target = normalizeRef(edge.target);
+        const relation = safeText(edge.relation);
+        if (!source || !target || !relation || source === target) return;
+        const safeEdge = { ...edge, source, target, relation };
+        const key = JSON.stringify(safeEdge);
+        if (edgeSeen.has(key)) return;
+        edgeSeen.add(key);
+        edges.push(safeEdge);
+      });
+      return { nodes, edges };
     }
 
     function buildAdjacency(edges) {
       const adj = new Map();
-      for (const e of edges) {
-        if (!adj.has(e.source)) adj.set(e.source, new Set());
-        if (!adj.has(e.target)) adj.set(e.target, new Set());
-        adj.get(e.source).add(e.target);
-        adj.get(e.target).add(e.source);
-      }
+      edges.forEach((edge) => {
+        if (!adj.has(edge.source)) adj.set(edge.source, new Set());
+        if (!adj.has(edge.target)) adj.set(edge.target, new Set());
+        adj.get(edge.source).add(edge.target);
+        adj.get(edge.target).add(edge.source);
+      });
       return adj;
     }
 
-    function bfsNeighborhood(seeds, adj, hops) {
+    function bfsKeepIds(seeds, adjacency, hops) {
       const keep = new Set(seeds);
       let frontier = new Set(seeds);
-      for (let h = 0; h < hops; h += 1) {
+      for (let i = 0; i < hops; i += 1) {
         const next = new Set();
-        for (const id of frontier) {
-          const neighbors = adj.get(id);
-          if (!neighbors) continue;
-          for (const n of neighbors) {
-            if (!keep.has(n)) next.add(n);
-          }
-        }
+        frontier.forEach((id) => {
+          const neighbors = adjacency.get(id);
+          if (!neighbors) return;
+          neighbors.forEach((nid) => {
+            if (!keep.has(nid)) next.add(nid);
+          });
+        });
         if (next.size === 0) break;
-        for (const n of next) keep.add(n);
+        next.forEach((nid) => keep.add(nid));
         frontier = next;
       }
       return keep;
     }
 
-    function computeVisible() {
-      const query = state.search.trim().toLowerCase();
-      const allNodes = state.raw.nodes.filter((n) => state.activeTypes.has(n.type));
-      const allNodeIds = new Set(allNodes.map((n) => n.id));
+    function nodeMatches(node, queryLower) {
+      const blob = [
+        node.id, node.type, node.category, node.name_en, node.half_life,
+        node.tmax, node.tdm_range, node.tdm_alert, node.bbw
+      ].map(safeText).join(" ").toLowerCase();
+      return blob.includes(queryLower);
+    }
 
-      let allEdges = state.raw.edges.filter((e) =>
-        state.activeRels.has(e.relation) &&
-        allNodeIds.has(e.source) &&
-        allNodeIds.has(e.target)
+    function computeVisible() {
+      const allNodes = state.raw.nodes.filter((n) => state.activeTypes.has(n.type));
+      const nodeIds = new Set(allNodes.map((n) => n.id));
+      const allEdges = state.raw.edges.filter((e) =>
+        state.activeRelations.has(e.relation) &&
+        nodeIds.has(e.source) &&
+        nodeIds.has(e.target)
       );
 
+      const queryLower = state.query.trim().toLowerCase();
       let seeds = [];
-      if (state.selectedNodeId && allNodeIds.has(state.selectedNodeId)) {
+      if (state.selectedNodeId && nodeIds.has(state.selectedNodeId)) {
         seeds = [state.selectedNodeId];
-      } else if (query) {
-        seeds = allNodes.filter((n) => nodeMatchesQuery(n, query)).map((n) => n.id);
+      } else if (queryLower) {
+        seeds = allNodes.filter((n) => nodeMatches(n, queryLower)).map((n) => n.id);
       }
 
-      let keepIds;
-      if (seeds.length > 0) {
-        const adj = buildAdjacency(allEdges);
-        keepIds = bfsNeighborhood(seeds, adj, state.hops);
-      } else if (query) {
-        keepIds = new Set();
-      } else {
-        keepIds = allNodeIds;
+      let keepIds = nodeIds;
+      if (queryLower || seeds.length > 0) {
+        if (seeds.length === 0) {
+          keepIds = new Set();
+        } else {
+          keepIds = bfsKeepIds(seeds, buildAdjacency(allEdges), state.hops);
+        }
       }
 
       const nodes = allNodes.filter((n) => keepIds.has(n.id));
-      const nodeSet = new Set(nodes.map((n) => n.id));
-      const edges = allEdges.filter((e) => nodeSet.has(e.source) && nodeSet.has(e.target));
+      const keepNodeIds = new Set(nodes.map((n) => n.id));
+      const edges = allEdges.filter((e) => keepNodeIds.has(e.source) && keepNodeIds.has(e.target));
       return { nodes, edges };
     }
 
-    function renderDetails(node) {
-      if (!node) {
-        detailsEl.textContent = "Click a node to view details.";
-        return;
-      }
-
-      const edges = state.visibleEdges.filter((e) => e.source === node.id || e.target === node.id);
-      const rows = [];
-      rows.push(`<div class="d-title">${safe(node.id)}</div>`);
-      rows.push(`<div class="d-type">${safe(node.type)}${node.category ? " · " + safe(node.category) : ""}</div>`);
-      if (node.name_en) rows.push(`<div class="kv"><span class="k">EN</span>${safe(node.name_en)}</div>`);
-      if (node.half_life) rows.push(`<div class="kv"><span class="k">Half-life</span>${safe(node.half_life)}</div>`);
-      if (node.tmax) rows.push(`<div class="kv"><span class="k">Tmax</span>${safe(node.tmax)}</div>`);
-      if (node.tdm_range) rows.push(`<div class="kv"><span class="k">TDM range</span>${safe(node.tdm_range)}</div>`);
-      if (node.tdm_alert) rows.push(`<div class="kv"><span class="k">TDM alert</span>${safe(node.tdm_alert)}</div>`);
-      if (node.bbw) rows.push(`<div class="kv"><span class="k">BBW</span>${safe(node.bbw)}</div>`);
-      rows.push(`<div class="kv"><span class="k">Visible relations</span>${edges.length}</div>`);
-
-      const relHtml = edges
-        .slice(0, 30)
-        .map((e) => {
-          const other = e.source === node.id ? e.target : e.source;
-          const dir = e.source === node.id ? "→" : "←";
-          const ki = e.ki !== undefined ? ` | Ki=${safe(e.ki)}` : "";
-          const ap = (e.nmpa !== undefined || e.fda !== undefined)
-            ? ` | NMPA=${safe(e.nmpa)} FDA=${safe(e.fda)}`
-            : "";
-          const detail = e.detail ? `<div class="rel-meta">${ellipsis(e.detail, 180)}</div>` : "";
-          return `<div class="rel-item" data-target="${safe(other)}">
-            <div class="rel-head">${safe(node.id)} ${dir} [${safe(e.relation)}] ${safe(other)}</div>
-            <div class="rel-meta">${ki}${ap}</div>
-            ${detail}
-          </div>`;
-        }).join("");
-
-      rows.push(`<div class="rel-list">${relHtml || "<div class='rel-meta'>No relation in current filtered view.</div>"}</div>`);
-      detailsEl.innerHTML = rows.join("");
-
-      detailsEl.querySelectorAll(".rel-item").forEach((el) => {
-        el.addEventListener("click", () => {
-          const target = el.getAttribute("data-target");
-          if (target && state.nodeMap.has(target)) {
-            state.selectedNodeId = target;
-            updateGraph();
+    function buildChips(container, entries, activeSet, colorFn, onChange) {
+      container.innerHTML = "";
+      entries.forEach((entry) => {
+        const chip = document.createElement("button");
+        chip.className = "chip on";
+        chip.style.borderColor = colorFn(entry.key);
+        chip.textContent = `${entry.key} (${entry.count})`;
+        chip.addEventListener("click", () => {
+          if (activeSet.has(entry.key)) {
+            activeSet.delete(entry.key);
+            chip.classList.remove("on");
+          } else {
+            activeSet.add(entry.key);
+            chip.classList.add("on");
           }
+          onChange();
         });
+        container.appendChild(chip);
       });
     }
 
@@ -495,87 +479,140 @@
       tooltipEl.style.top = `${y + 12}px`;
       tooltipEl.classList.add("show");
     }
+
     function hideTooltip() {
       tooltipEl.classList.remove("show");
     }
 
+    function renderDetails(node) {
+      if (!node) {
+        detailsEl.textContent = "点击节点查看详情。";
+        return;
+      }
+
+      const edges = state.visibleEdges.filter((e) => e.source === node.id || e.target === node.id);
+      const rows = [];
+      rows.push(`<div class="d-title">${escapeHtml(node.id)}</div>`);
+      rows.push(`<div class="d-sub">${escapeHtml(node.type)}${node.category ? " · " + escapeHtml(node.category) : ""}</div>`);
+      if (node.name_en) rows.push(`<div class="kv"><span class="k">EN</span>${escapeHtml(node.name_en)}</div>`);
+      if (node.half_life) rows.push(`<div class="kv"><span class="k">Half-life</span>${escapeHtml(node.half_life)}</div>`);
+      if (node.tmax) rows.push(`<div class="kv"><span class="k">Tmax</span>${escapeHtml(node.tmax)}</div>`);
+      if (node.tdm_range) rows.push(`<div class="kv"><span class="k">TDM range</span>${escapeHtml(node.tdm_range)}</div>`);
+      if (node.tdm_alert) rows.push(`<div class="kv"><span class="k">TDM alert</span>${escapeHtml(node.tdm_alert)}</div>`);
+      if (node.bbw) rows.push(`<div class="kv"><span class="k">BBW</span>${escapeHtml(node.bbw)}</div>`);
+      rows.push(`<div class="kv"><span class="k">可见关系数</span>${edges.length}</div>`);
+
+      const relHtml = edges.slice(0, 36).map((edge) => {
+        const other = edge.source === node.id ? edge.target : edge.source;
+        const relation = escapeHtml(edge.relation);
+        const ki = edge.ki !== undefined ? `Ki=${escapeHtml(edge.ki)}` : "";
+        const ap = edge.nmpa !== undefined || edge.fda !== undefined
+          ? `NMPA=${escapeHtml(edge.nmpa)} FDA=${escapeHtml(edge.fda)}`
+          : "";
+        const detail = edge.detail ? `<div class="rel-meta">${escapeHtml(shortText(edge.detail, 220))}</div>` : "";
+        const meta = [ki, ap].filter(Boolean).join(" | ");
+        return `<div class="rel-item" data-target="${escapeHtml(other)}">
+          <div class="rel-head">${escapeHtml(node.id)} → [${relation}] → ${escapeHtml(other)}</div>
+          ${meta ? `<div class="rel-meta">${meta}</div>` : ""}
+          ${detail}
+        </div>`;
+      }).join("");
+
+      rows.push(`<div class="rel-list">${relHtml || "<div class='rel-meta'>当前筛选下无关系。</div>"}</div>`);
+      detailsEl.innerHTML = rows.join("");
+
+      detailsEl.querySelectorAll(".rel-item").forEach((el) => {
+        el.addEventListener("click", () => {
+          const targetId = safeText(el.getAttribute("data-target"));
+          if (!targetId || !state.visibleNodeMap.has(targetId)) return;
+          state.selectedNodeId = targetId;
+          updateGraph();
+        });
+      });
+    }
+
+    function linkId(link) {
+      const source = typeof link.source === "object" ? link.source.id : link.source;
+      const target = typeof link.target === "object" ? link.target.id : link.target;
+      return `${source}|${target}|${link.relation}`;
+    }
+
     function applyHighlight() {
       const selected = state.selectedNodeId;
-      const edgeKey = new Set();
+      const hitEdgeIds = new Set();
       if (selected) {
         state.visibleEdges.forEach((e) => {
           if (e.source === selected || e.target === selected) {
-            edgeKey.add(`${e.source}|${e.target}|${e.relation}`);
+            hitEdgeIds.add(`${e.source}|${e.target}|${e.relation}`);
           }
         });
       }
 
       linkLayer.selectAll("line")
-        .attr("stroke-opacity", (d) => !selected ? 0.38 : (edgeKey.has(`${d.source.id}|${d.target.id}|${d.relation}`) ? 0.95 : 0.08))
-        .attr("stroke-width", (d) => !selected ? 1.1 : (edgeKey.has(`${d.source.id}|${d.target.id}|${d.relation}`) ? 1.8 : 1.0));
+        .attr("stroke-opacity", (d) => !selected ? 0.36 : (hitEdgeIds.has(linkId(d)) ? 0.9 : 0.08))
+        .attr("stroke-width", (d) => !selected ? 1.1 : (hitEdgeIds.has(linkId(d)) ? 2 : 1));
 
       nodeLayer.selectAll("circle")
         .attr("opacity", (d) => {
           if (!selected) return 1;
           if (d.id === selected) return 1;
-          for (const e of state.visibleEdges) {
-            if ((e.source === selected && e.target === d.id) || (e.target === selected && e.source === d.id)) {
-              return 1;
-            }
-          }
-          return 0.2;
+          const linked = state.visibleEdges.some((e) =>
+            (e.source === selected && e.target === d.id) ||
+            (e.target === selected && e.source === d.id)
+          );
+          return linked ? 1 : 0.2;
         })
-        .attr("stroke-width", (d) => d.id === selected ? 2.2 : 1.0);
+        .attr("stroke-width", (d) => d.id === selected ? 2.2 : 1);
     }
 
-    let simulation = null;
     function updateGraph() {
       const { nodes, edges } = computeVisible();
       state.visibleNodes = nodes;
       state.visibleEdges = edges;
-      state.nodeMap = new Map(nodes.map((n) => [n.id, n]));
+      state.visibleNodeMap = new Map(nodes.map((n) => [n.id, n]));
 
-      if (state.selectedNodeId && !state.nodeMap.has(state.selectedNodeId)) {
+      if (state.selectedNodeId && !state.visibleNodeMap.has(state.selectedNodeId)) {
         state.selectedNodeId = null;
       }
-
+      renderDetails(state.selectedNodeId ? state.visibleNodeMap.get(state.selectedNodeId) : null);
       hudEl.innerHTML = `Nodes: ${nodes.length}<br>Edges: ${edges.length}`;
-      renderDetails(state.selectedNodeId ? state.nodeMap.get(state.selectedNodeId) : null);
 
       const nodeData = nodes.map((n) => ({ ...n }));
-      const linksData = edges.map((e) => ({ ...e }));
+      const linkData = edges.map((e) => ({ ...e }));
 
-      const links = linkLayer.selectAll("line")
-        .data(linksData, (d) => `${d.source}|${d.target}|${d.relation}`);
+      const links = linkLayer.selectAll("line").data(linkData, (d) => `${d.source}|${d.target}|${d.relation}`);
       links.exit().remove();
-      const linksEnter = links.enter().append("line")
-        .attr("stroke", (d) => relColor(d.relation))
-        .attr("stroke-opacity", 0.38)
+      const linksEnter = links.enter()
+        .append("line")
         .attr("stroke-width", 1.1)
         .on("mousemove", (event, d) => {
           const extra = [];
-          if (d.ki !== undefined) extra.push(`Ki=${safe(d.ki)}`);
-          if (d.nmpa !== undefined || d.fda !== undefined) extra.push(`NMPA=${safe(d.nmpa)} FDA=${safe(d.fda)}`);
-          const detail = d.detail ? `<div>${ellipsis(d.detail, 220)}</div>` : "";
+          if (d.ki !== undefined) extra.push(`Ki=${escapeHtml(d.ki)}`);
+          if (d.nmpa !== undefined || d.fda !== undefined) {
+            extra.push(`NMPA=${escapeHtml(d.nmpa)} FDA=${escapeHtml(d.fda)}`);
+          }
+          const detail = d.detail ? `<div>${escapeHtml(shortText(d.detail, 220))}</div>` : "";
           showTooltip(
-            `<div><b>${safe(d.relation)}</b></div>
-             <div>${safe(d.source)} → ${safe(d.target)}</div>
-             <div>${extra.join(" | ")}</div>${detail}`,
-            event.clientX, event.clientY
+            `<div><b>${escapeHtml(d.relation)}</b></div>
+             <div>${escapeHtml(d.source)} → ${escapeHtml(d.target)}</div>
+             ${extra.length ? `<div>${extra.join(" | ")}</div>` : ""}
+             ${detail}`,
+            event.clientX,
+            event.clientY
           );
         })
         .on("mouseleave", hideTooltip);
       const linksMerge = linksEnter.merge(links)
-        .attr("stroke", (d) => relColor(d.relation));
+        .attr("stroke", (d) => relationColor(d.relation));
 
-      const nodesSel = nodeLayer.selectAll("circle")
-        .data(nodeData, (d) => d.id);
+      const nodesSel = nodeLayer.selectAll("circle").data(nodeData, (d) => d.id);
       nodesSel.exit().remove();
-      const nodesEnter = nodesSel.enter().append("circle")
-        .attr("r", (d) => d.type === "药物" ? 6.5 : 4.5)
-        .attr("fill", (d) => typeColor(d.type))
-        .attr("stroke", "#0a1322")
-        .attr("stroke-width", 1.0)
+      const nodesEnter = nodesSel.enter()
+        .append("circle")
+        .attr("r", (d) => d.type === "药物" ? 6.5 : 4.8)
+        .attr("fill", (d) => nodeColor(d.type))
+        .attr("stroke", "#0b1425")
+        .attr("stroke-width", 1)
         .on("click", (event, d) => {
           event.stopPropagation();
           state.selectedNodeId = d.id;
@@ -583,10 +620,11 @@
         })
         .on("mousemove", (event, d) => {
           showTooltip(
-            `<div><b>${safe(d.id)}</b></div>
-             <div>${safe(d.type)}${d.category ? " · " + safe(d.category) : ""}</div>
-             ${d.name_en ? `<div>${safe(d.name_en)}</div>` : ""}`,
-            event.clientX, event.clientY
+            `<div><b>${escapeHtml(d.id)}</b></div>
+             <div>${escapeHtml(d.type)}${d.category ? " · " + escapeHtml(d.category) : ""}</div>
+             ${d.name_en ? `<div>${escapeHtml(d.name_en)}</div>` : ""}`,
+            event.clientX,
+            event.clientY
           );
         })
         .on("mouseleave", hideTooltip)
@@ -609,63 +647,60 @@
         );
       const nodesMerge = nodesEnter.merge(nodesSel);
 
-      const labels = labelLayer.selectAll("text")
-        .data(
-          nodeData.filter((d) => {
-            if (!state.showLabels) return false;
-            if (d.type === "药物") return true;
-            if (!state.selectedNodeId) return false;
-            return edges.some((e) =>
-              (e.source === state.selectedNodeId && e.target === d.id) ||
-              (e.target === state.selectedNodeId && e.source === d.id)
-            );
-          }),
-          (d) => d.id
-        );
+      const labels = labelLayer.selectAll("text").data(
+        nodeData.filter((node) => {
+          if (!state.showLabels) return false;
+          if (node.type === "药物") return true;
+          if (!state.selectedNodeId) return false;
+          return edges.some((e) =>
+            (e.source === state.selectedNodeId && e.target === node.id) ||
+            (e.target === state.selectedNodeId && e.source === node.id)
+          );
+        }),
+        (d) => d.id
+      );
       labels.exit().remove();
-      const labelsEnter = labels.enter().append("text")
+      const labelsEnter = labels.enter()
+        .append("text")
         .attr("font-size", 9)
-        .attr("fill", "#c2d5f5")
+        .attr("fill", "#c8d8f8")
         .attr("pointer-events", "none")
         .text((d) => d.id);
       const labelsMerge = labelsEnter.merge(labels);
 
-      if (simulation) simulation.stop();
-      simulation = d3.forceSimulation(nodeData)
-        .force("link", d3.forceLink(linksData).id((d) => d.id).distance((d) => d.relation.startsWith("结合_") ? 52 : 72))
-        .force("charge", d3.forceManyBody().strength(-80))
-        .force("center", d3.forceCenter(window.innerWidth * 0.35, window.innerHeight * 0.5))
-        .force("collide", d3.forceCollide().radius((d) => d.type === "药物" ? 12 : 8))
-        .on("tick", () => {
-          linksMerge
-            .attr("x1", (d) => d.source.x)
-            .attr("y1", (d) => d.source.y)
-            .attr("x2", (d) => d.target.x)
-            .attr("y2", (d) => d.target.y);
+      if (!simulation) {
+        simulation = d3.forceSimulation()
+          .force("link", d3.forceLink().id((d) => d.id).distance((d) => safeText(d.relation).startsWith("结合_") ? 56 : 74))
+          .force("charge", d3.forceManyBody().strength(-82))
+          .force("center", d3.forceCenter(window.innerWidth * 0.35, window.innerHeight * 0.5))
+          .force("collide", d3.forceCollide().radius((d) => d.type === "药物" ? 12 : 8));
+      }
 
-          nodesMerge
-            .attr("cx", (d) => d.x)
-            .attr("cy", (d) => d.y);
+      simulation.nodes(nodeData);
+      simulation.force("link").links(linkData);
+      simulation.alpha(0.8).restart();
+      simulation.on("tick", () => {
+        linksMerge
+          .attr("x1", (d) => d.source.x)
+          .attr("y1", (d) => d.source.y)
+          .attr("x2", (d) => d.target.x)
+          .attr("y2", (d) => d.target.y);
 
-          labelsMerge
-            .attr("x", (d) => d.x + 7)
-            .attr("y", (d) => d.y - 6);
-        });
+        nodesMerge
+          .attr("cx", (d) => d.x)
+          .attr("cy", (d) => d.y);
+
+        labelsMerge
+          .attr("x", (d) => d.x + 7)
+          .attr("y", (d) => d.y - 6);
+      });
 
       applyHighlight();
     }
 
     function setupControls() {
-      searchEl.addEventListener("input", (e) => {
-        state.search = e.target.value || "";
-        if (!state.search.trim()) {
-          // keep selection if query cleared
-        } else {
-          // query mode should not be blocked by stale non-visible selection
-          if (state.selectedNodeId && !state.nodeMap.has(state.selectedNodeId)) {
-            state.selectedNodeId = null;
-          }
-        }
+      searchEl.addEventListener("input", (event) => {
+        state.query = safeText(event.target.value);
         updateGraph();
       });
 
@@ -681,13 +716,15 @@
       });
 
       resetBtn.addEventListener("click", () => {
-        state.search = "";
+        state.query = "";
         state.selectedNodeId = null;
         state.hops = 2;
+        state.showLabels = true;
         searchEl.value = "";
         hopsEl.value = "2";
         hopsValEl.textContent = "2";
-        svg.transition().duration(320).call(zoom.transform, d3.zoomIdentity);
+        showLabelsEl.checked = true;
+        svg.transition().duration(280).call(zoom.transform, d3.zoomIdentity);
         updateGraph();
       });
 
@@ -697,58 +734,58 @@
       });
 
       window.addEventListener("resize", () => {
-        if (simulation) {
-          simulation.force("center", d3.forceCenter(window.innerWidth * 0.35, window.innerHeight * 0.5));
-          simulation.alpha(0.2).restart();
-        }
+        if (!simulation) return;
+        simulation.force("center", d3.forceCenter(window.innerWidth * 0.35, window.innerHeight * 0.5));
+        simulation.alpha(0.2).restart();
       });
     }
 
-    Promise.all([
-      fetch("./data/graph.json").then((r) => r.json()),
-      fetch("./data/meta.json").then((r) => r.json()).catch(() => null)
-    ]).then(([graph, meta]) => {
-      state.raw = graph;
+    async function boot() {
+      try {
+        const [graphResp, metaResp] = await Promise.all([
+          fetch("./data/graph.json"),
+          fetch("./data/meta.json").catch(() => null)
+        ]);
+        const rawGraph = await graphResp.json();
+        const meta = metaResp ? await metaResp.json() : null;
+        state.raw = normalizeGraph(rawGraph);
 
-      const typeCounts = new Map();
-      graph.nodes.forEach((n) => {
-        typeCounts.set(n.type, (typeCounts.get(n.type) || 0) + 1);
-      });
-      const relCounts = new Map();
-      graph.edges.forEach((e) => {
-        relCounts.set(e.relation, (relCounts.get(e.relation) || 0) + 1);
-      });
+        const typeCounts = new Map();
+        state.raw.nodes.forEach((n) => {
+          typeCounts.set(n.type, (typeCounts.get(n.type) || 0) + 1);
+        });
+        const relCounts = new Map();
+        state.raw.edges.forEach((e) => {
+          relCounts.set(e.relation, (relCounts.get(e.relation) || 0) + 1);
+        });
 
-      const types = [...typeCounts.entries()]
-        .sort((a, b) => b[1] - a[1])
-        .map(([key, count]) => ({ key, count }));
-      const rels = [...relCounts.entries()]
-        .sort((a, b) => b[1] - a[1])
-        .map(([key, count]) => ({ key, count }));
+        const types = [...typeCounts.entries()].sort((a, b) => b[1] - a[1]).map(([key, count]) => ({ key, count }));
+        const rels = [...relCounts.entries()].sort((a, b) => b[1] - a[1]).map(([key, count]) => ({ key, count }));
 
-      types.forEach((t) => state.activeTypes.add(t.key));
-      rels.forEach((r) => state.activeRels.add(r.key));
+        types.forEach((item) => state.activeTypes.add(item.key));
+        rels.forEach((item) => state.activeRelations.add(item.key));
 
-      buildChips(typeChipsEl, types, state.activeTypes, updateGraph, typeColor);
-      buildChips(relChipsEl, rels, state.activeRels, updateGraph, relColor);
-      setupControls();
+        buildChips(typeChipsEl, types, state.activeTypes, nodeColor, updateGraph);
+        buildChips(relChipsEl, rels, state.activeRelations, relationColor, updateGraph);
+        setupControls();
 
-      if (meta) {
-        metaEl.innerHTML =
-          `Nodes: ${meta.node_count}<br>` +
-          `Edges: ${meta.edge_count}<br>` +
-          `Exported: ${meta.generated_at}`;
-      } else {
-        metaEl.innerHTML =
-          `Nodes: ${graph.nodes.length}<br>` +
-          `Edges: ${graph.edges.length}`;
+        if (meta) {
+          metaEl.innerHTML =
+            `Nodes: ${meta.node_count}<br>` +
+            `Edges: ${meta.edge_count}<br>` +
+            `Exported: ${safeText(meta.generated_at)}`;
+        } else {
+          metaEl.innerHTML = `Nodes: ${state.raw.nodes.length}<br>Edges: ${state.raw.edges.length}`;
+        }
+
+        updateGraph();
+      } catch (error) {
+        metaEl.textContent = "加载失败：请确认 data/graph.json 已生成。";
+        console.error(error);
       }
+    }
 
-      updateGraph();
-    }).catch((err) => {
-      metaEl.textContent = "Load failed: data/graph.json";
-      console.error(err);
-    });
+    boot();
   </script>
 </body>
 </html>
