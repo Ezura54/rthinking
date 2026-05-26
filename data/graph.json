@@ -4,7 +4,12 @@
       "id": "氨磺必利 (口服常释剂型)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "amisulpride (oral IR)"
+      "name_en": "amisulpride (oral IR)",
+      "half_life": "约 12 小时 (2)。",
+      "tmax": "1-3 小时 (2)。",
+      "tdm_range": "AGNP 推荐 100-320 ng/ml (5)；中国共识放宽至 100-600 ng/ml (6)。",
+      "tdm_alert": "AGNP 警戒浓度 >600 ng/ml (5)；中国警戒浓度 >1000 ng/ml (6)。",
+      "bbw": "未提及"
     },
     {
       "id": "D2受体",
@@ -30,7 +35,12 @@
       "id": "阿立哌唑 (口服常释剂型)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "aripiprazole (oral IR)"
+      "name_en": "aripiprazole (oral IR)",
+      "half_life": "约75小时（活性代谢物脱氢阿立哌唑约94小时）(1)。",
+      "tmax": "3-5小时 (1)。",
+      "tdm_range": "AGNP 推荐 100-350 ng/ml (含活性代谢物脱氢阿立哌唑) (5)；中国共识推荐 150-300 ng/ml (6)。",
+      "tdm_alert": "AGNP 警戒浓度 >1000 ng/ml (5)。",
+      "bbw": "1. 老年痴呆相关精神病患者使用抗精神病药可增加死亡风险 (1)。 2. 抗抑郁药可增加24岁以下患者自杀风险（辅助MDD适应症相关） (1)。"
     },
     {
       "id": "CYP2D6",
@@ -104,13 +114,23 @@
       "id": "阿立哌唑 (长效针剂)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "aripiprazole (LAI - Abilify Maintena / Aristada)"
+      "name_en": "aripiprazole (LAI - Abilify Maintena / Aristada)",
+      "half_life": "由于\"翻转药代动力学\"（吸收限速），表观半衰期为 29.9天（Maintena）至 53.9天（Aristada）(1)。",
+      "tmax": "首次注射后约5-7天达峰 (1)。",
+      "tdm_range": "100-350 ng/ml。长效针剂稳态谷浓度波动小，通常偏低于口服范围 (5)。",
+      "tdm_alert": ">1000 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "喹硫平 (口服常释剂型)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "quetiapine (oral IR)"
+      "name_en": "quetiapine (oral IR)",
+      "half_life": "约7小时 (1, 2)。",
+      "tmax": "约1.5小时 (1)。",
+      "tdm_range": "AGNP 推荐 100-500 ng/ml（含去甲喹硫平）(5)；中国共识推荐 100-500 ng/ml (6)。",
+      "tdm_alert": "AGNP 警戒浓度 >1000 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "双相障碍抑郁发作",
@@ -120,25 +140,45 @@
       "id": "喹硫平 (口服缓释剂型)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "quetiapine (XR / extended-release)"
+      "name_en": "quetiapine (XR / extended-release)",
+      "half_life": "约7小时（母药），活性代谢物去甲喹硫平约12小时 (1)。",
+      "tmax": "约6小时。高脂肪餐可使Cmax增加约50%，应避免高脂饮食 (1)。",
+      "tdm_range": "100-500 ng/ml（合并活性代谢物去甲喹硫平）(5, 6)。",
+      "tdm_alert": ">1000 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "利培酮 (口服常释剂型)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "risperidone (oral IR)"
+      "name_en": "risperidone (oral IR)",
+      "half_life": "利培酮约3小时；活性代谢物9-羟利培酮约21小时 (1, 2)。",
+      "tmax": "约1小时 (1)。",
+      "tdm_range": "AGNP 推荐 20-60 ng/ml（利培酮+9-OH-利培酮总浓度）(5)；中国共识推荐 20-60 ng/ml (6)。",
+      "tdm_alert": "AGNP 警戒浓度 >120 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "利培酮 (长效针剂)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "risperidone (LAI - Risperdal Consta)"
+      "name_en": "risperidone (LAI - Risperdal Consta)",
+      "half_life": "由于微球缓慢释放，表观半衰期约3-6天 (1)。",
+      "tmax": "首次注射后约3周达峰（微球释放特性）(1)。",
+      "tdm_range": "20-60 ng/ml（利培酮+9-OH-利培酮活性部分之和）(5)。",
+      "tdm_alert": ">120 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "奥氮平 (口服常释剂型)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "olanzapine (oral IR)"
+      "name_en": "olanzapine (oral IR)",
+      "half_life": "约21-54小时（平均30小时）(1)。",
+      "tmax": "约6小时 (1)。",
+      "tdm_range": "AGNP 推荐 20-80 ng/ml (5)；中国共识推荐 20-80 ng/ml (6)。",
+      "tdm_alert": ">150 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "UGT",
@@ -160,7 +200,12 @@
       "id": "奥氮平 (短效肌注)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "olanzapine (short-acting IM)"
+      "name_en": "olanzapine (short-acting IM)",
+      "half_life": "约21-54小时（平均30小时），与口服相同 (1)。",
+      "tmax": "15-45分钟（显著快于口服的6小时）(1)。",
+      "tdm_range": "急救场景通常不适用常规TDM。",
+      "tdm_alert": "不适用。",
+      "bbw": "未提及"
     },
     {
       "id": "急性激越状态",
@@ -170,7 +215,12 @@
       "id": "齐拉西酮 (口服常释剂型)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "ziprasidone (oral IR)"
+      "name_en": "ziprasidone (oral IR)",
+      "half_life": "约6-7小时 (1)。",
+      "tmax": "6-8小时（随餐后）(1)。",
+      "tdm_range": "AGNP 推荐 50-200 ng/ml (5)；中国共识推荐 50-200 ng/ml (6)。",
+      "tdm_alert": ">400 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "醛氧化酶",
@@ -188,13 +238,23 @@
       "id": "齐拉西酮 (短效肌注)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "ziprasidone (short-acting IM)"
+      "name_en": "ziprasidone (short-acting IM)",
+      "half_life": "约2-5小时 (1)。",
+      "tmax": "约60分钟 (1)。",
+      "tdm_range": "不适用。",
+      "tdm_alert": "不适用。",
+      "bbw": "未提及"
     },
     {
       "id": "帕利哌酮 (口服缓释片)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "paliperidone (oral ER - Invega)"
+      "name_en": "paliperidone (oral ER - Invega)",
+      "half_life": "约23小时 (1)。",
+      "tmax": "约24小时（OROS缓释系统）(1)。",
+      "tdm_range": "AGNP 推荐 20-60 ng/ml (5)。",
+      "tdm_alert": ">120 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "分裂情感性障碍",
@@ -204,19 +264,34 @@
       "id": "帕利哌酮 (1月长效针剂/善思达)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "paliperidone palmitate (1-month LAI - Invega Sustenna)"
+      "name_en": "paliperidone palmitate (1-month LAI - Invega Sustenna)",
+      "half_life": "表观半衰期25-49天（翻转药代动力学）(1)。",
+      "tmax": "约13天 (1)。",
+      "tdm_range": "20-60 ng/ml（与口服帕利哌酮/利培酮活性部分相同）(5)。",
+      "tdm_alert": ">120 ng/ml (5)。",
+      "bbw": "老年痴呆相关精神病患者死亡风险增加 (1)。"
     },
     {
       "id": "氯氮平 (口服)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "clozapine (oral)"
+      "name_en": "clozapine (oral)",
+      "half_life": "约12小时 (1)。",
+      "tmax": "约2.5小时 (1)。",
+      "tdm_range": "AGNP 推荐 350-600 ng/ml (5)；中国共识推荐 350-600 ng/ml (6)。疗效阈值通常认为>350ng/ml (3)。",
+      "tdm_alert": ">1000 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "鲁拉西酮 (口服)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "lurasidone (oral)"
+      "name_en": "lurasidone (oral)",
+      "half_life": "约18小时 (1)。",
+      "tmax": "1-3小时 (1)。",
+      "tdm_range": "AGNP 未收录（较新药物）。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "5-HT2A受体",
@@ -234,13 +309,23 @@
       "id": "布南色林 (口服)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "blonanserin (oral)"
+      "name_en": "blonanserin (oral)",
+      "half_life": "约10-16小时。",
+      "tmax": "约2小时。",
+      "tdm_range": "AGNP 未收录。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "舒必利 (口服)",
       "type": "药物",
       "category": "非典型抗精神病药（苯甲酰胺类）",
-      "name_en": "sulpiride (oral)"
+      "name_en": "sulpiride (oral)",
+      "half_life": "约6-8小时 (2)。",
+      "tmax": "3-6小时 (2)。",
+      "tdm_range": "AGNP 推荐 200-1000 ng/ml (5)。",
+      "tdm_alert": ">1000 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "抑郁/焦虑",
@@ -250,13 +335,23 @@
       "id": "哌罗匹隆 (口服)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "perospirone (oral)"
+      "name_en": "perospirone (oral)",
+      "half_life": "约2小时。",
+      "tmax": "约1.5小时。",
+      "tdm_range": "AGNP 未收录。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "卡利拉嗪 (口服)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "cariprazine (oral - Vraylar)"
+      "name_en": "cariprazine (oral - Vraylar)",
+      "half_life": "卡利拉嗪约2-4天；活性代谢物DDCAR约1-3周（超长效）(1)。",
+      "tmax": "3-6小时 (1)。",
+      "tdm_range": "AGNP 未收录（较新药物）。",
+      "tdm_alert": "未确定。",
+      "bbw": "INCREASED MORTALITY IN ELDERLY PATIENTS WITH DEMENTIA-RELATED PSYCHOSIS"
     },
     {
       "id": "D3",
@@ -266,7 +361,12 @@
       "id": "布瑞哌唑 (口服)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "brexpiprazole (oral - Rexulti)"
+      "name_en": "brexpiprazole (oral - Rexulti)",
+      "half_life": "约91小时 (1)。",
+      "tmax": "约4小时 (1)。",
+      "tdm_range": "AGNP 未收录。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "MDD辅助治疗",
@@ -280,7 +380,12 @@
       "id": "卢美哌隆 (口服)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "lumateperone (oral - Caplyta)"
+      "name_en": "lumateperone (oral - Caplyta)",
+      "half_life": "约18小时 (1)。",
+      "tmax": "约2小时 (1)。",
+      "tdm_range": "无标准推荐（新药）。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "D1受体",
@@ -294,7 +399,12 @@
       "id": "阿塞那平 (舌下含片)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "asenapine (sublingual - Saphris)"
+      "name_en": "asenapine (sublingual - Saphris)",
+      "half_life": "约24小时 (1)。",
+      "tmax": "0.5-1.5小时 (1)。",
+      "tdm_range": "AGNP 推荐 2-5 ng/ml (5)。",
+      "tdm_alert": ">10 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "UGT1A4",
@@ -316,7 +426,12 @@
       "id": "伊潘立酮/伊洛哌酮 (口服)",
       "type": "药物",
       "category": "非典型抗精神病药",
-      "name_en": "iloperidone (oral - Fanapt)"
+      "name_en": "iloperidone (oral - Fanapt)",
+      "half_life": "约18-33小时 (1)。",
+      "tmax": "2-4小时 (1)。",
+      "tdm_range": "AGNP 未收录。",
+      "tdm_alert": "未确定。",
+      "bbw": "老年痴呆精神病死亡风险 (1)。"
     },
     {
       "id": "α1A受体",
@@ -326,7 +441,12 @@
       "id": "氟哌啶醇 (口服常释剂型)",
       "type": "药物",
       "category": "典型抗精神病药（丁酰苯类）",
-      "name_en": "haloperidol (oral IR)"
+      "name_en": "haloperidol (oral IR)",
+      "half_life": "约12-36小时 (1, 2)。",
+      "tmax": "2-6小时 (1)。",
+      "tdm_range": "AGNP 推荐 1-10 ng/ml (5)；中国共识推荐 1-10 ng/ml (6)。",
+      "tdm_alert": ">15 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "急性激越/攻击行为",
@@ -336,7 +456,12 @@
       "id": "氟哌啶醇 (短效肌注)",
       "type": "药物",
       "category": "典型抗精神病药",
-      "name_en": "haloperidol (short-acting IM)"
+      "name_en": "haloperidol (short-acting IM)",
+      "half_life": "约12-36小时（平均24小时），与口服相同 (1)。",
+      "tmax": "约20分钟（显著快于口服）(1)。",
+      "tdm_range": "急救场景通常不适用。",
+      "tdm_alert": "不适用。",
+      "bbw": "未提及"
     },
     {
       "id": "葡萄糖醛酸化",
@@ -350,13 +475,23 @@
       "id": "氟哌啶醇 (长效针剂/癸酸酯)",
       "type": "药物",
       "category": "典型抗精神病药",
-      "name_en": "haloperidol decanoate (LAI)"
+      "name_en": "haloperidol decanoate (LAI)",
+      "half_life": "约3周（翻转药代动力学）(1)。",
+      "tmax": "注射后约6-7天 (1)。",
+      "tdm_range": "1-10 ng/ml (5)。",
+      "tdm_alert": ">15 ng/ml (5)。",
+      "bbw": "无 (1)。"
     },
     {
       "id": "氯丙嗪 (口服)",
       "type": "药物",
       "category": "典型抗精神病药（吩噻嗪类）",
-      "name_en": "chlorpromazine (oral)"
+      "name_en": "chlorpromazine (oral)",
+      "half_life": "约16-30小时 (1)。",
+      "tmax": "2-4小时 (1)。",
+      "tdm_range": "AGNP 推荐 30-300 ng/ml (5)。",
+      "tdm_alert": ">750 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "恶心呕吐",
@@ -370,7 +505,12 @@
       "id": "奋乃静 (口服)",
       "type": "药物",
       "category": "典型抗精神病药（吩噻嗪类）",
-      "name_en": "perphenazine (oral)"
+      "name_en": "perphenazine (oral)",
+      "half_life": "约9-12小时 (1)。",
+      "tmax": "1-3小时 (1)。",
+      "tdm_range": "AGNP 推荐 0.6-2.4 ng/ml (5)。",
+      "tdm_alert": ">5 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "α1受体",
@@ -380,7 +520,12 @@
       "id": "氟哌噻吨 (口服)",
       "type": "药物",
       "category": "典型抗精神病药（噻吨类）",
-      "name_en": "flupentixol (oral/LAI - Fluanxol)"
+      "name_en": "flupentixol (oral/LAI - Fluanxol)",
+      "half_life": "口服约35小时; LAI癸酸酯约17天 (2)。",
+      "tmax": "口服3-6小时; LAI约7天 (2)。",
+      "tdm_range": "AGNP 推荐 1-10 ng/ml (5)。",
+      "tdm_alert": ">15 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "抑郁",
@@ -390,19 +535,28 @@
       "id": "氟哌噻吨 (长效针剂)",
       "type": "药物",
       "category": "典型抗精神病药（噻吨类）",
-      "name_en": "flupentixol (LAI - Fluanxol Depot)"
+      "name_en": "flupentixol (LAI - Fluanxol Depot)",
+      "half_life": "口服约35小时; LAI癸酸酯约17天 (2)。",
+      "bbw": "未提及"
     },
     {
       "id": "氯丙嗪 (注射)",
       "type": "药物",
       "category": "典型抗精神病药（吩噻嗪类）",
-      "name_en": "chlorpromazine (injection)"
+      "name_en": "chlorpromazine (injection)",
+      "half_life": "约16-30小时 (1)。",
+      "bbw": "未提及"
     },
     {
       "id": "氟西汀 (口服)",
       "type": "药物",
       "category": "SSRI",
-      "name_en": "fluoxetine (oral)"
+      "name_en": "fluoxetine (oral)",
+      "half_life": "1-3天（活性代谢物去甲氟西汀4-16天）(1)。",
+      "tmax": "6-8小时 (1)。",
+      "tdm_range": "AGNP 推荐 120-500 ng/ml（含去甲氟西汀）(5)。",
+      "tdm_alert": ">1000 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "5-HT2C",
@@ -424,7 +578,12 @@
       "id": "舍曲林 (口服)",
       "type": "药物",
       "category": "SSRI",
-      "name_en": "sertraline (oral)"
+      "name_en": "sertraline (oral)",
+      "half_life": "约26小时 (1)。",
+      "tmax": "4.5-8.4小时 (1)。",
+      "tdm_range": "AGNP 推荐 10-150 ng/ml (5)。",
+      "tdm_alert": ">300 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "CYP2C19",
@@ -443,7 +602,7 @@
       "type": "受体/靶点"
     },
     {
-      "id": "恐慌症/PTSD/社交焦虑障碍",
+      "id": "恐慌症[redacted-path]",
       "type": "疾病/适应症"
     },
     {
@@ -454,27 +613,42 @@
       "id": "帕罗西汀 (口服常释剂型)",
       "type": "药物",
       "category": "SSRI",
-      "name_en": "paroxetine (oral)"
+      "name_en": "paroxetine (oral)",
+      "half_life": "约21小时 (1)。",
+      "tmax": "约5.2小时 (1)。",
+      "tdm_range": "AGNP 推荐 20-65 ng/ml (5)。",
+      "tdm_alert": ">120 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "NOS",
       "type": "受体/靶点"
     },
     {
-      "id": "强迫症/恐慌症/社交焦虑障碍/GAD/PTSD",
+      "id": "强迫症[redacted-path]",
       "type": "疾病/适应症"
     },
     {
       "id": "西酞普兰 (口服)",
       "type": "药物",
       "category": "SSRI",
-      "name_en": "citalopram (oral)"
+      "name_en": "citalopram (oral)",
+      "half_life": "约35小时 (1)。",
+      "tmax": "约4小时 (1)。",
+      "tdm_range": "AGNP 推荐 50-110 ng/ml (5)。",
+      "tdm_alert": ">220 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "氟伏沙明 (口服)",
       "type": "药物",
       "category": "SSRI",
-      "name_en": "fluvoxamine (oral)"
+      "name_en": "fluvoxamine (oral)",
+      "half_life": "约15.6小时 (1)。",
+      "tmax": "3-8小时 (1)。",
+      "tdm_range": "AGNP 推荐 60-230 ng/ml (5)。",
+      "tdm_alert": ">500 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "σ1受体",
@@ -484,19 +658,31 @@
       "id": "维拉佐酮 (口服)",
       "type": "药物",
       "category": "SSRI + 5-HT1A部分激动",
-      "name_en": "vilazodone (oral - Viibryd)"
+      "name_en": "vilazodone (oral - Viibryd)",
+      "half_life": "约25小时 (1)。",
+      "tmax": "约4-5小时 (1)。",
+      "tdm_range": "AGNP 未收录。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "帕罗西汀 (口服缓释剂型)",
       "type": "药物",
       "category": "SSRI",
-      "name_en": "paroxetine (oral CR - Paxil CR)"
+      "name_en": "paroxetine (oral CR - Paxil CR)",
+      "half_life": "约21小时 (1)。(缓释制剂释放延长)",
+      "bbw": "未提及"
     },
     {
       "id": "文拉法辛 (口服缓释剂型)",
       "type": "药物",
       "category": "SNRI",
-      "name_en": "venlafaxine (XR)"
+      "name_en": "venlafaxine (XR)",
+      "half_life": "约5小时（活性代谢物O-去甲文拉法辛约11小时）(1)。",
+      "tmax": "XR约5.5小时 (1)。",
+      "tdm_range": "AGNP 推荐 100-400 ng/ml（含O-去甲文拉法辛）(5)；中国共识推荐 100-400 ng/ml (6)。",
+      "tdm_alert": ">800 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "广泛性焦虑障碍",
@@ -510,7 +696,12 @@
       "id": "度洛西汀 (口服)",
       "type": "药物",
       "category": "SNRI",
-      "name_en": "duloxetine (oral)"
+      "name_en": "duloxetine (oral)",
+      "half_life": "约12小时 (1)。",
+      "tmax": "约6小时 (1)。",
+      "tdm_range": "AGNP 推荐 30-120 ng/ml (5)。",
+      "tdm_alert": ">240 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "糖尿病周围神经痛",
@@ -528,19 +719,33 @@
       "id": "地文拉法辛 (口服)",
       "type": "药物",
       "category": "SNRI",
-      "name_en": "desvenlafaxine (oral)"
+      "name_en": "desvenlafaxine (oral)",
+      "half_life": "约11小时",
+      "tmax": "约7.5小时",
+      "tdm_range": "100-400 ng/ml (AGNP)",
+      "tdm_alert": ">800 ng/ml (AGNP)",
+      "bbw": "未提及"
     },
     {
       "id": "托鲁地文拉法辛 (口服)",
       "type": "药物",
       "category": "SNRI",
-      "name_en": "toludesvenlafaxine (oral - Ruoxinlin)"
+      "name_en": "toludesvenlafaxine (oral - Ruoxinlin)",
+      "half_life": "约15-18小时",
+      "tmax": "2-4小时",
+      "tdm_range": "未明确推荐常规TDM (较新药物)",
+      "bbw": "未提及"
     },
     {
       "id": "安非他酮 (口服缓释剂型)",
       "type": "药物",
       "category": "NDRI",
-      "name_en": "bupropion (SR/XL)"
+      "name_en": "bupropion (SR/XL)",
+      "half_life": "约21小时 (1)。",
+      "tmax": "SR约3小时; XL约5小时 (1)。",
+      "tdm_range": "AGNP 推荐 225-1500 ng/ml（含活性代谢物）(5)。",
+      "tdm_alert": ">2000 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "戒烟辅助",
@@ -554,7 +759,12 @@
       "id": "米氮平 (口服)",
       "type": "药物",
       "category": "NaSSA",
-      "name_en": "mirtazapine (oral)"
+      "name_en": "mirtazapine (oral)",
+      "half_life": "约20-40小时 (1)。",
+      "tmax": "约2小时 (1)。",
+      "tdm_range": "AGNP 推荐 30-80 ng/ml (5)。",
+      "tdm_alert": ">160 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "α2",
@@ -568,7 +778,11 @@
       "id": "米安色林 (口服)",
       "type": "药物",
       "category": "四环类抗抑郁药（NaSSA前体）",
-      "name_en": "mianserin (口服)"
+      "name_en": "mianserin (口服)",
+      "half_life": "12-30小时(平均21小时)",
+      "tmax": "2-3小时",
+      "tdm_range": "15-70 ng/ml (AGNP推荐)",
+      "bbw": "未提及"
     },
     {
       "id": "抑郁症",
@@ -578,7 +792,12 @@
       "id": "曲唑酮 (口服)",
       "type": "药物",
       "category": "SARI",
-      "name_en": "trazodone (oral)"
+      "name_en": "trazodone (oral)",
+      "half_life": "约5-9小时 (1)。",
+      "tmax": "约1-2小时（空腹）(1)。",
+      "tdm_range": "AGNP 推荐 700-2500 ng/ml (5)。",
+      "tdm_alert": ">5000 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "失眠",
@@ -588,7 +807,12 @@
       "id": "阿米替林 (口服)",
       "type": "药物",
       "category": "TCA（三环类）",
-      "name_en": "amitriptyline (oral)"
+      "name_en": "amitriptyline (oral)",
+      "half_life": "约9-25小时（活性代谢物去甲替林约18-44小时）(1)。",
+      "tmax": "约2-12小时 (1)。",
+      "tdm_range": "AGNP 推荐 80-200 ng/ml（含去甲替林）(5)；中国共识推荐 80-200 ng/ml (6)。",
+      "tdm_alert": ">300 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "M1受体",
@@ -606,19 +830,34 @@
       "id": "多塞平 (口服)",
       "type": "药物",
       "category": "TCA（三环类）",
-      "name_en": "doxepin (oral)"
+      "name_en": "doxepin (oral)",
+      "half_life": "约8-24小时（活性代谢物去甲多虑平约33-80小时）(1)。",
+      "tmax": "约3.5小时 (1)。",
+      "tdm_range": "AGNP 推荐 50-150 ng/ml（含去甲多虑平）(5)。",
+      "tdm_alert": ">300 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "氯米帕明 (口服)",
       "type": "药物",
       "category": "TCA（三环类）",
-      "name_en": "clomipramine (oral)"
+      "name_en": "clomipramine (oral)",
+      "half_life": "约19-37小时（活性代谢物去甲氯丙咪嗪约54-77小时）(1)。",
+      "tmax": "约2-6小时 (1)。",
+      "tdm_range": "AGNP 推荐 230-450 ng/ml（含去甲氯丙咪嗪）(5)。",
+      "tdm_alert": ">600 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "伏硫西汀 (口服)",
       "type": "药物",
       "category": "多模式抗抑郁药",
-      "name_en": "vortioxetine (oral - Trintellix)"
+      "name_en": "vortioxetine (oral - Trintellix)",
+      "half_life": "约66小时 (1)。",
+      "tmax": "约7-11小时 (1)。",
+      "tdm_range": "AGNP 未收录（新药）。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "5-HT7",
@@ -628,7 +867,12 @@
       "id": "阿戈美拉汀 (口服)",
       "type": "药物",
       "category": "MT1/MT2激动+5-HT2C拮抗",
-      "name_en": "agomelatine (oral - Valdoxan)"
+      "name_en": "agomelatine (oral - Valdoxan)",
+      "half_life": "约1-2小时（极短）(2)。",
+      "tmax": "约1-2小时 (2)。",
+      "tdm_range": "AGNP 推荐 7-100 ng/ml (5)。",
+      "tdm_alert": ">200 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "CYP2C9",
@@ -646,7 +890,9 @@
       "id": "奥氮平/氟西汀复方 (口服)",
       "type": "药物",
       "category": "抗抑郁药",
-      "name_en": "olanzapine/fluoxetine (oral - Symbyax)"
+      "name_en": "olanzapine/fluoxetine (oral - Symbyax)",
+      "half_life": "奥氮平: 21-54小时; 氟西汀: 1-3天(活性代谢物去甲氟西汀 4-16天)",
+      "bbw": "儿童/青少年自杀意念增加; 痴呆相关精神病老年患者死亡率增加"
     },
     {
       "id": "双相情感障碍抑郁发作",
@@ -660,7 +906,12 @@
       "id": "艾司氯胺酮 (鼻喷剂)",
       "type": "药物",
       "category": "NMDA受体拮抗剂",
-      "name_en": "esketamine (nasal spray - Spravato)"
+      "name_en": "esketamine (nasal spray - Spravato)",
+      "half_life": "约7-12小时 (1)。",
+      "tmax": "鼻喷后约20-40分钟 (1)。",
+      "tdm_range": "目前无标准TDM推荐。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "NMDA受体",
@@ -682,7 +933,12 @@
       "id": "祖拉诺酮 (口服)",
       "type": "药物",
       "category": "GABA-A受体正向别构调节剂",
-      "name_en": "zuranolone (oral - Zurzuvae)"
+      "name_en": "zuranolone (oral - Zurzuvae)",
+      "half_life": "约16-23小时 (1)。",
+      "tmax": "约5小时 (1)。",
+      "tdm_range": "不适用（短疗程）。",
+      "tdm_alert": "不适用。",
+      "bbw": "未提及"
     },
     {
       "id": "GABAA受体",
@@ -692,13 +948,20 @@
       "id": "艾司氯胺酮 (注射)",
       "type": "药物",
       "category": "NMDA受体拮抗剂",
-      "name_en": "esketamine (injection)"
+      "name_en": "esketamine (injection)",
+      "half_life": "约7-12小时 (1)。",
+      "bbw": "未提及"
     },
     {
       "id": "右美沙芬/安非他酮 (口服)",
       "type": "药物",
       "category": "NMDA拮抗+NDRI复方",
-      "name_en": "dextromethorphan-bupropion (oral - Auvelity)"
+      "name_en": "dextromethorphan-bupropion (oral - Auvelity)",
+      "half_life": "DXM约13小时; BUP约15小时 (1)。",
+      "tmax": "DXM约4小时 (1)。",
+      "tdm_range": "无标准推荐。",
+      "tdm_alert": "未确定。",
+      "bbw": "24岁以下自杀风险增加 (1)。"
     },
     {
       "id": "NET/DAT",
@@ -708,7 +971,12 @@
       "id": "氟哌噻吨美利曲辛片 (黛力新)",
       "type": "药物",
       "category": "抗抑郁药（复方制剂）",
-      "name_en": "flupentixol and melitracen"
+      "name_en": "flupentixol and melitracen",
+      "half_life": "氟哌噻吨约35小时；美利曲辛约19小时",
+      "tmax": "氟哌噻吨约4-5小时；美利曲辛约4小时",
+      "tdm_range": "氟哌噻吨: 1-10 ng/mL (AGNP)；美利曲辛: 无明确常规要求",
+      "tdm_alert": "无明确规定",
+      "bbw": "未提及"
     },
     {
       "id": "轻、中度抑郁和焦虑",
@@ -718,13 +986,21 @@
       "id": "丁螺环酮 (口服)",
       "type": "药物",
       "category": "5-HT1A部分激动剂",
-      "name_en": "buspirone (oral)"
+      "name_en": "buspirone (oral)",
+      "half_life": "约2-3小时 (1)。",
+      "tmax": "40-90分钟 (1)。",
+      "tdm_range": "AGNP 推荐 1-4 ng/ml (5)。",
+      "tdm_alert": ">10 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "坦度螺酮 (口服)",
       "type": "药物",
       "category": "抗焦虑药与催眠药",
-      "name_en": "tandospirone (oral)"
+      "name_en": "tandospirone (oral)",
+      "half_life": "约1.2-1.4小时",
+      "tmax": "0.8-1.4小时",
+      "bbw": "未提及"
     },
     {
       "id": "各种神经症所致的焦虑状态",
@@ -734,7 +1010,12 @@
       "id": "阿普唑仑 (口服)",
       "type": "药物",
       "category": "苯二氮卓类",
-      "name_en": "alprazolam (oral)"
+      "name_en": "alprazolam (oral)",
+      "half_life": "约11小时 (1)。",
+      "tmax": "1-2小时 (1)。",
+      "tdm_range": "AGNP 推荐 5-50 ng/ml (5)。",
+      "tdm_alert": ">100 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "GABA-A",
@@ -744,7 +1025,12 @@
       "id": "劳拉西泮 (口服)",
       "type": "药物",
       "category": "苯二氮卓类",
-      "name_en": "lorazepam (oral)"
+      "name_en": "lorazepam (oral)",
+      "half_life": "约12小时 (1)。",
+      "tmax": "约2小时 (1)。",
+      "tdm_range": "AGNP 推荐 20-60 ng/ml (5)。",
+      "tdm_alert": ">120 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "焦虑障碍",
@@ -754,7 +1040,12 @@
       "id": "地西泮 (口服)",
       "type": "药物",
       "category": "苯二氮卓类",
-      "name_en": "diazepam (oral)"
+      "name_en": "diazepam (oral)",
+      "half_life": "约20-100小时（活性代谢物去甲地西泮半衰期更长）(1)。",
+      "tmax": "0.5-2小时 (1)。",
+      "tdm_range": "AGNP 推荐 200-2500 ng/ml（含去甲地西泮）(5)。",
+      "tdm_alert": ">3000 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "肌肉痉挛",
@@ -772,7 +1063,12 @@
       "id": "咪达唑仑 (口服)",
       "type": "药物",
       "category": "苯二氮卓类",
-      "name_en": "midazolam (oral/IM/IV)"
+      "name_en": "midazolam (oral/IM/IV)",
+      "half_life": "约1.5-2.5小时（超短效）(1)。",
+      "tmax": "IM约15分钟; 口服约0.5-1小时 (1)。",
+      "tdm_range": "AGNP 推荐 40-100 ng/ml (5)。",
+      "tdm_alert": ">200 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "术前镇静/操作前镇静",
@@ -786,19 +1082,34 @@
       "id": "艾司唑仑 (口服)",
       "type": "药物",
       "category": "苯二氮卓类",
-      "name_en": "estazolam (oral)"
+      "name_en": "estazolam (oral)",
+      "half_life": "约10-24小时 (1)。",
+      "tmax": "约2小时 (1)。",
+      "tdm_range": "AGNP 未专门收录。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "奥沙西泮 (口服)",
       "type": "药物",
       "category": "苯二氮卓类",
-      "name_en": "oxazepam (oral)"
+      "name_en": "oxazepam (oral)",
+      "half_life": "约5-20小时 (1)。",
+      "tmax": "约3小时 (1)。",
+      "tdm_range": "AGNP 推荐 200-1500 ng/ml (5)。",
+      "tdm_alert": ">2000 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "氯硝西泮 (口服)",
       "type": "药物",
       "category": "苯二氮卓类",
-      "name_en": "clonazepam (oral)"
+      "name_en": "clonazepam (oral)",
+      "half_life": "约18-50小时 (1)。",
+      "tmax": "1-4小时 (1)。",
+      "tdm_range": "AGNP 推荐 20-70 ng/ml (5)。",
+      "tdm_alert": ">80 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "癫痫/Lennox-Gastaut综合征",
@@ -808,7 +1119,12 @@
       "id": "地达西尼 (口服)",
       "type": "药物",
       "category": "苯二氮卓类（GABAA部分正向别构调节剂）",
-      "name_en": "dimdazenil (oral - Jingnuoning)"
+      "name_en": "dimdazenil (oral - Jingnuoning)",
+      "half_life": "约3-4小时",
+      "tmax": "约1小时",
+      "tdm_range": "目前无常规TDM推荐",
+      "tdm_alert": "无",
+      "bbw": "未提及"
     },
     {
       "id": "GABAA α1亚型",
@@ -826,37 +1142,56 @@
       "id": "咪达唑仑 (注射)",
       "type": "药物",
       "category": "苯二氮卓类",
-      "name_en": "midazolam (injection)"
+      "name_en": "midazolam (injection)",
+      "half_life": "约1.5-2.5小时（超短效）(1)。",
+      "bbw": "未提及"
     },
     {
       "id": "劳拉西泮 (注射)",
       "type": "药物",
       "category": "苯二氮卓类",
-      "name_en": "lorazepam (injection)"
+      "name_en": "lorazepam (injection)",
+      "half_life": "约12小时 (1)。",
+      "bbw": "未提及"
     },
     {
       "id": "地西泮 (注射)",
       "type": "药物",
       "category": "苯二氮卓类",
-      "name_en": "diazepam (injection)"
+      "name_en": "diazepam (injection)",
+      "half_life": "约20-100小时（活性代谢物去甲地西泮半衰期更长）(1)。",
+      "bbw": "未提及"
     },
     {
       "id": "唑吡坦 (口服)",
       "type": "药物",
       "category": "非苯二氮卓类催眠药（Z类）",
-      "name_en": "zolpidem (oral - Ambien)"
+      "name_en": "zolpidem (oral - Ambien)",
+      "half_life": "约2.5小时 (1)。",
+      "tmax": "约1.6小时 (1)。",
+      "tdm_range": "AGNP 推荐 80-200 ng/ml (5)。",
+      "tdm_alert": ">400 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "扎来普隆 (口服)",
       "type": "药物",
       "category": "抗焦虑药与催眠药",
-      "name_en": "zaleplon (oral - Sonata)"
+      "name_en": "zaleplon (oral - Sonata)",
+      "half_life": "约1小时",
+      "tmax": "约1小时",
+      "bbw": "未提及"
     },
     {
       "id": "佐匹克隆 (口服)",
       "type": "药物",
       "category": "非苯二氮卓类催眠药（Z类）",
-      "name_en": "zopiclone (oral)"
+      "name_en": "zopiclone (oral)",
+      "half_life": "约5小时 (2)。",
+      "tmax": "约1.5-2小时 (2)。",
+      "tdm_range": "AGNP 推荐 10-50 ng/ml (5)。",
+      "tdm_alert": ">100 ng/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "CYP2E1",
@@ -866,13 +1201,23 @@
       "id": "右佐匹克隆 (口服)",
       "type": "药物",
       "category": "非苯二氮卓类催眠药（Z类）",
-      "name_en": "eszopiclone (oral - Lunesta)"
+      "name_en": "eszopiclone (oral - Lunesta)",
+      "half_life": "约6小时 (1)。",
+      "tmax": "约1小时 (1)。",
+      "tdm_range": "无标准推荐。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "苏沃雷生 (口服)",
       "type": "药物",
       "category": "双食欲素受体拮抗剂（DORA）",
-      "name_en": "suvorexant (oral - Belsomra)"
+      "name_en": "suvorexant (oral - Belsomra)",
+      "half_life": "约12小时 (1)。",
+      "tmax": "约2小时 (1)。",
+      "tdm_range": "无标准推荐。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "OX1R",
@@ -886,13 +1231,23 @@
       "id": "莱博雷生 (口服)",
       "type": "药物",
       "category": "双食欲素受体拮抗剂（DORA）",
-      "name_en": "lemborexant (oral - Dayvigo)"
+      "name_en": "lemborexant (oral - Dayvigo)",
+      "half_life": "约17-19小时 (1)。",
+      "tmax": "约1-3小时 (1)。",
+      "tdm_range": "无标准推荐。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "达利雷生 (口服)",
       "type": "药物",
       "category": "双食欲素受体拮抗剂（DORA）",
-      "name_en": "daridorexant (oral - Quviviq)"
+      "name_en": "daridorexant (oral - Quviviq)",
+      "half_life": "约8小时",
+      "tmax": "1-2小时 (Tmax)",
+      "tdm_range": "目前无常规TDM推荐",
+      "tdm_alert": "无",
+      "bbw": "未提及"
     },
     {
       "id": "OX1R (食欲素1受体)",
@@ -910,13 +1265,22 @@
       "id": "雷美替胺 (口服)",
       "type": "药物",
       "category": "MT1/MT2褪黑素受体激动剂（催眠药）",
-      "name_en": "ramelteon (口服)"
+      "name_en": "ramelteon (口服)",
+      "half_life": "1-2.6小时(活性代谢物M-II: 2-5小时)",
+      "tmax": "0.75小时(中位数)",
+      "tdm_range": "通常无需TDM",
+      "bbw": "未提及"
     },
     {
       "id": "碳酸锂 (口服常释剂型)",
       "type": "药物",
       "category": "心境稳定剂",
-      "name_en": "lithium carbonate (IR capsule/tablet)"
+      "name_en": "lithium carbonate (IR capsule/tablet)",
+      "half_life": "约18-36小时 (1)。",
+      "tmax": "0.5-3小时（常释剂型峰浓度高、波动大）(1)。",
+      "tdm_range": "AGNP 推荐 0.5-1.2 mEq/L (5)；中国共识推荐 0.6-1.2 mEq/L (6)。",
+      "tdm_alert": ">1.2 mEq/L (5)。中毒浓度 >1.5 mEq/L，致命浓度 >2.0 mEq/L (3)。",
+      "bbw": "未提及"
     },
     {
       "id": "VSSC",
@@ -938,7 +1302,12 @@
       "id": "碳酸锂 (口服缓释剂型)",
       "type": "药物",
       "category": "心境稳定剂",
-      "name_en": "lithium carbonate (ER / extended-release)"
+      "name_en": "lithium carbonate (ER / extended-release)",
+      "half_life": "约18-36小时（与常释相同）(1)。",
+      "tmax": "4-12小时（显著延迟于常释的0.5-3h，峰浓度更低、血药波动更平缓）(1)。",
+      "tdm_range": "急性期 0.8-1.2 mmol/L，维持期 0.6-0.8 mmol/L (5, 6)。缓释剂型峰谷波动小，12h谷浓度可能比常释略高。",
+      "tdm_alert": ">1.5 mmol/L (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "抗抑郁药增效/降低自杀风险",
@@ -948,7 +1317,12 @@
       "id": "拉莫三嗪 (口服常释剂型)",
       "type": "药物",
       "category": "心境稳定剂/抗癫痫",
-      "name_en": "lamotrigine (oral)"
+      "name_en": "lamotrigine (oral)",
+      "half_life": "约25小时（合用丙戊酸延长至约60小时）(1)。",
+      "tmax": "约2.5小时 (1)。",
+      "tdm_range": "AGNP 推荐 3-14 ug/ml (5)。",
+      "tdm_alert": ">20 ug/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "癫痫",
@@ -962,7 +1336,12 @@
       "id": "卡马西平 (口服常释剂型)",
       "type": "药物",
       "category": "心境稳定剂/抗癫痫",
-      "name_en": "carbamazepine (oral)"
+      "name_en": "carbamazepine (oral)",
+      "half_life": "初始约25-65小时；自诱导后约12-17小时 (1)。",
+      "tmax": "常释4-5小时; XR约12小时 (1)。",
+      "tdm_range": "AGNP 推荐 4-10 ug/ml (5)；中国共识推荐 4-12 ug/ml (6)。",
+      "tdm_alert": ">12 ug/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "三叉神经痛",
@@ -980,7 +1359,12 @@
       "id": "丙戊酸钠 (口服常释/肠溶剂型)",
       "type": "药物",
       "category": "心境稳定剂/抗癫痫",
-      "name_en": "valproate (IR / gastro-resistant - Epilim/Depakote)"
+      "name_en": "valproate (IR / gastro-resistant - Epilim/Depakote)",
+      "half_life": "约9-16小时 (1)。",
+      "tmax": "常释1-4小时；肠溶片(Depakote) 3-5小时 (1)。",
+      "tdm_range": "AGNP 推荐 50-100 ug/ml (5)；中国共识推荐 50-100 ug/ml (6)。",
+      "tdm_alert": ">120 ug/ml (5)。",
+      "bbw": "1. 肝毒性 (1)。 2. 致畸性 (1)。 3. 胰腺炎 (1)。"
     },
     {
       "id": "β-氧化",
@@ -994,13 +1378,23 @@
       "id": "丙戊酸钠 (口服缓释剂型)",
       "type": "药物",
       "category": "心境稳定剂/抗癫痫",
-      "name_en": "valproate (CR / ER - Epilim Chrono/Depakote ER)"
+      "name_en": "valproate (CR / ER - Epilim Chrono/Depakote ER)",
+      "half_life": "约9-16小时（与常释相同）(1)。",
+      "tmax": "ER约7-14小时（显著延迟于常释，血药波动更平缓）(1, 2)。",
+      "tdm_range": "50-100 μg/ml (5, 6)。缓释剂型12h谷浓度可能比常释略高约10-20%。",
+      "tdm_alert": ">120 μg/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "丙戊酸镁 (口服缓释片)",
       "type": "药物",
       "category": "心境稳定剂/抗癫痫药",
-      "name_en": "Magnesium Valproate (Sustained Release Tablets)"
+      "name_en": "Magnesium Valproate (Sustained Release Tablets)",
+      "half_life": "17.3±4.0小时（单剂量500mg口服）(1)。",
+      "tmax": "14.0±6.5小时（缓释剂型）(1)。",
+      "tdm_range": "40-100 μg/ml（有效血药浓度）(1)。",
+      "tdm_alert": ">120 μg/ml，副作用明显增加 (1)。",
+      "bbw": "未提及"
     },
     {
       "id": "双相情感障碍躁狂发作",
@@ -1022,31 +1416,46 @@
       "id": "奥卡西平 (口服常释剂型)",
       "type": "药物",
       "category": "抗癫痫/心境稳定剂",
-      "name_en": "oxcarbazepine (oral - Trileptal)"
+      "name_en": "oxcarbazepine (oral - Trileptal)",
+      "half_life": "约2小时（活性代谢物MHD约9小时）(1)。",
+      "tmax": "MHD约4.5小时 (1)。",
+      "tdm_range": "AGNP 推荐 3-35 ug/ml（MHD）(5)。",
+      "tdm_alert": ">40 ug/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "卡马西平 (口服缓释剂型)",
       "type": "药物",
       "category": "心境稳定剂/抗癫痫",
-      "name_en": "carbamazepine (oral ER - Tegretol XR)"
+      "name_en": "carbamazepine (oral ER - Tegretol XR)",
+      "half_life": "初始约25-65小时；自诱导后约12-17小时 (1)。(缓释制剂释放延长)",
+      "bbw": "未提及"
     },
     {
       "id": "拉莫三嗪 (口服缓释剂型)",
       "type": "药物",
       "category": "心境稳定剂/抗癫痫",
-      "name_en": "lamotrigine (oral ER - Lamictal XR)"
+      "name_en": "lamotrigine (oral ER - Lamictal XR)",
+      "half_life": "约25小时（合用丙戊酸延长至约60小时）(1)。(缓释制剂释放延长)",
+      "bbw": "未提及"
     },
     {
       "id": "奥卡西平 (口服缓释剂型)",
       "type": "药物",
       "category": "抗癫痫/心境稳定剂",
-      "name_en": "oxcarbazepine (oral ER - Oxtellar XR)"
+      "name_en": "oxcarbazepine (oral ER - Oxtellar XR)",
+      "half_life": "约2小时（活性代谢物MHD约9小时）(1)。(缓释制剂释放延长)",
+      "bbw": "未提及"
     },
     {
       "id": "丙戊酸钠 (注射)",
       "type": "药物",
       "category": "心境稳定剂与抗癫痫药",
-      "name_en": "valproate sodium (injection)"
+      "name_en": "valproate sodium (injection)",
+      "half_life": "9-16小时",
+      "tmax": "静滴结束时即达峰",
+      "tdm_range": "总丙戊酸 50-100 mcg/mL (或 mg/L)",
+      "bbw": "未提及"
     },
     {
       "id": "癫痫发作/双相躁狂的静脉替代治疗",
@@ -1056,7 +1465,12 @@
       "id": "托吡酯 (口服常释剂型)",
       "type": "药物",
       "category": "抗癫痫",
-      "name_en": "topiramate (oral)"
+      "name_en": "topiramate (oral)",
+      "half_life": "约21小时 (1)。",
+      "tmax": "约2小时 (1)。",
+      "tdm_range": "AGNP 推荐 5-20 ug/ml (5)。",
+      "tdm_alert": ">30 ug/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "双相障碍辅助",
@@ -1066,13 +1480,23 @@
       "id": "左乙拉西坦 (口服)",
       "type": "药物",
       "category": "抗癫痫",
-      "name_en": "levetiracetam (oral)"
+      "name_en": "levetiracetam (oral)",
+      "half_life": "约6-8小时 (1)。",
+      "tmax": "约1小时 (1)。",
+      "tdm_range": "AGNP 推荐 12-46 ug/ml (5)。",
+      "tdm_alert": ">60 ug/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "苯巴比妥 (口服)",
       "type": "药物",
       "category": "巴比妥类/抗癫痫",
-      "name_en": "phenobarbital (oral)"
+      "name_en": "phenobarbital (oral)",
+      "half_life": "约53-118小时（超长效）(1)。",
+      "tmax": "约1-6小时 (1)。",
+      "tdm_range": "AGNP 推荐 10-40 ug/ml (5)。",
+      "tdm_alert": ">45 ug/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "镇静",
@@ -1082,7 +1506,12 @@
       "id": "普瑞巴林 (口服)",
       "type": "药物",
       "category": "钙通道α2δ配体",
-      "name_en": "pregabalin (oral - Lyrica)"
+      "name_en": "pregabalin (oral - Lyrica)",
+      "half_life": "约6.3小时 (1)。",
+      "tmax": "约1.5小时 (1)。",
+      "tdm_range": "AGNP 推荐 2-8 ug/ml (5)。",
+      "tdm_alert": ">10 ug/ml (5)。",
+      "bbw": "未提及"
     },
     {
       "id": "α2δ钙通道亚基",
@@ -1096,25 +1525,35 @@
       "id": "苯巴比妥 (注射)",
       "type": "药物",
       "category": "巴比妥类/抗癫痫",
-      "name_en": "phenobarbital (injection)"
+      "name_en": "phenobarbital (injection)",
+      "half_life": "约53-118小时（超长效）(1)。",
+      "bbw": "未提及"
     },
     {
       "id": "左乙拉西坦 (注射)",
       "type": "药物",
       "category": "抗癫痫",
-      "name_en": "levetiracetam (injection - Keppra IV)"
+      "name_en": "levetiracetam (injection - Keppra IV)",
+      "half_life": "约6-8小时 (1)。",
+      "bbw": "未提及"
     },
     {
       "id": "托吡酯 (口服缓释剂型)",
       "type": "药物",
       "category": "抗癫痫",
-      "name_en": "topiramate (oral ER - Trokendi XR)"
+      "name_en": "topiramate (oral ER - Trokendi XR)",
+      "half_life": "约21小时 (1)。(缓释制剂释放延长)",
+      "bbw": "未提及"
     },
     {
       "id": "哌甲酯 (口服常释剂型)",
       "type": "药物",
       "category": "中枢兴奋药（ADHD）",
-      "name_en": "dexmethylphenidate (口服)"
+      "name_en": "dexmethylphenidate (口服)",
+      "half_life": "约2.2小时(IR)",
+      "tmax": "1-1.5小时(IR); 1.5小时+6.5小时双峰(ER)",
+      "tdm_range": "未明确推荐常规TDM (短半衰期)",
+      "bbw": "未提及"
     },
     {
       "id": "ADHD",
@@ -1124,37 +1563,57 @@
       "id": "安非他命 (口服常释剂型)",
       "type": "药物",
       "category": "中枢兴奋药（ADHD）",
-      "name_en": "amphetamine (口服)"
+      "name_en": "amphetamine (口服)",
+      "half_life": "d-异构体: 10小时; l-异构体: 13小时",
+      "tmax": "3小时",
+      "tdm_range": "20-150 ng/ml (参考值)",
+      "bbw": "未提及"
     },
     {
       "id": "哌甲酯 (口服缓释剂型)",
       "type": "药物",
       "category": "中枢兴奋药（ADHD）",
-      "name_en": "methylphenidate (oral ER - Concerta)"
+      "name_en": "methylphenidate (oral ER - Concerta)",
+      "half_life": "约3.5小时(OROS控释延长作用12h)",
+      "tmax": "6-8小时",
+      "bbw": "未提及"
     },
     {
       "id": "哌甲酯 (透皮贴剂)",
       "type": "药物",
       "category": "中枢兴奋药（ADHD）",
-      "name_en": "methylphenidate (transdermal - Daytrana)"
+      "name_en": "methylphenidate (transdermal - Daytrana)",
+      "half_life": "移除后约4小时",
+      "tmax": "贴敷后7.5-10.5小时",
+      "bbw": "未提及"
     },
     {
       "id": "安非他命 (口服缓释剂型)",
       "type": "药物",
       "category": "中枢兴奋药（ADHD）",
-      "name_en": "amphetamine (oral ER - Adderall XR)"
+      "name_en": "amphetamine (oral ER - Adderall XR)",
+      "half_life": "d-异构体: 10小时; l-异构体: 13小时(缓释制剂释放延长)",
+      "bbw": "未提及"
     },
     {
       "id": "托莫西汀 (口服)",
       "type": "药物",
       "category": "选择性NE再摄取抑制剂（ADHD）",
-      "name_en": "atomoxetine (口服)"
+      "name_en": "atomoxetine (口服)",
+      "half_life": "5小时(EM); 21小时(PM)",
+      "tmax": "1-2小时",
+      "tdm_range": "200-1000 ng/ml (AGNP推荐)",
+      "bbw": "未提及"
     },
     {
       "id": "维洛沙秦 (口服)",
       "type": "药物",
       "category": "选择性NE再摄取抑制剂（ADHD）",
-      "name_en": "viloxazine (口服)"
+      "name_en": "viloxazine (口服)",
+      "half_life": "7小时(成人)",
+      "tmax": "5小时",
+      "tdm_range": "通常无需TDM",
+      "bbw": "未提及"
     },
     {
       "id": "UGT1A9",
@@ -1164,7 +1623,11 @@
       "id": "可乐定 (口服常释剂型)",
       "type": "药物",
       "category": "α2肾上腺素能受体激动剂",
-      "name_en": "clonidine (口服)"
+      "name_en": "clonidine (口服)",
+      "half_life": "6-20小时(平均12小时)",
+      "tmax": "1-3小时",
+      "tdm_range": "0.2-2.0 ng/ml (高血压参考)",
+      "bbw": "未提及"
     },
     {
       "id": "高血压",
@@ -1178,31 +1641,47 @@
       "id": "胍法辛 (口服常释剂型)",
       "type": "药物",
       "category": "α2A肾上腺素能受体激动剂（ADHD）",
-      "name_en": "guanfacine (口服)"
+      "name_en": "guanfacine (口服)",
+      "half_life": "约17小时",
+      "tmax": "1-4小时",
+      "tdm_range": "通常无需TDM",
+      "bbw": "未提及"
     },
     {
       "id": "可乐定 (口服缓释剂型)",
       "type": "药物",
       "category": "α2肾上腺素能受体激动剂",
-      "name_en": "clonidine (oral ER - Kapvay)"
+      "name_en": "clonidine (oral ER - Kapvay)",
+      "half_life": "6-20小时(平均12小时)",
+      "tmax": "1-3小时",
+      "bbw": "未提及"
     },
     {
       "id": "可乐定 (透皮贴剂)",
       "type": "药物",
       "category": "α2肾上腺素能受体激动剂",
-      "name_en": "clonidine (transdermal - Catapres-TTS)"
+      "name_en": "clonidine (transdermal - Catapres-TTS)",
+      "half_life": "6-20小时(平均12小时)",
+      "tmax": "1-3小时",
+      "bbw": "未提及"
     },
     {
       "id": "胍法辛 (口服缓释剂型)",
       "type": "药物",
       "category": "α2A肾上腺素能受体激动剂（ADHD）",
-      "name_en": "guanfacine (oral ER - Intuniv)"
+      "name_en": "guanfacine (oral ER - Intuniv)",
+      "half_life": "约17小时(缓释制剂释放延长)",
+      "bbw": "未提及"
     },
     {
       "id": "加兰他敏 (口服)",
       "type": "药物",
       "category": "胆碱酯酶抑制剂（抗痴呆药）",
-      "name_en": "galantamine (口服)"
+      "name_en": "galantamine (口服)",
+      "half_life": "7小时",
+      "tmax": "1小时(IR); 4.5-5小时(ER)",
+      "tdm_range": "30-100 ng/ml (AGNP推荐)",
+      "bbw": "未提及"
     },
     {
       "id": "轻至中度阿尔茨海默型痴呆",
@@ -1212,7 +1691,11 @@
       "id": "卡巴拉汀 (口服)",
       "type": "药物",
       "category": "胆碱酯酶抑制剂（抗痴呆药）",
-      "name_en": "rivastigmine (口服/透皮)"
+      "name_en": "rivastigmine (口服/透皮)",
+      "half_life": "1.5小时(口服)",
+      "tmax": "1小时",
+      "tdm_range": "AGNP建议仅在疑似不依从时监测",
+      "bbw": "未提及"
     },
     {
       "id": "帕金森病痴呆",
@@ -1222,7 +1705,11 @@
       "id": "多奈哌齐 (口服)",
       "type": "药物",
       "category": "胆碱酯酶抑制剂（抗痴呆药）",
-      "name_en": "donepezil (口服)"
+      "name_en": "donepezil (口服)",
+      "half_life": "约70小时",
+      "tmax": "3-4小时",
+      "tdm_range": "30-75 ng/ml (AGNP推荐)",
+      "bbw": "未提及"
     },
     {
       "id": "中至重度阿尔茨海默型痴呆",
@@ -1232,25 +1719,38 @@
       "id": "卡巴拉汀 (透皮贴剂)",
       "type": "药物",
       "category": "胆碱酯酶抑制剂（抗痴呆药）",
-      "name_en": "rivastigmine (transdermal - Exelon Patch)"
+      "name_en": "rivastigmine (transdermal - Exelon Patch)",
+      "half_life": "1.5小时(口服)",
+      "tmax": "1小时",
+      "bbw": "未提及"
     },
     {
       "id": "美金刚 (口服常释剂型)",
       "type": "药物",
       "category": "NMDA受体拮抗剂（抗痴呆药）",
-      "name_en": "memantine (口服)"
+      "name_en": "memantine (口服)",
+      "half_life": "60-80小时",
+      "tmax": "3-7小时",
+      "tdm_range": "70-150 ng/ml (AGNP推荐)",
+      "bbw": "未提及"
     },
     {
       "id": "美金刚 (口服缓释剂型)",
       "type": "药物",
       "category": "NMDA受体拮抗剂（抗痴呆药）",
-      "name_en": "memantine (oral ER - Namenda XR)"
+      "name_en": "memantine (oral ER - Namenda XR)",
+      "half_life": "60-80小时(缓释制剂释放延长)",
+      "bbw": "未提及"
     },
     {
       "id": "双硫仑 (口服)",
       "type": "药物",
       "category": "乙醛脱氢酶抑制剂（戒酒药）",
-      "name_en": "disulfiram (口服)"
+      "name_en": "disulfiram (口服)",
+      "half_life": "约60-120小时(代谢物活性持续更久)",
+      "tmax": "1-2小时(但作用持续数天)",
+      "tdm_range": "通常无需TDM",
+      "bbw": "未提及"
     },
     {
       "id": "慢性酒精依赖的辅助治疗",
@@ -1260,7 +1760,11 @@
       "id": "阿坎酸 (口服)",
       "type": "药物",
       "category": "NMDA/GABA调节剂（戒酒药）",
-      "name_en": "acamprosate (口服)"
+      "name_en": "acamprosate (口服)",
+      "half_life": "20-33小时",
+      "tmax": "3-8小时",
+      "tdm_range": "通常无需TDM",
+      "bbw": "未提及"
     },
     {
       "id": "酒精依赖维持戒断",
@@ -1270,7 +1774,11 @@
       "id": "丁丙诺啡 (舌下片/口腔膜)",
       "type": "药物",
       "category": "阿片类部分激动剂",
-      "name_en": "buprenorphine (舌下/注射/透皮)"
+      "name_en": "buprenorphine (舌下[redacted-path]",
+      "half_life": "24-42小时(SL)",
+      "tmax": "0.5-1小时(SL)",
+      "tdm_range": "1-10 ng/ml (取决于给药途径)",
+      "bbw": "与苯二氮卓类[redacted-path] 新生儿阿片戒断综合征; 丢失/被盗风险"
     },
     {
       "id": "CYP2C8",
@@ -1288,7 +1796,11 @@
       "id": "纳曲酮 (口服)",
       "type": "药物",
       "category": "阿片受体拮抗剂（戒酒/戒毒）",
-      "name_en": "naltrexone (口服/长效注射)"
+      "name_en": "naltrexone (口服/长效注射)",
+      "half_life": "4小时(母药); 12小时(活性代谢物6-β-纳曲醇)",
+      "tmax": "1小时",
+      "tdm_range": "通常无需TDM",
+      "bbw": "未提及"
     },
     {
       "id": "酒精依赖",
@@ -1302,37 +1814,57 @@
       "id": "美沙酮 (口服)",
       "type": "药物",
       "category": "阿片受体激动剂（替代维持治疗）",
-      "name_en": "methadone (口服)"
+      "name_en": "methadone (口服)",
+      "half_life": "15-60小时(平均24-36h, 蓄积性)",
+      "tmax": "1-7.5小时",
+      "tdm_range": "100-400 ng/ml (AGNP推荐) 或最高至1000ng/ml",
+      "bbw": "未提及"
     },
     {
       "id": "丁丙诺啡 (长效注射)",
       "type": "药物",
       "category": "阿片类部分激动剂",
-      "name_en": "buprenorphine (LAI - Sublocade)"
+      "name_en": "buprenorphine (LAI - Sublocade)",
+      "half_life": "24-42小时(SL)",
+      "tmax": "0.5-1小时(SL)",
+      "bbw": "未提及"
     },
     {
       "id": "丁丙诺啡 (透皮贴剂)",
       "type": "药物",
       "category": "阿片类部分激动剂",
-      "name_en": "buprenorphine (transdermal - Butrans)"
+      "name_en": "buprenorphine (transdermal - Butrans)",
+      "half_life": "24-42小时(SL)",
+      "tmax": "0.5-1小时(SL)",
+      "bbw": "未提及"
     },
     {
       "id": "纳曲酮 (长效注射)",
       "type": "药物",
       "category": "阿片受体拮抗剂（戒酒/戒毒）",
-      "name_en": "naltrexone (LAI - Vivitrol)"
+      "name_en": "naltrexone (LAI - Vivitrol)",
+      "half_life": "4小时(母药); 12小时(活性代谢物6-β-纳曲醇)",
+      "tmax": "1小时",
+      "bbw": "未提及"
     },
     {
       "id": "美沙酮 (注射)",
       "type": "药物",
       "category": "阿片受体激动剂（替代维持治疗）",
-      "name_en": "methadone (injection)"
+      "name_en": "methadone (injection)",
+      "half_life": "15-60小时(平均24-36h, 蓄积性)",
+      "tmax": "1-7.5小时",
+      "bbw": "未提及"
     },
     {
       "id": "伐尼克兰 (口服)",
       "type": "药物",
       "category": "烟碱受体部分激动剂（戒烟药）",
-      "name_en": "varenicline (口服)"
+      "name_en": "varenicline (口服)",
+      "half_life": "约24小时",
+      "tmax": "3-4小时",
+      "tdm_range": "通常无需TDM",
+      "bbw": "未提及"
     },
     {
       "id": "戒烟辅助治疗",
@@ -1342,7 +1874,12 @@
       "id": "缬苯那嗪 (口服)",
       "type": "药物",
       "category": "VMAT2抑制剂",
-      "name_en": "valbenazine (oral - Ingrezza)"
+      "name_en": "valbenazine (oral - Ingrezza)",
+      "half_life": "15-22小时（活性代谢物约30-40小时）(1)。",
+      "tmax": "约0.5-1小时 (1)。",
+      "tdm_range": "无标准推荐。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "VMAT2",
@@ -1356,7 +1893,12 @@
       "id": "氘丁苯那嗪 (口服)",
       "type": "药物",
       "category": "VMAT2抑制剂",
-      "name_en": "deutetrabenazine (oral - Austedo)"
+      "name_en": "deutetrabenazine (oral - Austedo)",
+      "half_life": "9-10小时 (1)。",
+      "tmax": "3-4小时 (1)。",
+      "tdm_range": "无标准推荐。",
+      "tdm_alert": "未确定。",
+      "bbw": "未提及"
     },
     {
       "id": "亨廷顿舞蹈症相关舞蹈运动",
@@ -1366,17 +1908,26 @@
       "id": "氨磺必利 (短效静脉针剂)",
       "type": "药物",
       "category": "非典型抗精神病药 / 止吐药",
-      "name_en": "amisulpride (IV injection)"
+      "name_en": "amisulpride (IV injection)",
+      "half_life": "与口服相似，平均消除半衰期约 4-5 小时（单次 5mg 剂量）(1)。",
+      "tmax": "静脉推注结束时即刻达峰 (1)。",
+      "tdm_range": "不适用（单次给药防吐剂，无需常规 TDM 监测）。",
+      "tdm_alert": "不适用。",
+      "bbw": "未提及"
     },
     {
-      "id": "术后恶心呕吐  的预防与治疗",
+      "id": "术后恶心呕吐 的预防与治疗",
       "type": "疾病/适应症"
     },
     {
       "id": "匹马吉林 (口服)",
       "type": "药物",
       "category": "5-HT2A反向激动剂",
-      "name_en": "pimavanserin (oral - Nuplazid)"
+      "name_en": "pimavanserin (oral - Nuplazid)",
+      "half_life": "约57小时 (活性代谢物约200小时)",
+      "tmax": "6小时 (连续服药12天达稳态)",
+      "tdm_range": "未明确推荐常规TDM (较新药物)",
+      "bbw": "未提及"
     },
     {
       "id": "CYP3A5",
@@ -1392,336 +1943,388 @@
       "source": "氨磺必利 (口服常释剂型)",
       "target": "D2受体",
       "relation": "结合_拮抗",
-      "ki": 2.8
+      "ki": 2.8,
+      "detail": "Ki≈2.8nM（高亲和力拮抗）"
     },
     {
       "source": "氨磺必利 (口服常释剂型)",
       "target": "D3受体",
       "relation": "结合_拮抗",
-      "ki": 3.2
+      "ki": 3.2,
+      "detail": "Ki≈3.2nM（高亲和力拮抗）"
     },
     {
       "source": "氨磺必利 (口服常释剂型)",
       "target": "5-HT7受体",
       "relation": "结合_拮抗",
-      "ki": 11.5
+      "ki": 11.5,
+      "detail": "Ki≈11.5nM（拮抗，与抗抑郁作用相关）"
     },
     {
       "source": "氨磺必利 (口服常释剂型)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氨磺必利 (口服常释剂型)",
       "target": "抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：推荐最大剂量为10mg/d（即正常剂量的68-75%）；超快代谢者(UM)无需特别调整 (1, 7)。"
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP2D6 和 CYP3A4 双通路代谢。CYP2D6慢代谢者暴露量增加约80%，需减量 (1)。"
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "D2",
       "relation": "结合_部分激动",
-      "ki": ""
+      "detail": "强(部分激动)"
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "5-HT1A",
       "relation": "结合_部分激动",
-      "ki": ""
+      "detail": "强(部分激动)"
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "自闭症相关易激惹",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": false,
+      "fda": true
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "Tourette综合征",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": false,
+      "fda": true
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "老年人",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "增加伴痴呆相关精神障碍老年患者的死亡风险（黑框警告）。老年患者清除率下降，起始剂量应至少减半并缓慢滴定 (1)。"
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "妊娠期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "孕晚期暴露会导致新生儿面临锥体外系症状（EPS）及撤药综合征的高风险 (1, 3)。"
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "哺乳期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "可分泌入乳汁，但浓度较低。Hale分级L3（中度安全），哺乳期需个体化评估 (1, 3)。"
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "儿童及青少年",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "尚未确立在18岁以下儿童及青少年中的安全性和有效性，不推荐使用 (1)。"
     },
     {
       "source": "阿立哌唑 (口服常释剂型)",
       "target": "肝肾功能不全",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "轻中度肝功能不全需谨慎或降低起始剂量，重度肝功能不全不推荐使用 (1)。 轻中度肾功能不全通常无需调整，重度需谨慎 (1)。"
     },
     {
       "source": "阿立哌唑 (长效针剂)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：推荐最大剂量为10mg/d（即正常剂量的68-75%）；超快代谢者(UM)无需特别调整 (1, 5)。"
     },
     {
       "source": "阿立哌唑 (长效针剂)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP2D6 和 CYP3A4。CYP2D6慢代谢者暴露量增加约80%，需减量 (1)。"
     },
     {
       "source": "阿立哌唑 (长效针剂)",
       "target": "D2",
       "relation": "结合_部分激动",
-      "ki": ""
+      "detail": "强(部分激动)"
     },
     {
       "source": "阿立哌唑 (长效针剂)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "阿立哌唑 (长效针剂)",
       "target": "5-HT1A",
       "relation": "结合_部分激动",
-      "ki": ""
+      "detail": "强(部分激动)"
     },
     {
       "source": "阿立哌唑 (长效针剂)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "阿立哌唑 (长效针剂)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "阿立哌唑 (长效针剂)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "阿立哌唑 (长效针剂)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿立哌唑 (长效针剂)",
       "target": "肝肾功能不全",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "未提及。老年、孕妇、哺乳、儿童：未提及。"
     },
     {
       "source": "喹硫平 (口服常释剂型)",
       "target": "CYP3A4",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "主要经CYP3A4代谢。目前无明确基因型剂量调整指南，需注意与其他CYP3A4抑制剂/诱导剂的DDI。"
     },
     {
       "source": "喹硫平 (口服常释剂型)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "喹硫平 (口服常释剂型)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "喹硫平 (口服常释剂型)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "喹硫平 (口服常释剂型)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "喹硫平 (口服常释剂型)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "喹硫平 (口服常释剂型)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "喹硫平 (口服常释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "喹硫平 (口服常释剂型)",
       "target": "双相障碍抑郁发作",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "喹硫平 (口服缓释剂型)",
       "target": "CYP3A4",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "主要经CYP3A4代谢。目前无明确基因型剂量调整指南，需注意与其他CYP3A4抑制剂/诱导剂的DDI。"
     },
     {
       "source": "喹硫平 (口服缓释剂型)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "喹硫平 (口服缓释剂型)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "喹硫平 (口服缓释剂型)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "喹硫平 (口服缓释剂型)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "喹硫平 (口服缓释剂型)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "喹硫平 (口服缓释剂型)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "喹硫平 (口服缓释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "喹硫平 (口服缓释剂型)",
       "target": "双相障碍抑郁发作",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "喹硫平 (口服缓释剂型)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "利培酮 (口服常释剂型)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：不良反应风险增加，推荐起始和维持剂量减少33%；超快代谢者(UM)：建议换药或增加剂量 (7)。"
     },
     {
       "source": "利培酮 (口服常释剂型)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "利培酮 (口服常释剂型)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "利培酮 (口服常释剂型)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "利培酮 (口服常释剂型)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "利培酮 (口服常释剂型)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "利培酮 (口服常释剂型)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "利培酮 (口服常释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "利培酮 (口服常释剂型)",
       "target": "自闭症相关易激惹",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": false,
+      "fda": true
     },
     {
       "source": "利培酮 (口服常释剂型)",
@@ -1736,42 +2339,45 @@
     {
       "source": "利培酮 (长效针剂)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：不良反应风险增加，推荐起始和维持剂量减少33%；超快代谢者(UM)：建议换药或增加剂量 (5)。"
     },
     {
       "source": "利培酮 (长效针剂)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "利培酮 (长效针剂)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "利培酮 (长效针剂)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "利培酮 (长效针剂)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "利培酮 (长效针剂)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "利培酮 (长效针剂)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "利培酮 (长效针剂)",
@@ -1786,62 +2392,72 @@
     {
       "source": "奥氮平 (口服常释剂型)",
       "target": "UGT",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP1A2和UGT代谢。吸烟可诱导CYP1A2使血药浓度降低约40% (1, 3)。"
     },
     {
       "source": "奥氮平 (口服常释剂型)",
       "target": "CYP1A2",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "主要经CYP1A2代谢。同样受吸烟等环境因素影响远大于单一基因多态性 (7)。"
     },
     {
       "source": "奥氮平 (口服常释剂型)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "奥氮平 (口服常释剂型)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "奥氮平 (口服常释剂型)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "奥氮平 (口服常释剂型)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "奥氮平 (口服常释剂型)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "奥氮平 (口服常释剂型)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥氮平 (口服常释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥氮平 (口服常释剂型)",
       "target": "双相障碍维持治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥氮平 (口服常释剂型)",
       "target": "难治性抑郁",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥氮平 (口服常释剂型)",
@@ -1856,52 +2472,57 @@
     {
       "source": "奥氮平 (短效肌注)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP1A2代谢（受吸烟诱导影响显著），其次CYP2D6和UGT (1)。"
     },
     {
       "source": "奥氮平 (短效肌注)",
       "target": "CYP1A2",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "主要经CYP1A2代谢。同样受吸烟等环境因素影响远大于单一基因多态性 (4)。"
     },
     {
       "source": "奥氮平 (短效肌注)",
       "target": "UGT",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP1A2代谢（受吸烟诱导影响显著），其次CYP2D6和UGT (1)。"
     },
     {
       "source": "奥氮平 (短效肌注)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "奥氮平 (短效肌注)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "奥氮平 (短效肌注)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "奥氮平 (短效肌注)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "奥氮平 (短效肌注)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "奥氮平 (短效肌注)",
       "target": "急性激越状态",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥氮平 (短效肌注)",
@@ -1916,183 +2537,199 @@
     {
       "source": "齐拉西酮 (口服常释剂型)",
       "target": "醛氧化酶",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经醛氧化酶代谢（非CYP途径），CYP3A4辅助。药物相互作用风险相对较低 (1)。"
     },
     {
       "source": "齐拉西酮 (口服常释剂型)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经醛氧化酶代谢（非CYP途径），CYP3A4辅助。药物相互作用风险相对较低 (1)。"
     },
     {
       "source": "齐拉西酮 (口服常释剂型)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "齐拉西酮 (口服常释剂型)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "齐拉西酮 (口服常释剂型)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "齐拉西酮 (口服常释剂型)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "齐拉西酮 (口服常释剂型)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "齐拉西酮 (口服常释剂型)",
       "target": "5-HT1A",
       "relation": "结合_激动",
-      "ki": ""
+      "detail": "强(激动)"
     },
     {
       "source": "齐拉西酮 (口服常释剂型)",
       "target": "SERT",
       "relation": "结合_抑制",
-      "ki": ""
+      "detail": "中等(抑制)"
     },
     {
       "source": "齐拉西酮 (口服常释剂型)",
       "target": "NET",
       "relation": "结合_抑制",
-      "ki": ""
+      "detail": "中等(抑制)"
     },
     {
       "source": "齐拉西酮 (口服常释剂型)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "齐拉西酮 (口服常释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "齐拉西酮 (短效肌注)",
       "target": "醛氧化酶",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经醛氧化酶代谢（约66%），其次CYP3A4（约33%）(1)。"
     },
     {
       "source": "齐拉西酮 (短效肌注)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经醛氧化酶代谢（约66%），其次CYP3A4（约33%）(1)。"
     },
     {
       "source": "齐拉西酮 (短效肌注)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "齐拉西酮 (短效肌注)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "齐拉西酮 (短效肌注)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "齐拉西酮 (短效肌注)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "齐拉西酮 (短效肌注)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "齐拉西酮 (短效肌注)",
       "target": "5-HT1A",
       "relation": "结合_激动",
-      "ki": ""
+      "detail": "强(激动)"
     },
     {
       "source": "齐拉西酮 (短效肌注)",
       "target": "SERT",
       "relation": "结合_抑制",
-      "ki": ""
+      "detail": "中等(抑制)"
     },
     {
       "source": "齐拉西酮 (短效肌注)",
       "target": "NET",
       "relation": "结合_抑制",
-      "ki": ""
+      "detail": "中等(抑制)"
     },
     {
       "source": "齐拉西酮 (短效肌注)",
       "target": "急性激越状态",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "帕利哌酮 (口服缓释片)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "帕利哌酮 (口服缓释片)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "帕利哌酮 (口服缓释片)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "帕利哌酮 (口服缓释片)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "帕利哌酮 (口服缓释片)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "帕利哌酮 (口服缓释片)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "帕利哌酮 (口服缓释片)",
       "target": "分裂情感性障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "帕利哌酮 (口服缓释片)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "不经CYP2D6代谢，可作为CYP2D6异常者替代利培酮的优选 (7)。"
     },
     {
       "source": "帕利哌酮 (口服缓释片)",
       "target": "老年人",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "肾功能正常的老年患者的推荐剂量与肾功能正常的成人相同。对于中、重度肾损害的老年患者而言，推荐的最大剂量是3mg，一日1次。妊娠与哺乳期妇女：FDA妊娠分级为C类风险。"
     },
     {
       "source": "帕利哌酮 (口服缓释片)",
@@ -2102,117 +2739,130 @@
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "不经CYP2D6代谢，可作为CYP2D6异常者替代利培酮的优选 (5)。"
     },
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "棕榈酸酯在肌注部位水解释放帕利哌酮。帕利哌酮约59%以原形经肾排泄，部分经CYP2D6和CYP3A4代谢 (1)。"
     },
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "老年人",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "增加伴痴呆相关精神障碍老年患者的死亡风险（黑框警告）。老年患者清除率下降，起始剂量应至少减半并缓慢滴定 (1)。"
     },
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "妊娠期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "孕晚期暴露会导致新生儿面临锥体外系症状（EPS）及撤药综合征的高风险 (1, 3)。"
     },
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "哺乳期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "可分泌入乳汁（与利培酮类似）。Hale分级L3，哺乳期需个体化评估 (1, 3)。"
     },
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "儿童及青少年",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "尚未确立在18岁以下儿童及青少年中的安全性和有效性，不推荐使用 (1)。"
     },
     {
       "source": "帕利哌酮 (1月长效针剂/善思达)",
       "target": "肝肾功能不全",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "轻中度肝功能不全需谨慎或降低起始剂量，重度肝功能不全不推荐使用 (1)。 主要经肾脏排泄。肌酐清除率(CrCl) 50-80 mL/min时起始剂量需减半；CrCl 10-50 mL/min时剂量降至四分之一；CrCl < 10 mL/min不推荐使用 (1)。"
     },
     {
       "source": "氯氮平 (口服)",
       "target": "CYP1A2",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "主要经CYP1A2代谢。CYP1A2基因多态性影响弱于吸烟环境因素。DPWG目前认为基因组数据不足以指导剂量 (7)。"
     },
     {
       "source": "氯氮平 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP1A2代谢，CYP3A4辅助。吸烟可使浓度降低约50%；停烟后浓度可急剧升高 (1, 3)。"
     },
     {
       "source": "氯氮平 (口服)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "氯氮平 (口服)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "氯氮平 (口服)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "氯氮平 (口服)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "氯氮平 (口服)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "氯氮平 (口服)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氯氮平 (口服)",
@@ -2222,7 +2872,8 @@
     {
       "source": "氯氮平 (口服)",
       "target": "妊娠期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "妊娠晚期暴露可能导致新生儿出现锥体外系症状和/或戒断症状。哺乳期、儿童、老年人群未提及具体用药建议。"
     },
     {
       "source": "氯氮平 (口服)",
@@ -2232,75 +2883,91 @@
     {
       "source": "鲁拉西酮 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢。禁止与强CYP3A4抑制剂/诱导剂合用 (1)。"
     },
     {
       "source": "鲁拉西酮 (口服)",
       "target": "D2受体",
       "relation": "结合_拮抗",
-      "ki": 1.0
+      "ki": 1.0,
+      "detail": "Ki≈1.0nM（高亲和力拮抗）"
     },
     {
       "source": "鲁拉西酮 (口服)",
       "target": "5-HT2A受体",
       "relation": "结合_拮抗",
-      "ki": 0.5
+      "ki": 0.5,
+      "detail": "Ki≈0.5nM（强效拮抗）"
     },
     {
       "source": "鲁拉西酮 (口服)",
       "target": "5-HT7受体",
       "relation": "结合_拮抗",
-      "ki": 0.5
+      "ki": 0.5,
+      "detail": "Ki≈0.5nM（强效拮抗，与抗抑郁/认知改善相关）"
     },
     {
       "source": "鲁拉西酮 (口服)",
       "target": "5-HT1A受体",
       "relation": "结合_部分激动",
-      "ki": 6.4
+      "ki": 6.4,
+      "detail": "Ki≈6.4nM（部分激动）"
     },
     {
       "source": "鲁拉西酮 (口服)",
       "target": "α2C受体",
       "relation": "结合_拮抗",
-      "ki": 10.8
+      "ki": 10.8,
+      "detail": "Ki≈10.8nM（拮抗）"
     },
     {
       "source": "鲁拉西酮 (口服)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "鲁拉西酮 (口服)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "布南色林 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢。"
     },
     {
       "source": "布南色林 (口服)",
       "target": "D2受体",
       "relation": "结合_拮抗",
-      "ki": 0.142
+      "ki": 0.142,
+      "detail": "Ki≈0.142nM（极高亲和力拮抗）"
     },
     {
       "source": "布南色林 (口服)",
       "target": "D3受体",
       "relation": "结合_拮抗",
-      "ki": 0.494
+      "ki": 0.494,
+      "detail": "Ki≈0.494nM（高亲和力拮抗）"
     },
     {
       "source": "布南色林 (口服)",
       "target": "5-HT2A受体",
       "relation": "结合_拮抗",
-      "ki": 0.812
+      "ki": 0.812,
+      "detail": "Ki≈0.812nM（强效拮抗）"
     },
     {
       "source": "布南色林 (口服)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "布南色林 (口服)",
@@ -2316,23 +2983,29 @@
       "source": "舒必利 (口服)",
       "target": "D2受体",
       "relation": "结合_拮抗",
-      "ki": 8.1
+      "ki": 8.1,
+      "detail": "Ki≈8.1nM（拮抗）"
     },
     {
       "source": "舒必利 (口服)",
       "target": "D3受体",
       "relation": "结合_拮抗",
-      "ki": 7.4
+      "ki": 7.4,
+      "detail": "Ki≈7.4nM（拮抗）"
     },
     {
       "source": "舒必利 (口服)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "舒必利 (口服)",
       "target": "抑郁/焦虑",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "舒必利 (口服)",
@@ -2347,35 +3020,42 @@
     {
       "source": "哌罗匹隆 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢。"
     },
     {
       "source": "哌罗匹隆 (口服)",
       "target": "D2受体",
       "relation": "结合_拮抗",
-      "ki": 1.4
+      "ki": 1.4,
+      "detail": "Ki≈1.4nM（拮抗）"
     },
     {
       "source": "哌罗匹隆 (口服)",
       "target": "5-HT2A受体",
       "relation": "结合_拮抗",
-      "ki": 2.2
+      "ki": 2.2,
+      "detail": "Ki≈2.2nM（拮抗）"
     },
     {
       "source": "哌罗匹隆 (口服)",
       "target": "5-HT1A受体",
       "relation": "结合_部分激动",
-      "ki": 2.9
+      "ki": 2.9,
+      "detail": "Ki≈2.9nM（部分激动）"
     },
     {
       "source": "哌罗匹隆 (口服)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "哌罗匹隆 (口服)",
       "target": "老年人",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "老人易感锥体外系反应，故起始量宜低，为4mg/d。其他特殊人群（孕妇、哺乳期妇女、儿童、肝肾功能不全者）的用药建议未提及。"
     },
     {
       "source": "哌罗匹隆 (口服)",
@@ -2390,168 +3070,193 @@
     {
       "source": "卡利拉嗪 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6影响代谢 (1)。"
     },
     {
       "source": "卡利拉嗪 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4和CYP2D6代谢为活性代谢物DCAR和DDCAR (1)。"
     },
     {
       "source": "卡利拉嗪 (口服)",
       "target": "D3",
       "relation": "结合_部分激动",
-      "ki": ""
+      "detail": "极强(部分激动)"
     },
     {
       "source": "卡利拉嗪 (口服)",
       "target": "D2",
       "relation": "结合_部分激动",
-      "ki": ""
+      "detail": "强(部分激动)"
     },
     {
       "source": "卡利拉嗪 (口服)",
       "target": "5-HT1A",
       "relation": "结合_部分激动",
-      "ki": ""
+      "detail": "强(部分激动)"
     },
     {
       "source": "卡利拉嗪 (口服)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "卡利拉嗪 (口服)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "卡利拉嗪 (口服)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "卡利拉嗪 (口服)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卡利拉嗪 (口服)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卡利拉嗪 (口服)",
       "target": "哺乳期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "未提及。儿童：13至17岁精神分裂症和双相躁狂症儿科患者的起始剂量为每日一次口服0.5 mg，最大推荐日剂量为4.5 mg。肝肾功能不全：未提及。"
     },
     {
       "source": "卡利拉嗪 (口服)",
       "target": "肝肾功能不全",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "未提及。"
     },
     {
       "source": "布瑞哌唑 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：需减量至常规剂量的50% (1)。"
     },
     {
       "source": "布瑞哌唑 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2D6和CYP3A4代谢 (1)。"
     },
     {
       "source": "布瑞哌唑 (口服)",
       "target": "D2",
       "relation": "结合_部分激动",
-      "ki": ""
+      "detail": "强(部分激动)"
     },
     {
       "source": "布瑞哌唑 (口服)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "布瑞哌唑 (口服)",
       "target": "5-HT1A",
       "relation": "结合_部分激动",
-      "ki": ""
+      "detail": "极强(部分激动)"
     },
     {
       "source": "布瑞哌唑 (口服)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "布瑞哌唑 (口服)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "布瑞哌唑 (口服)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "布瑞哌唑 (口服)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "布瑞哌唑 (口服)",
       "target": "MDD辅助治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "布瑞哌唑 (口服)",
       "target": "阿尔茨海默病相关激越",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卢美哌隆 (口服)",
       "target": "CYP3A4",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP3A4相关。"
     },
     {
       "source": "卢美哌隆 (口服)",
       "target": "D2受体",
       "relation": "结合_部分激动",
-      "ki": 32.0
+      "ki": 32.0,
+      "detail": "Ki≈32nM（突触后部分激动/前突触拮抗）"
     },
     {
       "source": "卢美哌隆 (口服)",
       "target": "5-HT2A受体",
       "relation": "结合_拮抗",
-      "ki": 0.54
+      "ki": 0.54,
+      "detail": "Ki≈0.54nM（强效拮抗）"
     },
     {
       "source": "卢美哌隆 (口服)",
       "target": "D1受体",
       "relation": "结合_结合",
-      "ki": 52.0
+      "ki": 52.0,
+      "detail": "Ki≈52nM（磷蛋白调节）"
     },
     {
       "source": "卢美哌隆 (口服)",
       "target": "SERT",
       "relation": "结合_抑制",
-      "ki": 62.0
+      "ki": 62.0,
+      "detail": "Ki≈62nM（中等亲和力再摄取抑制）"
     },
     {
       "source": "卢美哌隆 (口服)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卢美哌隆 (口服)",
       "target": "双相I/II型障碍抑郁发作",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卢美哌隆 (口服)",
@@ -2561,182 +3266,216 @@
     {
       "source": "阿塞那平 (舌下含片)",
       "target": "UGT1A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP1A2和UGT1A4代谢 (1)。"
     },
     {
       "source": "阿塞那平 (舌下含片)",
       "target": "CYP1A2",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP1A2和UGT1A4代谢 (1)。"
     },
     {
       "source": "阿塞那平 (舌下含片)",
       "target": "5-HT2A受体",
       "relation": "结合_结合",
-      "ki": 0.06
+      "ki": 0.06,
+      "detail": "Ki≈0.06nM（所有SGA中最高亲和力）"
     },
     {
       "source": "阿塞那平 (舌下含片)",
       "target": "5-HT2C受体",
       "relation": "结合_拮抗",
-      "ki": 0.03
+      "ki": 0.03,
+      "detail": "Ki≈0.03nM（极强拮抗）"
     },
     {
       "source": "阿塞那平 (舌下含片)",
       "target": "D2受体",
       "relation": "结合_拮抗",
-      "ki": 1.3
+      "ki": 1.3,
+      "detail": "Ki≈1.3nM（拮抗）"
     },
     {
       "source": "阿塞那平 (舌下含片)",
       "target": "D3受体",
       "relation": "结合_拮抗",
-      "ki": 0.42
+      "ki": 0.42,
+      "detail": "Ki≈0.42nM（拮抗）"
     },
     {
       "source": "阿塞那平 (舌下含片)",
       "target": "α2受体",
       "relation": "结合_拮抗",
-      "ki": 1.2
+      "ki": 1.2,
+      "detail": "Ki≈1.2nM（拮抗）"
     },
     {
       "source": "阿塞那平 (舌下含片)",
       "target": "H1受体",
       "relation": "结合_拮抗",
-      "ki": 1.0
+      "ki": 1.0,
+      "detail": "Ki≈1.0nM（拮抗）"
     },
     {
       "source": "阿塞那平 (舌下含片)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿塞那平 (舌下含片)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿塞那平 (舌下含片)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6影响有限 (4)。"
     },
     {
       "source": "伊潘立酮/伊洛哌酮 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者暴露量升高约2倍，需减量 (1)。"
     },
     {
       "source": "伊潘立酮/伊洛哌酮 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP2D6和CYP3A4代谢 (1)。"
     },
     {
       "source": "伊潘立酮/伊洛哌酮 (口服)",
       "target": "D2受体",
       "relation": "结合_拮抗",
-      "ki": 6.3
+      "ki": 6.3,
+      "detail": "Ki≈6.3nM（中等亲和力拮抗）"
     },
     {
       "source": "伊潘立酮/伊洛哌酮 (口服)",
       "target": "5-HT2A受体",
       "relation": "结合_拮抗",
-      "ki": 5.6
+      "ki": 5.6,
+      "detail": "Ki≈5.6nM（拮抗）"
     },
     {
       "source": "伊潘立酮/伊洛哌酮 (口服)",
       "target": "α1A受体",
       "relation": "结合_拮抗",
-      "ki": 0.36
+      "ki": 0.36,
+      "detail": "Ki≈0.36nM（极强拮抗，需缓慢滴定）"
     },
     {
       "source": "伊潘立酮/伊洛哌酮 (口服)",
       "target": "D3受体",
       "relation": "结合_拮抗",
-      "ki": 7.1
+      "ki": 7.1,
+      "detail": "Ki≈7.1nM（拮抗）"
     },
     {
       "source": "伊潘立酮/伊洛哌酮 (口服)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "伊潘立酮/伊洛哌酮 (口服)",
       "target": "老年人",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "增加伴痴呆相关精神障碍老年患者的死亡风险（黑框警告）。老年患者清除率下降，起始剂量应至少减半并缓慢滴定 (1)。"
     },
     {
       "source": "伊潘立酮/伊洛哌酮 (口服)",
       "target": "妊娠期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "孕晚期暴露会导致新生儿面临锥体外系症状（EPS）及撤药综合征的高风险 (1, 2)。"
     },
     {
       "source": "伊潘立酮/伊洛哌酮 (口服)",
       "target": "哺乳期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "乳汁分泌数据不足，哺乳期不推荐 (1, 2)。"
     },
     {
       "source": "伊潘立酮/伊洛哌酮 (口服)",
       "target": "儿童及青少年",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "尚未确立在18岁以下儿童及青少年中的安全性和有效性，不推荐使用 (1)。"
     },
     {
       "source": "伊潘立酮/伊洛哌酮 (口服)",
       "target": "肝肾功能不全",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "轻中度肝功能不全需谨慎或降低起始剂量，重度肝功能不全不推荐使用 (1)。 轻中度肾功能不全通常无需调整，重度需谨慎 (1)。"
     },
     {
       "source": "氟哌啶醇 (口服常释剂型)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：减少50%推荐起始剂量和维持剂量；超快代谢者(UM)：考虑换药或增加剂量 (7, 8)。"
     },
     {
       "source": "氟哌啶醇 (口服常释剂型)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4和CYP2D6代谢，还原酶也参与。CYP2D6慢代谢者浓度可升高 (1)。"
     },
     {
       "source": "氟哌啶醇 (口服常释剂型)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "氟哌啶醇 (口服常释剂型)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "氟哌啶醇 (口服常释剂型)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "氟哌啶醇 (口服常释剂型)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "氟哌啶醇 (口服常释剂型)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "氟哌啶醇 (口服常释剂型)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氟哌啶醇 (口服常释剂型)",
       "target": "Tourette综合征",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": false,
+      "fda": true
     },
     {
       "source": "氟哌啶醇 (口服常释剂型)",
       "target": "急性激越/攻击行为",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氟哌啶醇 (口服常释剂型)",
@@ -2751,225 +3490,258 @@
     {
       "source": "氟哌啶醇 (短效肌注)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：减少50%推荐起始剂量和维持剂量；超快代谢者(UM)：考虑换药或增加剂量 (4, 5)。"
     },
     {
       "source": "氟哌啶醇 (短效肌注)",
       "target": "葡萄糖醛酸化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4和CYP2D6代谢，经葡萄糖醛酸化灭活 (1)。"
     },
     {
       "source": "氟哌啶醇 (短效肌注)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4和CYP2D6代谢，经葡萄糖醛酸化灭活 (1)。"
     },
     {
       "source": "氟哌啶醇 (短效肌注)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "氟哌啶醇 (短效肌注)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "氟哌啶醇 (短效肌注)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "氟哌啶醇 (短效肌注)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "氟哌啶醇 (短效肌注)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "氟哌啶醇 (短效肌注)",
       "target": "急性激越/精神运动性兴奋",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氟哌啶醇 (短效肌注)",
       "target": "哺乳期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "原文未提及具体建议。肝肾功能不全：原文未提及具体建议。"
     },
     {
       "source": "氟哌啶醇 (短效肌注)",
       "target": "肝肾功能不全",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "原文未提及具体建议。"
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：减少50%推荐起始剂量和维持剂量；超快代谢者(UM)：考虑换药或增加剂量 (5, 6)。"
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "癸酸酯在肌注部位缓慢水解为氟哌啶醇，后经CYP3A4和CYP2D6代谢 (1)。"
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "无"
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "老年人",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "增加伴痴呆相关精神障碍老年患者的死亡风险（黑框警告）。老年患者清除率下降，起始剂量应至少减半并缓慢滴定 (1)。"
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "妊娠期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "孕晚期暴露会导致新生儿面临锥体外系症状（EPS）及撤药综合征的高风险 (1, 3)。"
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "哺乳期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "可分泌入乳汁。Hale分级L2，哺乳期可考虑使用，但需监测婴儿镇静 (1, 3)。"
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "儿童及青少年",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "尚未确立在18岁以下儿童及青少年中的安全性和有效性，不推荐使用 (1)。"
     },
     {
       "source": "氟哌啶醇 (长效针剂/癸酸酯)",
       "target": "肝肾功能不全",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "轻中度肝功能不全需谨慎或降低起始剂量，重度肝功能不全不推荐使用 (1)。 轻中度肾功能不全通常无需调整，重度需谨慎 (1)。"
     },
     {
       "source": "氯丙嗪 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6影响代谢 (5)。"
     },
     {
       "source": "氯丙嗪 (口服)",
       "target": "D2",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "氯丙嗪 (口服)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "氯丙嗪 (口服)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "氯丙嗪 (口服)",
       "target": "M1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "氯丙嗪 (口服)",
       "target": "α1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "氯丙嗪 (口服)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氯丙嗪 (口服)",
       "target": "恶心呕吐",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氯丙嗪 (口服)",
       "target": "术前焦虑/顽固性呃逆",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氯丙嗪 (口服)",
       "target": "肝肾功能不全",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "未提及。"
     },
     {
       "source": "奋乃静 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6影响代谢 (5)。"
     },
     {
       "source": "奋乃静 (口服)",
       "target": "D2受体",
       "relation": "结合_拮抗",
-      "ki": 0.8
+      "ki": 0.8,
+      "detail": "Ki≈0.8nM（高亲和力拮抗）"
     },
     {
       "source": "奋乃静 (口服)",
       "target": "5-HT2A受体",
       "relation": "结合_拮抗",
-      "ki": 5.6
+      "ki": 5.6,
+      "detail": "Ki≈5.6nM（拮抗）"
     },
     {
       "source": "奋乃静 (口服)",
       "target": "α1受体",
       "relation": "结合_拮抗",
-      "ki": 10.0
+      "ki": 10.0,
+      "detail": "Ki≈10nM（拮抗）"
     },
     {
       "source": "奋乃静 (口服)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奋乃静 (口服)",
       "target": "恶心呕吐",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奋乃静 (口服)",
       "target": "老年人",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "按情况酌减用量，开始使用剂量要小，缓慢加量。妊娠与哺乳期妇女：FDA妊娠分级为C类风险；可从母乳中发现药物的排泌，建议停药或改为人工哺乳。"
     },
     {
       "source": "奋乃静 (口服)",
@@ -2979,41 +3751,50 @@
     {
       "source": "氟哌噻吨 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6影响代谢 (3)。"
     },
     {
       "source": "氟哌噻吨 (口服)",
       "target": "D1受体",
       "relation": "结合_拮抗",
-      "ki": 5.0
+      "ki": 5.0,
+      "detail": "Ki≈5.0nM（拮抗）"
     },
     {
       "source": "氟哌噻吨 (口服)",
       "target": "D2受体",
       "relation": "结合_拮抗",
-      "ki": 0.35
+      "ki": 0.35,
+      "detail": "Ki≈0.35nM（高亲和力拮抗）"
     },
     {
       "source": "氟哌噻吨 (口服)",
       "target": "5-HT2A受体",
       "relation": "结合_拮抗",
-      "ki": 5.4
+      "ki": 5.4,
+      "detail": "Ki≈5.4nM（拮抗）"
     },
     {
       "source": "氟哌噻吨 (口服)",
       "target": "α1受体",
       "relation": "结合_拮抗",
-      "ki": 12.0
+      "ki": 12.0,
+      "detail": "Ki≈12nM（拮抗）"
     },
     {
       "source": "氟哌噻吨 (口服)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氟哌噻吨 (口服)",
       "target": "抑郁",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氟哌噻吨 (口服)",
@@ -3023,241 +3804,291 @@
     {
       "source": "氟哌噻吨 (口服)",
       "target": "肝肾功能不全",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "未提及。"
     },
     {
       "source": "氟哌噻吨 (长效针剂)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP2D6代谢 (2)。"
     },
     {
       "source": "氟哌噻吨 (长效针剂)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氟哌噻吨 (长效针剂)",
       "target": "抑郁",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氯丙嗪 (注射)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2D6代谢 (1)。"
     },
     {
       "source": "氯丙嗪 (注射)",
       "target": "精神分裂症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氯丙嗪 (注射)",
       "target": "恶心呕吐",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氯丙嗪 (注射)",
       "target": "术前焦虑/顽固性呃逆",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氯丙嗪 (注射)",
       "target": "肝肾功能不全",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "未提及。"
     },
     {
       "source": "氟西汀 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6具有时间依赖性自抑制作用，CPIC目前对其CYP2D6表型的具体剂量调整不作明确推荐，但建议在PM者中谨慎 (6)。"
     },
     {
       "source": "氟西汀 (口服)",
       "target": "SERT",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "氟西汀 (口服)",
       "target": "NET",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱"
     },
     {
       "source": "氟西汀 (口服)",
       "target": "5-HT2C",
       "relation": "结合_拮抗",
-      "ki": ""
+      "detail": "强(拮抗)"
     },
     {
       "source": "氟西汀 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氟西汀 (口服)",
       "target": "强迫症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氟西汀 (口服)",
       "target": "神经性贪食症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氟西汀 (口服)",
       "target": "恐慌症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "舍曲林 (口服)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2B6、CYP2C19等多酶代谢。对CYP2D6抑制作用弱于氟西汀和帕罗西汀 (1)。"
     },
     {
       "source": "舍曲林 (口服)",
       "target": "CYP2C19",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2C19慢代谢者(PM)：建议减少起始剂量并降低50%维持剂量，或换用非CYP2C19代谢药物 (6, 7)。"
     },
     {
       "source": "舍曲林 (口服)",
       "target": "CYP2B6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2B6、CYP2C19等多酶代谢。对CYP2D6抑制作用弱于氟西汀和帕罗西汀 (1)。"
     },
     {
       "source": "舍曲林 (口服)",
       "target": "SERT",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "舍曲林 (口服)",
       "target": "DAT",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "舍曲林 (口服)",
       "target": "Sigma-1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "舍曲林 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "舍曲林 (口服)",
       "target": "强迫症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "舍曲林 (口服)",
-      "target": "恐慌症/PTSD/社交焦虑障碍",
-      "relation": "治疗"
+      "target": "恐慌症[redacted-path]",
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "舍曲林 (口服)",
       "target": "经前期烦躁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "帕罗西汀 (口服常释剂型)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：减少50%推荐剂量；超快代谢者(UM)：因血药浓度过低，建议换药 (6, 7)。"
     },
     {
       "source": "帕罗西汀 (口服常释剂型)",
       "target": "SERT",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "帕罗西汀 (口服常释剂型)",
       "target": "NET",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "帕罗西汀 (口服常释剂型)",
       "target": "M1",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "中等(阻断)"
     },
     {
       "source": "帕罗西汀 (口服常释剂型)",
       "target": "NOS",
       "relation": "结合_抑制",
-      "ki": ""
+      "detail": "强(抑制)"
     },
     {
       "source": "帕罗西汀 (口服常释剂型)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "帕罗西汀 (口服常释剂型)",
-      "target": "强迫症/恐慌症/社交焦虑障碍/GAD/PTSD",
-      "relation": "治疗"
+      "target": "强迫症[redacted-path]",
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "西酞普兰 (口服)",
       "target": "CYP2C19",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2C19慢代谢者(PM)：初始剂量减半，最大剂量20mg/d。超快代谢者(UM)：考虑换药或增加剂量 (6, 7)。"
     },
     {
       "source": "西酞普兰 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2C19和CYP3A4代谢 (1)。"
     },
     {
       "source": "西酞普兰 (口服)",
       "target": "SERT",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "西酞普兰 (口服)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "西酞普兰 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氟伏沙明 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：减少25-50%推荐剂量或换药 (6)。"
     },
     {
       "source": "氟伏沙明 (口服)",
       "target": "CYP2C19",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP2D6等代谢。氟伏沙明是CYP1A2和CYP2C19的强抑制剂（与氯氮平/茶碱有重大DDI）(1, 3)。"
     },
     {
       "source": "氟伏沙明 (口服)",
       "target": "CYP1A2",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP2D6等代谢。氟伏沙明是CYP1A2和CYP2C19的强抑制剂（与氯氮平/茶碱有重大DDI）(1, 3)。"
     },
     {
       "source": "氟伏沙明 (口服)",
       "target": "SERT",
       "relation": "结合_抑制",
-      "ki": 2.2
+      "ki": 2.2,
+      "detail": "Ki≈2.2nM（强效再摄取抑制）"
     },
     {
       "source": "氟伏沙明 (口服)",
       "target": "σ1受体",
       "relation": "结合_激动",
-      "ki": 36.0
+      "ki": 36.0,
+      "detail": "Ki≈36nM（激动，独特于其他SSRI）"
     },
     {
       "source": "氟伏沙明 (口服)",
       "target": "强迫症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氟伏沙明 (口服)",
@@ -3267,529 +4098,640 @@
     {
       "source": "维拉佐酮 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢 (1)。"
     },
     {
       "source": "维拉佐酮 (口服)",
       "target": "SERT",
       "relation": "结合_抑制",
-      "ki": 0.1
+      "ki": 0.1,
+      "detail": "Ki≈0.1nM（极强效再摄取抑制）"
     },
     {
       "source": "维拉佐酮 (口服)",
       "target": "5-HT1A受体",
       "relation": "结合_部分激动",
-      "ki": 0.2
+      "ki": 0.2,
+      "detail": "Ki≈0.2nM（部分激动，与丁螺环酮类似）"
     },
     {
       "source": "维拉佐酮 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "帕罗西汀 (口服缓释剂型)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2D6代谢。帕罗西汀是CYP2D6强抑制剂（DDI风险高）(1, 3)。"
     },
     {
       "source": "帕罗西汀 (口服缓释剂型)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "帕罗西汀 (口服缓释剂型)",
-      "target": "强迫症/恐慌症/社交焦虑障碍/GAD/PTSD",
-      "relation": "治疗"
+      "target": "强迫症[redacted-path]",
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "文拉法辛 (口服缓释剂型)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：活性代谢物降低，可能引起毒性或疗效降低，考虑减量或换用去甲文拉法辛；超快代谢者(UM)建议换药 (6, 7)。"
     },
     {
       "source": "文拉法辛 (口服缓释剂型)",
       "target": "SERT",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "文拉法辛 (口服缓释剂型)",
       "target": "NET",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等(剂量依赖)"
     },
     {
       "source": "文拉法辛 (口服缓释剂型)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "文拉法辛 (口服缓释剂型)",
       "target": "广泛性焦虑障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "文拉法辛 (口服缓释剂型)",
       "target": "社交焦虑障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "文拉法辛 (口服缓释剂型)",
       "target": "恐慌症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "度洛西汀 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "几乎不依赖单一多态性酶代谢，CPIC目前无明确基因型调整推荐，但主要由CYP1A2和CYP2D6代谢。"
     },
     {
       "source": "度洛西汀 (口服)",
       "target": "CYP1A2",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "几乎不依赖单一多态性酶代谢，CPIC目前无明确基因型调整推荐，但主要由CYP1A2和CYP2D6代谢。"
     },
     {
       "source": "度洛西汀 (口服)",
       "target": "SERT",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "度洛西汀 (口服)",
       "target": "NET",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "度洛西汀 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "度洛西汀 (口服)",
       "target": "广泛性焦虑障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "度洛西汀 (口服)",
       "target": "糖尿病周围神经痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "度洛西汀 (口服)",
       "target": "纤维肌痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "度洛西汀 (口服)",
       "target": "慢性肌骨骼痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "地文拉法辛 (口服)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要通过UGT结合代谢，少量(约5%)通过CYP3A4代谢。不经过CYP2D6代谢，因此受CYP2D6基因多态性影响极小。"
     },
     {
       "source": "地文拉法辛 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要通过UGT结合代谢，少量(约5%)通过CYP3A4代谢。不经过CYP2D6代谢，因此受CYP2D6基因多态性影响极小。"
     },
     {
       "source": "地文拉法辛 (口服)",
       "target": "UGT",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要通过UGT结合代谢，少量(约5%)通过CYP3A4代谢。不经过CYP2D6代谢，因此受CYP2D6基因多态性影响极小。"
     },
     {
       "source": "地文拉法辛 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "托鲁地文拉法辛 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "安非他酮 (口服缓释剂型)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2B6代谢。安非他酮是CYP2D6强抑制剂 (1)。"
     },
     {
       "source": "安非他酮 (口服缓释剂型)",
       "target": "CYP2B6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2B6慢代谢者暴露量升高 (4)。"
     },
     {
       "source": "安非他酮 (口服缓释剂型)",
       "target": "DAT",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "安非他酮 (口服缓释剂型)",
       "target": "NET",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等"
     },
     {
       "source": "安非他酮 (口服缓释剂型)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "安非他酮 (口服缓释剂型)",
       "target": "戒烟辅助",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "安非他酮 (口服缓释剂型)",
       "target": "季节性情感障碍预防",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "米氮平 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6影响代谢 (4)。"
     },
     {
       "source": "米氮平 (口服)",
       "target": "CYP1A2",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP1A2、CYP2D6、CYP3A4多酶代谢 (1)。"
     },
     {
       "source": "米氮平 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP1A2、CYP2D6、CYP3A4多酶代谢 (1)。"
     },
     {
       "source": "米氮平 (口服)",
       "target": "α2",
       "relation": "结合_拮抗",
-      "ki": ""
+      "detail": "强(拮抗)"
     },
     {
       "source": "米氮平 (口服)",
       "target": "5-HT2A",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "米氮平 (口服)",
       "target": "5-HT2C",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "米氮平 (口服)",
       "target": "5-HT3",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "米氮平 (口服)",
       "target": "H1",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "极强"
     },
     {
       "source": "米氮平 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "米安色林 (口服)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP2D6(主要), CYP1A2, CYP3A4"
     },
     {
       "source": "米安色林 (口服)",
       "target": "CYP1A2",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP2D6(主要), CYP1A2, CYP3A4"
     },
     {
       "source": "米安色林 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP2D6(主要), CYP1A2, CYP3A4"
     },
     {
       "source": "米安色林 (口服)",
       "target": "抑郁症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "曲唑酮 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢 (1)。"
     },
     {
       "source": "曲唑酮 (口服)",
       "target": "5-HT2A受体",
       "relation": "结合_拮抗",
-      "ki": 36.0
+      "ki": 36.0,
+      "detail": "Ki≈36nM（拮抗，催眠/抗焦虑）"
     },
     {
       "source": "曲唑酮 (口服)",
       "target": "SERT",
       "relation": "结合_抑制",
-      "ki": 160.0
+      "ki": 160.0,
+      "detail": "Ki≈160nM（弱再摄取抑制）"
     },
     {
       "source": "曲唑酮 (口服)",
       "target": "α1受体",
       "relation": "结合_拮抗",
-      "ki": 42.0
+      "ki": 42.0,
+      "detail": "Ki≈42nM（拮抗，体位性低血压）"
     },
     {
       "source": "曲唑酮 (口服)",
       "target": "H1受体",
       "relation": "结合_拮抗",
-      "ki": 220.0
+      "ki": 220.0,
+      "detail": "Ki≈220nM（弱拮抗，镇静）"
     },
     {
       "source": "曲唑酮 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "曲唑酮 (口服)",
       "target": "失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿米替林 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6/CYP2C19慢代谢者(PM)：应避免使用或减少50%剂量；超快代谢者(UM)：应避免使用 (6)。"
     },
     {
       "source": "阿米替林 (口服)",
       "target": "CYP2C19",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6/CYP2C19慢代谢者(PM)：应避免使用或减少50%剂量；超快代谢者(UM)：应避免使用 (6)。"
     },
     {
       "source": "阿米替林 (口服)",
       "target": "SERT",
       "relation": "结合_抑制",
-      "ki": 4.3
+      "ki": 4.3,
+      "detail": "Ki≈4.3nM（强效再摄取抑制）"
     },
     {
       "source": "阿米替林 (口服)",
       "target": "NET",
       "relation": "结合_抑制",
-      "ki": 35.0
+      "ki": 35.0,
+      "detail": "Ki≈35nM（再摄取抑制）"
     },
     {
       "source": "阿米替林 (口服)",
       "target": "H1受体",
       "relation": "结合_拮抗",
-      "ki": 1.1
+      "ki": 1.1,
+      "detail": "Ki≈1.1nM（强效拮抗，镇静/体重增加）"
     },
     {
       "source": "阿米替林 (口服)",
       "target": "M1受体",
       "relation": "结合_拮抗",
-      "ki": 18.0
+      "ki": 18.0,
+      "detail": "Ki≈18nM（拮抗，抗胆碱能不良反应）"
     },
     {
       "source": "阿米替林 (口服)",
       "target": "α1受体",
       "relation": "结合_拮抗",
-      "ki": 27.0
+      "ki": 27.0,
+      "detail": "Ki≈27nM（拮抗，体位性低血压）"
     },
     {
       "source": "阿米替林 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿米替林 (口服)",
       "target": "神经病理性疼痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿米替林 (口服)",
       "target": "偏头痛预防",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "多塞平 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6/CYP2C19慢代谢者(PM)：应避免使用或减少50%剂量 (6)。"
     },
     {
       "source": "多塞平 (口服)",
       "target": "CYP2C19",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6/CYP2C19慢代谢者(PM)：应避免使用或减少50%剂量 (6)。"
     },
     {
       "source": "多塞平 (口服)",
       "target": "H1受体",
       "relation": "结合_拮抗",
-      "ki": 0.24
+      "ki": 0.24,
+      "detail": "Ki≈0.24nM（所有精神科药物中最强的H1拮抗）"
     },
     {
       "source": "多塞平 (口服)",
       "target": "SERT",
       "relation": "结合_抑制",
-      "ki": 68.0
+      "ki": 68.0,
+      "detail": "Ki≈68nM（再摄取抑制）"
     },
     {
       "source": "多塞平 (口服)",
       "target": "NET",
       "relation": "结合_抑制",
-      "ki": 29.0
+      "ki": 29.0,
+      "detail": "Ki≈29nM（再摄取抑制）"
     },
     {
       "source": "多塞平 (口服)",
       "target": "M1受体",
       "relation": "结合_拮抗",
-      "ki": 83.0
+      "ki": 83.0,
+      "detail": "Ki≈83nM（拮抗）"
     },
     {
       "source": "多塞平 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "多塞平 (口服)",
       "target": "失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氯米帕明 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6/CYP2C19慢代谢者(PM)：应避免使用或减少50%剂量；超快代谢者(UM)：应避免使用 (6)。"
     },
     {
       "source": "氯米帕明 (口服)",
       "target": "CYP1A2",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP2D6和CYP1A2代谢为活性代谢物去甲氯丙咪嗪 (1)。"
     },
     {
       "source": "氯米帕明 (口服)",
       "target": "SERT",
       "relation": "结合_结合",
-      "ki": 0.28
+      "ki": 0.28,
+      "detail": "Ki≈0.28nM（所有TCA中最强效的SRI）"
     },
     {
       "source": "氯米帕明 (口服)",
       "target": "NET",
       "relation": "结合_抑制",
-      "ki": 38.0
+      "ki": 38.0,
+      "detail": "Ki≈38nM（再摄取抑制）"
     },
     {
       "source": "氯米帕明 (口服)",
       "target": "H1受体",
       "relation": "结合_拮抗",
-      "ki": 31.0
+      "ki": 31.0,
+      "detail": "Ki≈31nM（拮抗）"
     },
     {
       "source": "氯米帕明 (口服)",
       "target": "M1受体",
       "relation": "结合_拮抗",
-      "ki": 37.0
+      "ki": 37.0,
+      "detail": "Ki≈37nM（拮抗）"
     },
     {
       "source": "氯米帕明 (口服)",
       "target": "强迫症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氯米帕明 (口服)",
       "target": "CYP2C19",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6/CYP2C19慢代谢者(PM)：应避免使用或减少50%剂量；超快代谢者(UM)：应避免使用 (6)。"
     },
     {
       "source": "伏硫西汀 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：暴露量增加约2倍，最大剂量限制为10mg/d (1, 4)。"
     },
     {
       "source": "伏硫西汀 (口服)",
       "target": "SERT",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "强"
     },
     {
       "source": "伏硫西汀 (口服)",
       "target": "5-HT3",
       "relation": "结合_拮抗",
-      "ki": ""
+      "detail": "极强(拮抗)"
     },
     {
       "source": "伏硫西汀 (口服)",
       "target": "5-HT7",
       "relation": "结合_拮抗",
-      "ki": ""
+      "detail": "强(拮抗)"
     },
     {
       "source": "伏硫西汀 (口服)",
       "target": "5-HT1A",
       "relation": "结合_激动",
-      "ki": ""
+      "detail": "强(激动)"
     },
     {
       "source": "伏硫西汀 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿戈美拉汀 (口服)",
       "target": "CYP2C9",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP1A2代谢（约90%），CYP2C9辅助 (2)。"
     },
     {
       "source": "阿戈美拉汀 (口服)",
       "target": "CYP1A2",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP1A2慢代谢者暴露升高 (3)。"
     },
     {
       "source": "阿戈美拉汀 (口服)",
       "target": "MT1",
       "relation": "结合_激动",
-      "ki": ""
+      "detail": "强(激动)"
     },
     {
       "source": "阿戈美拉汀 (口服)",
       "target": "MT2",
       "relation": "结合_激动",
-      "ki": ""
+      "detail": "强(激动)"
     },
     {
       "source": "阿戈美拉汀 (口服)",
       "target": "5-HT2C",
       "relation": "结合_拮抗",
-      "ki": ""
+      "detail": "中等(拮抗)"
     },
     {
       "source": "阿戈美拉汀 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥氮平/氟西汀复方 (口服)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "奥氮平: CYP1A2, UGT; 氟西汀: CYP2D6(强抑制剂)"
     },
     {
       "source": "奥氮平/氟西汀复方 (口服)",
       "target": "CYP1A2",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "奥氮平: CYP1A2, UGT; 氟西汀: CYP2D6(强抑制剂)"
     },
     {
       "source": "奥氮平/氟西汀复方 (口服)",
       "target": "UGT",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "奥氮平: CYP1A2, UGT; 氟西汀: CYP2D6(强抑制剂)"
     },
     {
       "source": "奥氮平/氟西汀复方 (口服)",
       "target": "双相情感障碍抑郁发作",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥氮平/氟西汀复方 (口服)",
       "target": "难治性抑郁症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥氮平/氟西汀复方 (口服)",
@@ -3799,1609 +4741,2013 @@
     {
       "source": "艾司氯胺酮 (鼻喷剂)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2B6和CYP3A4代谢 (1)。"
     },
     {
       "source": "艾司氯胺酮 (鼻喷剂)",
       "target": "CYP2B6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2B6慢代谢者暴露可能升高。"
     },
     {
       "source": "艾司氯胺酮 (鼻喷剂)",
       "target": "NMDA受体",
       "relation": "结合_拮抗",
-      "ki": ""
+      "detail": "非竞争性拮抗（GluN2B偏好），Ki≈0.53μM"
     },
     {
       "source": "艾司氯胺酮 (鼻喷剂)",
       "target": "μ阿片受体",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱亲和力"
     },
     {
       "source": "艾司氯胺酮 (鼻喷剂)",
       "target": "σ受体",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "弱亲和力"
     },
     {
       "source": "艾司氯胺酮 (鼻喷剂)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "艾司氯胺酮 (鼻喷剂)",
       "target": "伴急性自杀意念的MDD",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "祖拉诺酮 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢 (1)。"
     },
     {
       "source": "祖拉诺酮 (口服)",
       "target": "GABAA受体",
       "relation": "结合_正向别构调节",
-      "ki": ""
+      "detail": "正向别构调节剂（突触和突触外）"
     },
     {
       "source": "祖拉诺酮 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "艾司氯胺酮 (注射)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2B6和CYP3A4代谢 (1)。"
     },
     {
       "source": "艾司氯胺酮 (注射)",
       "target": "CYP2B6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2B6和CYP3A4代谢 (1)。"
     },
     {
       "source": "艾司氯胺酮 (注射)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "艾司氯胺酮 (注射)",
       "target": "伴急性自杀意念的MDD",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "右美沙芬/安非他酮 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者禁用 (1)。"
     },
     {
       "source": "右美沙芬/安非他酮 (口服)",
       "target": "NMDA受体",
       "relation": "结合_拮抗",
-      "ki": ""
+      "detail": "非竞争性拮抗（右美沙芬）"
     },
     {
       "source": "右美沙芬/安非他酮 (口服)",
       "target": "σ1受体",
       "relation": "结合_激动",
-      "ki": ""
+      "detail": "激动（右美沙芬）"
     },
     {
       "source": "右美沙芬/安非他酮 (口服)",
       "target": "SERT",
       "relation": "结合_抑制",
-      "ki": ""
+      "detail": "弱再摄取抑制（右美沙芬）"
     },
     {
       "source": "右美沙芬/安非他酮 (口服)",
       "target": "NET/DAT",
       "relation": "结合_抑制",
-      "ki": ""
+      "detail": "再摄取抑制（安非他酮/NDRI）"
     },
     {
       "source": "右美沙芬/安非他酮 (口服)",
       "target": "重度抑郁障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "右美沙芬/安非他酮 (口服)",
       "target": "老年人",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "老年患者易发生低钠血症（SIADH风险），起始剂量应减低 (2)。"
     },
     {
       "source": "右美沙芬/安非他酮 (口服)",
       "target": "妊娠期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "孕晚期暴露可能增加新生儿持续性肺动脉高压（PPHN）和新生儿撤药综合征的风险 (1)。"
     },
     {
       "source": "右美沙芬/安非他酮 (口服)",
       "target": "哺乳期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "乳汁分泌数据不足，哺乳期需权衡利弊 (1)。"
     },
     {
       "source": "右美沙芬/安非他酮 (口服)",
       "target": "儿童及青少年",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "抗抑郁药增加儿童及青少年自杀意念和行为的风险（黑框警告），一般不推荐使用 (1)。"
     },
     {
       "source": "右美沙芬/安非他酮 (口服)",
       "target": "肝肾功能不全",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "轻中度肝功能不全需谨慎或降低起始剂量，重度肝功能不全不推荐使用 (1)。 轻中度肾功能不全通常无需调整，重度需谨慎 (1)。"
     },
     {
       "source": "氟哌噻吨美利曲辛片 (黛力新)",
       "target": "D2",
       "relation": "结合_拮抗",
-      "ki": ""
+      "detail": "强(氟哌噻吨小剂量突触前拮抗致多巴胺释放)"
     },
     {
       "source": "氟哌噻吨美利曲辛片 (黛力新)",
       "target": "SERT",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等(美利曲辛)"
     },
     {
       "source": "氟哌噻吨美利曲辛片 (黛力新)",
       "target": "NET",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "中等(美利曲辛) (4,5)"
     },
     {
       "source": "氟哌噻吨美利曲辛片 (黛力新)",
       "target": "轻、中度抑郁和焦虑",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丁螺环酮 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢 (1)。"
     },
     {
       "source": "丁螺环酮 (口服)",
       "target": "5-HT1A受体",
       "relation": "结合_部分激动",
-      "ki": 8.6
+      "ki": 8.6,
+      "detail": "Ki≈8.6nM（部分激动）"
     },
     {
       "source": "丁螺环酮 (口服)",
       "target": "D2受体",
       "relation": "结合_结合",
-      "ki": 484.0
+      "ki": 484.0,
+      "detail": "Ki≈484nM（极弱亲和力）"
     },
     {
       "source": "丁螺环酮 (口服)",
       "target": "广泛性焦虑障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "坦度螺酮 (口服)",
       "target": "各种神经症所致的焦虑状态",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿普唑仑 (口服)",
       "target": "CYP3A4",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "苯二氮卓类/催眠药主要经CYP3A4或UGT代谢，目前CPIC和DPWG暂无明确的基因型指导剂量调整指南。"
     },
     {
       "source": "阿普唑仑 (口服)",
       "target": "GABA-A",
       "relation": "结合_正向别构调节",
-      "ki": ""
+      "detail": "强(正向别构调节) (5,6)"
     },
     {
       "source": "阿普唑仑 (口服)",
       "target": "广泛性焦虑障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿普唑仑 (口服)",
       "target": "恐慌症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "劳拉西泮 (口服)",
       "target": "UGT",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "直接经UGT葡萄糖醛酸化代谢（不经CYP系统），药物相互作用风险极低 (1, 3)。"
     },
     {
       "source": "劳拉西泮 (口服)",
       "target": "葡萄糖醛酸化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "直接经UGT葡萄糖醛酸化代谢（不经CYP系统），药物相互作用风险极低 (1, 3)。"
     },
     {
       "source": "劳拉西泮 (口服)",
       "target": "GABA-A",
       "relation": "结合_正向别构调节",
-      "ki": ""
+      "detail": "强(正向别构调节) (5,6)"
     },
     {
       "source": "劳拉西泮 (口服)",
       "target": "焦虑障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "劳拉西泮 (口服)",
       "target": "失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "地西泮 (口服)",
       "target": "CYP2C19",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2C19慢代谢者代谢减慢 (4)。"
     },
     {
       "source": "地西泮 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP2C19和CYP3A4代谢为活性代谢物去甲地西泮、替马西泮、奥沙西泮 (1)。"
     },
     {
       "source": "地西泮 (口服)",
       "target": "GABA-A",
       "relation": "结合_正向别构调节",
-      "ki": ""
+      "detail": "强(正向别构调节) (5,6)"
     },
     {
       "source": "地西泮 (口服)",
       "target": "焦虑障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "地西泮 (口服)",
       "target": "肌肉痉挛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "地西泮 (口服)",
       "target": "癫痫持续状态辅助",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "地西泮 (口服)",
       "target": "酒精戒断",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "咪达唑仑 (口服)",
       "target": "CYP3A4",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "苯二氮卓类/催眠药主要经CYP3A4或UGT代谢，目前CPIC和DPWG暂无明确的基因型指导剂量调整指南。"
     },
     {
       "source": "咪达唑仑 (口服)",
       "target": "GABA-A",
       "relation": "结合_正向别构调节",
-      "ki": ""
+      "detail": "强(正向别构调节) (5,6)"
     },
     {
       "source": "咪达唑仑 (口服)",
       "target": "术前镇静/操作前镇静",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "咪达唑仑 (口服)",
       "target": "癫痫持续状态",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "艾司唑仑 (口服)",
       "target": "CYP3A4",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "苯二氮卓类/催眠药主要经CYP3A4或UGT代谢，目前CPIC和DPWG暂无明确的基因型指导剂量调整指南。"
     },
     {
       "source": "艾司唑仑 (口服)",
       "target": "GABA-A",
       "relation": "结合_正向别构调节",
-      "ki": ""
+      "detail": "强(正向别构调节) (4,5)"
     },
     {
       "source": "艾司唑仑 (口服)",
       "target": "失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥沙西泮 (口服)",
       "target": "UGT",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "直接经UGT葡萄糖醛酸化（同劳拉西泮，不经CYP系统）(1, 3)。"
     },
     {
       "source": "奥沙西泮 (口服)",
       "target": "葡萄糖醛酸化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "直接经UGT葡萄糖醛酸化（同劳拉西泮，不经CYP系统）(1, 3)。"
     },
     {
       "source": "奥沙西泮 (口服)",
       "target": "GABA-A",
       "relation": "结合_正向别构调节",
-      "ki": ""
+      "detail": "强(正向别构调节) (5,6)"
     },
     {
       "source": "奥沙西泮 (口服)",
       "target": "焦虑障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥沙西泮 (口服)",
       "target": "酒精戒断",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氯硝西泮 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢（硝基还原）(1)。"
     },
     {
       "source": "氯硝西泮 (口服)",
       "target": "GABA-A",
       "relation": "结合_正向别构调节",
-      "ki": ""
+      "detail": "强(正向别构调节) (5,6)"
     },
     {
       "source": "氯硝西泮 (口服)",
       "target": "癫痫/Lennox-Gastaut综合征",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氯硝西泮 (口服)",
       "target": "恐慌症",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "地达西尼 (口服)",
       "target": "GABAA α1亚型",
       "relation": "结合_正向别构调节",
-      "ki": ""
+      "detail": "选择性部分正向别构调节（促睡眠，依赖性风险低于传统BZD）"
     },
     {
       "source": "地达西尼 (口服)",
       "target": "GABAA其他α亚型",
       "relation": "结合_结合",
-      "ki": ""
+      "detail": "选择性较低，区别于传统非选择性苯二氮卓 (3,4)"
     },
     {
       "source": "地达西尼 (口服)",
       "target": "成人失眠障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "咪达唑仑 (注射)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢。与CYP3A4抑制剂合用可使浓度升高数倍 (1)。"
     },
     {
       "source": "咪达唑仑 (注射)",
       "target": "术前镇静/操作前镇静",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "咪达唑仑 (注射)",
       "target": "癫痫持续状态",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "劳拉西泮 (注射)",
       "target": "UGT",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "直接经UGT葡萄糖醛酸化代谢（不经CYP系统），药物相互作用风险极低 (1, 3)。"
     },
     {
       "source": "劳拉西泮 (注射)",
       "target": "葡萄糖醛酸化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "直接经UGT葡萄糖醛酸化代谢（不经CYP系统），药物相互作用风险极低 (1, 3)。"
     },
     {
       "source": "劳拉西泮 (注射)",
       "target": "焦虑障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "劳拉西泮 (注射)",
       "target": "失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "地西泮 (注射)",
       "target": "CYP2C19",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP2C19和CYP3A4代谢为活性代谢物去甲地西泮、替马西泮、奥沙西泮 (1)。"
     },
     {
       "source": "地西泮 (注射)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP2C19和CYP3A4代谢为活性代谢物去甲地西泮、替马西泮、奥沙西泮 (1)。"
     },
     {
       "source": "地西泮 (注射)",
       "target": "焦虑障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "地西泮 (注射)",
       "target": "肌肉痉挛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "地西泮 (注射)",
       "target": "癫痫持续状态辅助",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "地西泮 (注射)",
       "target": "酒精戒断",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "唑吡坦 (口服)",
       "target": "CYP3A4",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "苯二氮卓类/催眠药主要经CYP3A4或UGT代谢，目前CPIC和DPWG暂无明确的基因型指导剂量调整指南。"
     },
     {
       "source": "唑吡坦 (口服)",
       "target": "GABA-A",
       "relation": "结合_正向别构调节",
-      "ki": ""
+      "detail": "强(正向别构调节) (5,6)"
     },
     {
       "source": "唑吡坦 (口服)",
       "target": "失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "扎来普隆 (口服)",
       "target": "醛氧化酶",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "醛氧化酶(主), CYP3A4(次)"
     },
     {
       "source": "扎来普隆 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "醛氧化酶(主), CYP3A4(次)"
     },
     {
       "source": "扎来普隆 (口服)",
       "target": "失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "佐匹克隆 (口服)",
       "target": "CYP3A4",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "苯二氮卓类/催眠药主要经CYP3A4或UGT代谢，目前CPIC和DPWG暂无明确的基因型指导剂量调整指南。"
     },
     {
       "source": "佐匹克隆 (口服)",
       "target": "CYP2E1",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP3A4和CYP2E1代谢 (2)。"
     },
     {
       "source": "佐匹克隆 (口服)",
       "target": "GABA-A",
       "relation": "结合_正向别构调节",
-      "ki": ""
+      "detail": "强(正向别构调节) (5,6)"
     },
     {
       "source": "佐匹克隆 (口服)",
       "target": "失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "右佐匹克隆 (口服)",
       "target": "CYP3A4",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "苯二氮卓类/催眠药主要经CYP3A4或UGT代谢，目前CPIC和DPWG暂无明确的基因型指导剂量调整指南。"
     },
     {
       "source": "右佐匹克隆 (口服)",
       "target": "CYP2E1",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP3A4和CYP2E1代谢 (1)。"
     },
     {
       "source": "右佐匹克隆 (口服)",
       "target": "GABA-A",
       "relation": "结合_正向别构调节",
-      "ki": ""
+      "detail": "强(正向别构调节) (3,4)"
     },
     {
       "source": "右佐匹克隆 (口服)",
       "target": "失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "苏沃雷生 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢 (1)。"
     },
     {
       "source": "苏沃雷生 (口服)",
       "target": "OX1R",
       "relation": "结合_拮抗",
-      "ki": 0.55
+      "ki": 0.55,
+      "detail": "Ki≈0.55nM（拮抗）"
     },
     {
       "source": "苏沃雷生 (口服)",
       "target": "OX2R",
       "relation": "结合_拮抗",
-      "ki": 0.35
+      "ki": 0.35,
+      "detail": "Ki≈0.35nM（拮抗）"
     },
     {
       "source": "苏沃雷生 (口服)",
       "target": "失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "莱博雷生 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢 (1)。"
     },
     {
       "source": "莱博雷生 (口服)",
       "target": "OX1R",
       "relation": "结合_拮抗",
-      "ki": 7.3
+      "ki": 7.3,
+      "detail": "Ki≈7.3nM（拮抗）"
     },
     {
       "source": "莱博雷生 (口服)",
       "target": "OX2R",
       "relation": "结合_拮抗",
-      "ki": 2.6
+      "ki": 2.6,
+      "detail": "Ki≈2.6nM（拮抗）"
     },
     {
       "source": "莱博雷生 (口服)",
       "target": "失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "达利雷生 (口服)",
       "target": "CYP3A4",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "主要经CYP3A4代谢，CYP3A4慢代谢者暴露量可能增加，但目前尚无基于基因型的剂量调整推荐。避免与CYP3A4强效抑制剂合用。"
     },
     {
       "source": "达利雷生 (口服)",
       "target": "OX1R (食欲素1受体)",
       "relation": "结合_拮抗",
-      "ki": 0.47
+      "ki": 0.47,
+      "detail": "Ki=0.47nM (强效拮抗)"
     },
     {
       "source": "达利雷生 (口服)",
       "target": "OX2R (食欲素2受体)",
       "relation": "结合_拮抗",
-      "ki": 0.93
+      "ki": 0.93,
+      "detail": "Ki=0.93nM (强效拮抗) (4,5)"
     },
     {
       "source": "达利雷生 (口服)",
       "target": "成人失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "雷美替胺 (口服)",
       "target": "CYP1A2",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP1A2(主要), CYP2C, CYP3A4. 氟伏沙明(强CYP1A2抑制剂)禁止合用"
     },
     {
       "source": "雷美替胺 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP1A2(主要), CYP2C, CYP3A4. 氟伏沙明(强CYP1A2抑制剂)禁止合用"
     },
     {
       "source": "雷美替胺 (口服)",
       "target": "失眠",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "碳酸锂 (口服常释剂型)",
       "target": "VSSC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钠通道)"
     },
     {
       "source": "碳酸锂 (口服常释剂型)",
       "target": "VSCC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钙通道) (6,7)"
     },
     {
       "source": "碳酸锂 (口服常释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "碳酸锂 (口服常释剂型)",
       "target": "双相障碍维持治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "碳酸锂 (口服常释剂型)",
       "target": "抗抑郁药增效",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "碳酸锂 (口服常释剂型)",
       "target": "降低自杀风险",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "碳酸锂 (口服缓释剂型)",
       "target": "VSSC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钠通道)"
     },
     {
       "source": "碳酸锂 (口服缓释剂型)",
       "target": "VSCC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钙通道) (6,7)"
     },
     {
       "source": "碳酸锂 (口服缓释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "碳酸锂 (口服缓释剂型)",
       "target": "双相障碍维持治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "碳酸锂 (口服缓释剂型)",
       "target": "抗抑郁药增效/降低自杀风险",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "拉莫三嗪 (口服常释剂型)",
       "target": "葡萄糖醛酸化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经UGT1A4葡萄糖醛酸化代谢。丙戊酸抑制此过程使浓度升高约2倍 (1)。"
     },
     {
       "source": "拉莫三嗪 (口服常释剂型)",
       "target": "UGT1A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经UGT1A4葡萄糖醛酸化代谢。丙戊酸抑制此过程使浓度升高约2倍 (1)。"
     },
     {
       "source": "拉莫三嗪 (口服常释剂型)",
       "target": "VSSC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钠通道)"
     },
     {
       "source": "拉莫三嗪 (口服常释剂型)",
       "target": "VSCC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钙通道) (6,7)"
     },
     {
       "source": "拉莫三嗪 (口服常释剂型)",
       "target": "双相障碍维持治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "拉莫三嗪 (口服常释剂型)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "拉莫三嗪 (口服常释剂型)",
       "target": "合用丙戊酸盐时",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卡马西平 (口服常释剂型)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢为活性代谢物10,11-环氧化物。卡马西平是CYP3A4强诱导剂（自诱导+诱导其他药物代谢）(1)。"
     },
     {
       "source": "卡马西平 (口服常释剂型)",
       "target": "VSSC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钠通道)"
     },
     {
       "source": "卡马西平 (口服常释剂型)",
       "target": "VSCC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钙通道) (8,9)"
     },
     {
       "source": "卡马西平 (口服常释剂型)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卡马西平 (口服常释剂型)",
       "target": "三叉神经痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卡马西平 (口服常释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卡马西平 (口服常释剂型)",
       "target": "HLA-B*1502",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "HLA-B*1502阳性者：SJS/TEN风险极高，绝对禁用；HLA-A*3101阳性者：DRESS和SJS/TEN风险增加，也应避免使用 (6, 7)。"
     },
     {
       "source": "卡马西平 (口服常释剂型)",
       "target": "HLA-A*3101",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "HLA-B*1502阳性者：SJS/TEN风险极高，绝对禁用；HLA-A*3101阳性者：DRESS和SJS/TEN风险增加，也应避免使用 (6, 7)。"
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "UGT",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经UGT葡萄糖醛酸化和β-氧化；部分经CYP2C9。丙戊酸是UGT和环氧化物水解酶抑制剂 (1)。"
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "葡萄糖醛酸化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经UGT葡萄糖醛酸化和β-氧化；部分经CYP2C9。丙戊酸是UGT和环氧化物水解酶抑制剂 (1)。"
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "CYP2C9",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经UGT葡萄糖醛酸化和β-氧化；部分经CYP2C9。丙戊酸是UGT和环氧化物水解酶抑制剂 (1)。"
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "β-氧化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经UGT葡萄糖醛酸化和β-氧化；部分经CYP2C9。丙戊酸是UGT和环氧化物水解酶抑制剂 (1)。"
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "VSSC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钠通道)"
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "VSCC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钙通道) (7,8)"
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "偏头痛预防",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "POLG",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "POLG基因突变者（如Alpers-Huttenlocher综合征）：致命性肝衰竭风险极高，绝对禁用 (1, 6)。"
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "老年人",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "老年患者更容易出现过度镇静，需降低起始剂量 (1)。"
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "妊娠期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "极高致畸风险（神经管缺陷、小头畸形、智力发育迟缓）。备孕及孕期妇女绝对禁用（用于偏头痛/双相时）（黑框警告） (1, 3)。"
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "哺乳期",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "乳汁中浓度较低（<10%母体血药浓度），Hale分级L2。哺乳期相对安全，但需监测婴儿肝功能和血小板 (1, 3)。"
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "儿童及青少年",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "尚未确立在18岁以下儿童及青少年中的安全性和有效性，不推荐使用 (1)。"
     },
     {
       "source": "丙戊酸钠 (口服常释/肠溶剂型)",
       "target": "肝肾功能不全",
-      "relation": "特殊人群_注意"
+      "relation": "特殊人群_注意",
+      "detail": "可引起致命性肝衰竭（黑框警告），尤其在2岁以下儿童。有线粒体疾病（如POLG突变）及肝脏疾病晚期患者绝对禁用 (1)。 轻中度肾功能不全通常无需调整，重度需谨慎 (1)。"
     },
     {
       "source": "丙戊酸钠 (口服缓释剂型)",
       "target": "葡萄糖醛酸化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经肝脏β-氧化（约40%）和葡萄糖醛酸化（约30-50%）代谢，少量经CYP2C9/2C19/2A6 (1)。"
     },
     {
       "source": "丙戊酸钠 (口服缓释剂型)",
       "target": "CYP2C9",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经肝脏β-氧化（约40%）和葡萄糖醛酸化（约30-50%）代谢，少量经CYP2C9/2C19/2A6 (1)。"
     },
     {
       "source": "丙戊酸钠 (口服缓释剂型)",
       "target": "β-氧化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经肝脏β-氧化（约40%）和葡萄糖醛酸化（约30-50%）代谢，少量经CYP2C9/2C19/2A6 (1)。"
     },
     {
       "source": "丙戊酸钠 (口服缓释剂型)",
       "target": "VSSC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钠通道)"
     },
     {
       "source": "丙戊酸钠 (口服缓释剂型)",
       "target": "VSCC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钙通道) (7,8)"
     },
     {
       "source": "丙戊酸钠 (口服缓释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丙戊酸钠 (口服缓释剂型)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丙戊酸钠 (口服缓释剂型)",
       "target": "偏头痛预防",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丙戊酸钠 (口服缓释剂型)",
       "target": "POLG",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "POLG基因突变者（如Alpers-Huttenlocher综合征）：致命性肝衰竭风险极高，绝对禁用 (1, 6)。"
     },
     {
       "source": "丙戊酸镁 (口服缓释片)",
       "target": "β-氧化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经肝脏代谢，包括与葡萄糖醛酸结合和β-氧化过程，主要由肾排出，少量随粪便排出 (1)。"
     },
     {
       "source": "丙戊酸镁 (口服缓释片)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丙戊酸镁 (口服缓释片)",
       "target": "双相情感障碍躁狂发作",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丙戊酸镁 (口服缓释片)",
       "target": "CYP2C9",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "与丙戊酸钠相同。UGT1A6/UGT2B7多态性影响葡萄糖醛酸化清除率；CYP2C9*3携带者代谢减慢；HLA-A*24:02与丙戊酸相关肝毒性风险可能相关。线粒体DNA POLG基因突变患者禁用丙戊酸类药物（致命性肝毒性风险）。"
     },
     {
       "source": "丙戊酸镁 (口服缓释片)",
       "target": "HLA-A*24:02",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "与丙戊酸钠相同。UGT1A6/UGT2B7多态性影响葡萄糖醛酸化清除率；CYP2C9*3携带者代谢减慢；HLA-A*24:02与丙戊酸相关肝毒性风险可能相关。线粒体DNA POLG基因突变患者禁用丙戊酸类药物（致命性肝毒性风险）。"
     },
     {
       "source": "丙戊酸镁 (口服缓释片)",
       "target": "UGT2B7",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "与丙戊酸钠相同。UGT1A6/UGT2B7多态性影响葡萄糖醛酸化清除率；CYP2C9*3携带者代谢减慢；HLA-A*24:02与丙戊酸相关肝毒性风险可能相关。线粒体DNA POLG基因突变患者禁用丙戊酸类药物（致命性肝毒性风险）。"
     },
     {
       "source": "丙戊酸镁 (口服缓释片)",
       "target": "POLG",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "与丙戊酸钠相同。UGT1A6/UGT2B7多态性影响葡萄糖醛酸化清除率；CYP2C9*3携带者代谢减慢；HLA-A*24:02与丙戊酸相关肝毒性风险可能相关。线粒体DNA POLG基因突变患者禁用丙戊酸类药物（致命性肝毒性风险）。"
     },
     {
       "source": "丙戊酸镁 (口服缓释片)",
       "target": "UGT1A6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "与丙戊酸钠相同。UGT1A6/UGT2B7多态性影响葡萄糖醛酸化清除率；CYP2C9*3携带者代谢减慢；HLA-A*24:02与丙戊酸相关肝毒性风险可能相关。线粒体DNA POLG基因突变患者禁用丙戊酸类药物（致命性肝毒性风险）。"
     },
     {
       "source": "奥卡西平 (口服常释剂型)",
       "target": "UGT",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "迅速还原为活性代谢物MHD（10-单羟基衍生物）。MHD经UGT葡萄糖醛酸化清除。弱CYP3A4/5诱导剂，DDI远小于卡马西平 (1)。"
     },
     {
       "source": "奥卡西平 (口服常释剂型)",
       "target": "葡萄糖醛酸化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "迅速还原为活性代谢物MHD（10-单羟基衍生物）。MHD经UGT葡萄糖醛酸化清除。弱CYP3A4/5诱导剂，DDI远小于卡马西平 (1)。"
     },
     {
       "source": "奥卡西平 (口服常释剂型)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "迅速还原为活性代谢物MHD（10-单羟基衍生物）。MHD经UGT葡萄糖醛酸化清除。弱CYP3A4/5诱导剂，DDI远小于卡马西平 (1)。"
     },
     {
       "source": "奥卡西平 (口服常释剂型)",
       "target": "VSSC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钠通道)"
     },
     {
       "source": "奥卡西平 (口服常释剂型)",
       "target": "VSCC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钙通道) (7,8)"
     },
     {
       "source": "奥卡西平 (口服常释剂型)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥卡西平 (口服常释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥卡西平 (口服常释剂型)",
       "target": "HLA-B*1502",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "HLA-B*1502阳性者：与卡马西平有交叉过敏风险，显著增加SJS/TEN风险，应避免使用 (5, 6)。"
     },
     {
       "source": "卡马西平 (口服缓释剂型)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP3A4代谢为活性代谢物10,11-环氧化物。卡马西平是CYP3A4强诱导剂（自诱导+诱导其他药物代谢）(1)。"
     },
     {
       "source": "卡马西平 (口服缓释剂型)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卡马西平 (口服缓释剂型)",
       "target": "三叉神经痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卡马西平 (口服缓释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "拉莫三嗪 (口服缓释剂型)",
       "target": "葡萄糖醛酸化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经UGT1A4葡萄糖醛酸化代谢。丙戊酸抑制此过程使浓度升高约2倍 (1)。"
     },
     {
       "source": "拉莫三嗪 (口服缓释剂型)",
       "target": "UGT1A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经UGT1A4葡萄糖醛酸化代谢。丙戊酸抑制此过程使浓度升高约2倍 (1)。"
     },
     {
       "source": "拉莫三嗪 (口服缓释剂型)",
       "target": "双相障碍维持治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "拉莫三嗪 (口服缓释剂型)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "拉莫三嗪 (口服缓释剂型)",
       "target": "合用丙戊酸盐时",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥卡西平 (口服缓释剂型)",
       "target": "UGT",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "迅速还原为活性代谢物MHD（10-单羟基衍生物）。MHD经UGT葡萄糖醛酸化清除。弱CYP3A4/5诱导剂，DDI远小于卡马西平 (1)。"
     },
     {
       "source": "奥卡西平 (口服缓释剂型)",
       "target": "葡萄糖醛酸化",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "迅速还原为活性代谢物MHD（10-单羟基衍生物）。MHD经UGT葡萄糖醛酸化清除。弱CYP3A4/5诱导剂，DDI远小于卡马西平 (1)。"
     },
     {
       "source": "奥卡西平 (口服缓释剂型)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "迅速还原为活性代谢物MHD（10-单羟基衍生物）。MHD经UGT葡萄糖醛酸化清除。弱CYP3A4/5诱导剂，DDI远小于卡马西平 (1)。"
     },
     {
       "source": "奥卡西平 (口服缓释剂型)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "奥卡西平 (口服缓释剂型)",
       "target": "双相障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丙戊酸钠 (注射)",
       "target": "UGT",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "肝脏UGT葡萄糖醛酸结合及线粒体β氧化"
     },
     {
       "source": "丙戊酸钠 (注射)",
       "target": "癫痫发作/双相躁狂的静脉替代治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "托吡酯 (口服常释剂型)",
       "target": "VSSC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钠通道)"
     },
     {
       "source": "托吡酯 (口服常释剂型)",
       "target": "VSCC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钙通道) (5,6)"
     },
     {
       "source": "托吡酯 (口服常释剂型)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "托吡酯 (口服常释剂型)",
       "target": "偏头痛预防",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "托吡酯 (口服常释剂型)",
       "target": "双相障碍辅助",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "左乙拉西坦 (口服)",
       "target": "VSSC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钠通道)"
     },
     {
       "source": "左乙拉西坦 (口服)",
       "target": "VSCC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钙通道) (5,6)"
     },
     {
       "source": "左乙拉西坦 (口服)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "苯巴比妥 (口服)",
       "target": "CYP2C19",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2C19影响代谢 (4)。"
     },
     {
       "source": "苯巴比妥 (口服)",
       "target": "CYP2C9",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2C9、CYP2C19和CYP2E1代谢。苯巴比妥是强效广谱CYP诱导剂（诱导CYP1A2/2C/3A4等）(1)。"
     },
     {
       "source": "苯巴比妥 (口服)",
       "target": "CYP1A2",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2C9、CYP2C19和CYP2E1代谢。苯巴比妥是强效广谱CYP诱导剂（诱导CYP1A2/2C/3A4等）(1)。"
     },
     {
       "source": "苯巴比妥 (口服)",
       "target": "CYP2E1",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2C9、CYP2C19和CYP2E1代谢。苯巴比妥是强效广谱CYP诱导剂（诱导CYP1A2/2C/3A4等）(1)。"
     },
     {
       "source": "苯巴比妥 (口服)",
       "target": "VSSC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钠通道)"
     },
     {
       "source": "苯巴比妥 (口服)",
       "target": "VSCC",
       "relation": "结合_阻断",
-      "ki": ""
+      "detail": "阻断(电压敏感钙通道) (5,6)"
     },
     {
       "source": "苯巴比妥 (口服)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "苯巴比妥 (口服)",
       "target": "镇静",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "普瑞巴林 (口服)",
       "target": "α2δ钙通道亚基",
       "relation": "结合_结合",
-      "ki": 6.0
+      "ki": 6.0,
+      "detail": "高亲和力结合（Ki≈6nM），减少谷氨酸[redacted-path]"
     },
     {
       "source": "普瑞巴林 (口服)",
       "target": "广泛性焦虑障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "普瑞巴林 (口服)",
       "target": "神经病理性疼痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "普瑞巴林 (口服)",
       "target": "纤维肌痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "普瑞巴林 (口服)",
       "target": "癫痫辅助",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "苯巴比妥 (注射)",
       "target": "CYP2C19",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2C9、CYP2C19和CYP2E1代谢。苯巴比妥是强效广谱CYP诱导剂（诱导CYP1A2/2C/3A4等）(1)。"
     },
     {
       "source": "苯巴比妥 (注射)",
       "target": "CYP2C9",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2C9、CYP2C19和CYP2E1代谢。苯巴比妥是强效广谱CYP诱导剂（诱导CYP1A2/2C/3A4等）(1)。"
     },
     {
       "source": "苯巴比妥 (注射)",
       "target": "CYP1A2",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2C9、CYP2C19和CYP2E1代谢。苯巴比妥是强效广谱CYP诱导剂（诱导CYP1A2/2C/3A4等）(1)。"
     },
     {
       "source": "苯巴比妥 (注射)",
       "target": "CYP2E1",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "主要经CYP2C9、CYP2C19和CYP2E1代谢。苯巴比妥是强效广谱CYP诱导剂（诱导CYP1A2/2C/3A4等）(1)。"
     },
     {
       "source": "苯巴比妥 (注射)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "苯巴比妥 (注射)",
       "target": "镇静",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "左乙拉西坦 (注射)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "托吡酯 (口服缓释剂型)",
       "target": "癫痫",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "托吡酯 (口服缓释剂型)",
       "target": "偏头痛预防",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "托吡酯 (口服缓释剂型)",
       "target": "双相障碍辅助",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "哌甲酯 (口服常释剂型)",
       "target": "ADHD",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "安非他命 (口服常释剂型)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP2D6(部分), 主要经肾排泄(pH依赖性)"
     },
     {
       "source": "安非他命 (口服常释剂型)",
       "target": "ADHD",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "哌甲酯 (口服缓释剂型)",
       "target": "ADHD",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "哌甲酯 (透皮贴剂)",
       "target": "ADHD",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "安非他命 (口服缓释剂型)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP2D6(部分), 主要经肾排泄(pH依赖性)"
     },
     {
       "source": "安非他命 (口服缓释剂型)",
       "target": "ADHD",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "托莫西汀 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CPIC建议检测CYP2D6"
     },
     {
       "source": "托莫西汀 (口服)",
       "target": "ADHD",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "维洛沙秦 (口服)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP1A2(强抑制剂), CYP2D6, UGT1A9/2B15"
     },
     {
       "source": "维洛沙秦 (口服)",
       "target": "CYP1A2",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP1A2(强抑制剂), CYP2D6, UGT1A9/2B15"
     },
     {
       "source": "维洛沙秦 (口服)",
       "target": "UGT1A9",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP1A2(强抑制剂), CYP2D6, UGT1A9/2B15"
     },
     {
       "source": "维洛沙秦 (口服)",
       "target": "ADHD",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "可乐定 (口服常释剂型)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "约50%肝脏代谢(CYP2D6部分), 50%原形经肾排泄"
     },
     {
       "source": "可乐定 (口服常释剂型)",
       "target": "高血压",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "可乐定 (口服常释剂型)",
       "target": "ADHD辅助",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "胍法辛 (口服常释剂型)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要). 强CYP3A4抑制剂/诱导剂需调整剂量"
     },
     {
       "source": "胍法辛 (口服常释剂型)",
       "target": "高血压",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "胍法辛 (口服常释剂型)",
       "target": "ADHD",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "可乐定 (口服缓释剂型)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "约50%肝脏代谢(CYP2D6部分), 50%原形经肾排泄"
     },
     {
       "source": "可乐定 (口服缓释剂型)",
       "target": "高血压",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "可乐定 (口服缓释剂型)",
       "target": "ADHD辅助",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "可乐定 (透皮贴剂)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "约50%肝脏代谢(CYP2D6部分), 50%原形经肾排泄"
     },
     {
       "source": "可乐定 (透皮贴剂)",
       "target": "高血压",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "可乐定 (透皮贴剂)",
       "target": "ADHD辅助",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "胍法辛 (口服缓释剂型)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要). 强CYP3A4抑制剂/诱导剂需调整剂量"
     },
     {
       "source": "胍法辛 (口服缓释剂型)",
       "target": "高血压",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "胍法辛 (口服缓释剂型)",
       "target": "ADHD",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "加兰他敏 (口服)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP2D6, CYP3A4"
     },
     {
       "source": "加兰他敏 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP2D6, CYP3A4"
     },
     {
       "source": "加兰他敏 (口服)",
       "target": "轻至中度阿尔茨海默型痴呆",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卡巴拉汀 (口服)",
       "target": "轻至中度阿尔茨海默型痴呆",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卡巴拉汀 (口服)",
       "target": "帕金森病痴呆",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "多奈哌齐 (口服)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP2D6, CYP3A4"
     },
     {
       "source": "多奈哌齐 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP2D6, CYP3A4"
     },
     {
       "source": "多奈哌齐 (口服)",
       "target": "轻至中度阿尔茨海默型痴呆",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "多奈哌齐 (口服)",
       "target": "中至重度阿尔茨海默型痴呆",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卡巴拉汀 (透皮贴剂)",
       "target": "轻至中度阿尔茨海默型痴呆",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "卡巴拉汀 (透皮贴剂)",
       "target": "帕金森病痴呆",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "美金刚 (口服常释剂型)",
       "target": "中至重度阿尔茨海默型痴呆",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "美金刚 (口服缓释剂型)",
       "target": "中至重度阿尔茨海默型痴呆",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "双硫仑 (口服)",
       "target": "CYP2E1",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "不可逆抑制乙醛脱氢酶(ALDH)。同时抑制CYP2E1"
     },
     {
       "source": "双硫仑 (口服)",
       "target": "慢性酒精依赖的辅助治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "阿坎酸 (口服)",
       "target": "酒精依赖维持戒断",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丁丙诺啡 (舌下片/口腔膜)",
       "target": "CYP2C8",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要), CYP2C8. 与纳洛酮复方(Suboxone)减少注射滥用"
     },
     {
       "source": "丁丙诺啡 (舌下片/口腔膜)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要), CYP2C8. 与纳洛酮复方(Suboxone)减少注射滥用"
     },
     {
       "source": "丁丙诺啡 (舌下片/口腔膜)",
       "target": "阿片类药物使用障碍维持治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丁丙诺啡 (舌下片/口腔膜)",
       "target": "中重度慢性疼痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "纳曲酮 (口服)",
       "target": "酒精依赖",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "纳曲酮 (口服)",
       "target": "阿片依赖",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "美沙酮 (口服)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要), CYP2B6, CYP2D6. 药物相互作用复杂"
     },
     {
       "source": "美沙酮 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要), CYP2B6, CYP2D6. 药物相互作用复杂"
     },
     {
       "source": "美沙酮 (口服)",
       "target": "CYP2B6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要), CYP2B6, CYP2D6. 药物相互作用复杂"
     },
     {
       "source": "美沙酮 (口服)",
       "target": "阿片类药物使用障碍维持治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "美沙酮 (口服)",
       "target": "中重度慢性疼痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丁丙诺啡 (长效注射)",
       "target": "CYP2C8",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要), CYP2C8. 与纳洛酮复方(Suboxone)减少注射滥用"
     },
     {
       "source": "丁丙诺啡 (长效注射)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要), CYP2C8. 与纳洛酮复方(Suboxone)减少注射滥用"
     },
     {
       "source": "丁丙诺啡 (长效注射)",
       "target": "阿片类药物使用障碍维持治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丁丙诺啡 (长效注射)",
       "target": "中重度慢性疼痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丁丙诺啡 (透皮贴剂)",
       "target": "CYP2C8",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要), CYP2C8. 与纳洛酮复方(Suboxone)减少注射滥用"
     },
     {
       "source": "丁丙诺啡 (透皮贴剂)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要), CYP2C8. 与纳洛酮复方(Suboxone)减少注射滥用"
     },
     {
       "source": "丁丙诺啡 (透皮贴剂)",
       "target": "阿片类药物使用障碍维持治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "丁丙诺啡 (透皮贴剂)",
       "target": "中重度慢性疼痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "纳曲酮 (长效注射)",
       "target": "酒精依赖",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "纳曲酮 (长效注射)",
       "target": "阿片依赖",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "美沙酮 (注射)",
       "target": "CYP2D6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要), CYP2B6, CYP2D6. 药物相互作用复杂"
     },
     {
       "source": "美沙酮 (注射)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要), CYP2B6, CYP2D6. 药物相互作用复杂"
     },
     {
       "source": "美沙酮 (注射)",
       "target": "CYP2B6",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4(主要), CYP2B6, CYP2D6. 药物相互作用复杂"
     },
     {
       "source": "美沙酮 (注射)",
       "target": "阿片类药物使用障碍维持治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "美沙酮 (注射)",
       "target": "中重度慢性疼痛",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "伐尼克兰 (口服)",
       "target": "戒烟辅助治疗",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "缬苯那嗪 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)：最大推荐剂量限制为 40 mg/d (1)。"
     },
     {
       "source": "缬苯那嗪 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "经CYP3A4/5水解，然后经CYP2D6代谢为活性代谢物 (1)。"
     },
     {
       "source": "缬苯那嗪 (口服)",
       "target": "VMAT2",
       "relation": "结合_抑制",
-      "ki": 150.0
+      "ki": 150.0,
+      "detail": "Ki≈150nM（可逆性抑制剂）"
     },
     {
       "source": "缬苯那嗪 (口服)",
       "target": "迟发性运动障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氘丁苯那嗪 (口服)",
       "target": "CYP2D6",
-      "relation": "基因关联"
+      "relation": "基因关联",
+      "detail": "CYP2D6慢代谢者(PM)暴露量显著增加，最大推荐剂量限制为36 mg/d（即18 mg BID） (1)。"
     },
     {
       "source": "氘丁苯那嗪 (口服)",
       "target": "VMAT2",
       "relation": "结合_抑制",
-      "ki": 100.0
+      "ki": 100.0,
+      "detail": "Ki≈100nM（可逆性抑制剂）"
     },
     {
       "source": "氘丁苯那嗪 (口服)",
       "target": "迟发性运动障碍",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氘丁苯那嗪 (口服)",
       "target": "亨廷顿舞蹈症相关舞蹈运动",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "氨磺必利 (短效静脉针剂)",
       "target": "D2受体",
       "relation": "结合_拮抗",
-      "ki": 2.8
+      "ki": 2.8,
+      "detail": "Ki≈2.8nM（高亲和力拮抗）"
     },
     {
       "source": "氨磺必利 (短效静脉针剂)",
       "target": "D3受体",
       "relation": "结合_拮抗",
-      "ki": 3.2
+      "ki": 3.2,
+      "detail": "Ki≈3.2nM（高亲和力拮抗）"
     },
     {
       "source": "氨磺必利 (短效静脉针剂)",
       "target": "5-HT7受体",
       "relation": "结合_拮抗",
-      "ki": 11.5
+      "ki": 11.5,
+      "detail": "Ki≈11.5nM（拮抗，与抗抑郁作用相关）"
     },
     {
       "source": "氨磺必利 (短效静脉针剂)",
-      "target": "术后恶心呕吐  的预防与治疗",
-      "relation": "治疗"
+      "target": "术后恶心呕吐 的预防与治疗",
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     },
     {
       "source": "匹马吉林 (口服)",
       "target": "CYP3A5",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4 和 CYP3A5"
     },
     {
       "source": "匹马吉林 (口服)",
       "target": "CYP3A4",
-      "relation": "代谢_经由"
+      "relation": "代谢_经由",
+      "detail": "CYP3A4 和 CYP3A5"
     },
     {
       "source": "匹马吉林 (口服)",
       "target": "帕金森病精神病性障碍相关的幻觉和妄想",
-      "relation": "治疗"
+      "relation": "治疗",
+      "nmpa": true,
+      "fda": true
     }
   ]
 }

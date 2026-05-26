@@ -3,15 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>精神科药物知识图谱</title>
+  <title>Psychiatric Drug Knowledge Graph</title>
   <style>
     :root {
       --bg: #0b1220;
       --panel: #111a2b;
-      --line: #24324a;
+      --line: #22324b;
       --text: #dbe7ff;
-      --muted: #8fa3c8;
-      --accent: #5b8cff;
+      --muted: #90a5cb;
+      --accent: #5f8eff;
+      --chip: #0f182b;
+      --chip-on: #1b2d4f;
     }
     * { box-sizing: border-box; }
     body {
@@ -24,7 +26,7 @@
     }
     .layout {
       display: grid;
-      grid-template-columns: 320px 1fr;
+      grid-template-columns: 360px 1fr;
       height: 100vh;
     }
     .sidebar {
@@ -34,63 +36,136 @@
       overflow: auto;
     }
     .title {
-      font-weight: 700;
       font-size: 18px;
-      margin: 2px 0 10px;
+      font-weight: 700;
+      margin: 4px 0 4px;
     }
     .meta {
-      font-size: 12px;
       color: var(--muted);
-      margin-bottom: 10px;
+      font-size: 12px;
       line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    .control {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+    }
+    .label {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 6px;
+      letter-spacing: 0.4px;
     }
     .input {
       width: 100%;
-      border: 1px solid #2f4366;
-      background: #0a1321;
+      border: 1px solid #304462;
+      border-radius: 8px;
+      background: #0a1322;
       color: var(--text);
       padding: 8px 10px;
-      border-radius: 8px;
       outline: none;
     }
     .input:focus { border-color: var(--accent); }
-    .group-title {
-      margin: 12px 0 8px;
-      font-size: 12px;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 1px;
+    .range-wrap {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+      align-items: center;
     }
-    .type-list {
+    .range-wrap input[type="range"] { width: 100%; }
+    .range-val { color: #bcd0f5; font-size: 12px; min-width: 14px; text-align: right; }
+    .chip-grid {
       display: flex;
       flex-wrap: wrap;
       gap: 6px;
     }
     .chip {
-      border: 1px solid #30415f;
+      border: 1px solid #324765;
       border-radius: 999px;
-      font-size: 12px;
       padding: 4px 10px;
+      background: var(--chip);
+      color: #d0dffa;
+      font-size: 12px;
       cursor: pointer;
-      color: var(--text);
-      background: #121d31;
       user-select: none;
     }
-    .chip.off {
-      opacity: 0.45;
-      background: #0f1728;
+    .chip.on {
+      background: var(--chip-on);
+      border-color: #4c71ac;
+      color: #e7f0ff;
     }
-    .detail {
+    .row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-top: 8px;
+    }
+    .btn {
+      border: 1px solid #35507a;
+      background: #11203a;
+      color: #dbe7ff;
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .btn:hover { background: #17315a; }
+    .checkbox {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #c5d6f4;
+      font-size: 12px;
+    }
+    .details {
       margin-top: 12px;
       border-top: 1px solid var(--line);
       padding-top: 10px;
-      font-size: 13px;
-      line-height: 1.5;
-      color: #d3def4;
+      font-size: 12px;
+      line-height: 1.55;
+      color: #d6e3fa;
       word-break: break-word;
     }
-    .detail .k { color: var(--muted); }
-    .canvas-wrap {
+    .d-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: #e9f1ff;
+    }
+    .d-type {
+      color: #9fb4d8;
+      margin-bottom: 8px;
+    }
+    .kv {
+      margin: 4px 0;
+    }
+    .k {
+      color: var(--muted);
+      margin-right: 6px;
+    }
+    .rel-list {
+      margin-top: 8px;
+      display: grid;
+      gap: 6px;
+    }
+    .rel-item {
+      border: 1px solid #2e4263;
+      border-radius: 8px;
+      padding: 6px 8px;
+      background: #0f182a;
+      cursor: pointer;
+    }
+    .rel-item:hover { border-color: #567fbf; }
+    .rel-head {
+      color: #d9e8ff;
+      margin-bottom: 3px;
+    }
+    .rel-meta {
+      color: #9bb0d2;
+      font-size: 11px;
+    }
+    .canvas {
       position: relative;
       height: 100vh;
     }
@@ -99,291 +174,579 @@
       height: 100%;
       display: block;
     }
-    .help {
+    .hud {
       position: absolute;
-      right: 10px;
-      top: 10px;
+      right: 12px;
+      top: 12px;
+      z-index: 10;
       font-size: 12px;
-      color: #b4c6ea;
-      background: rgba(11, 18, 32, 0.72);
-      border: 1px solid #2c3c5a;
+      color: #c9daf6;
+      background: rgba(10, 18, 33, 0.8);
+      border: 1px solid #2a3f61;
       border-radius: 8px;
       padding: 8px 10px;
       backdrop-filter: blur(6px);
+      line-height: 1.5;
+    }
+    .tooltip {
+      position: fixed;
+      pointer-events: none;
+      background: rgba(15, 24, 41, 0.96);
+      border: 1px solid #3a5480;
+      border-radius: 8px;
+      color: #e8f2ff;
+      padding: 8px 10px;
+      font-size: 12px;
+      max-width: 360px;
+      line-height: 1.5;
+      z-index: 9999;
+      opacity: 0;
+      transform: translateY(4px);
+      transition: opacity 120ms ease, transform 120ms ease;
+    }
+    .tooltip.show {
+      opacity: 1;
+      transform: translateY(0);
     }
   </style>
 </head>
 <body>
   <div class="layout">
     <aside class="sidebar">
-      <div class="title">精神科药物知识图谱</div>
-      <div class="meta" id="meta">加载中...</div>
-      <input id="search" class="input" placeholder="搜索药物/靶点/疾病..." />
-      <div class="group-title">节点类型筛选</div>
-      <div id="types" class="type-list"></div>
-      <div class="detail" id="detail">
-        点击图中的节点查看详情
+      <div class="title">Psychiatric Drug Graph</div>
+      <div id="meta" class="meta">Loading…</div>
+
+      <div class="control">
+        <div class="label">Search</div>
+        <input id="search" class="input" placeholder="Drug / Target / Disease / Gene" />
       </div>
+
+      <div class="control">
+        <div class="label">Neighborhood hops (for search/selection)</div>
+        <div class="range-wrap">
+          <input id="hops" type="range" min="1" max="3" step="1" value="2" />
+          <span id="hops-val" class="range-val">2</span>
+        </div>
+      </div>
+
+      <div class="control">
+        <div class="label">Node types</div>
+        <div id="type-chips" class="chip-grid"></div>
+      </div>
+
+      <div class="control">
+        <div class="label">Relations</div>
+        <div id="rel-chips" class="chip-grid"></div>
+      </div>
+
+      <div class="control">
+        <div class="row">
+          <label class="checkbox">
+            <input id="show-labels" type="checkbox" checked />
+            Show labels (drug and selected neighbors)
+          </label>
+        </div>
+        <div class="row">
+          <button id="reset-btn" class="btn">Reset view</button>
+        </div>
+      </div>
+
+      <div id="details" class="details">Click a node to view details.</div>
     </aside>
-    <main class="canvas-wrap">
+
+    <main class="canvas">
       <svg id="graph"></svg>
-      <div class="help">拖动节点；滚轮缩放；单击节点高亮邻居</div>
+      <div id="hud" class="hud">
+        Nodes: 0<br />
+        Edges: 0
+      </div>
     </main>
   </div>
 
+  <div id="tooltip" class="tooltip"></div>
+
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script>
-    const typeColors = {
-      "药物": "#7aa6ff",
-      "疾病/适应症": "#f8c95f",
-      "受体/靶点": "#f78bc4",
-      "代谢酶": "#5fd4b4",
-      "基因": "#ff9562",
-      "特殊人群": "#69c7ff"
+    const TYPE_COLORS = {
+      "药物": "#79a5ff",
+      "疾病/适应症": "#f8c760",
+      "受体/靶点": "#f48bc2",
+      "代谢酶": "#5ed3b2",
+      "基因": "#ff9561",
+      "特殊人群": "#72c8ff"
+    };
+
+    const REL_COLORS = {
+      "代谢_经由": "#5ed3b2",
+      "治疗": "#f8c760",
+      "基因关联": "#ff9561",
+      "特殊人群_注意": "#72c8ff"
     };
 
     const state = {
       raw: null,
-      nodes: [],
-      edges: [],
+      visibleNodes: [],
+      visibleEdges: [],
+      nodeMap: new Map(),
       activeTypes: new Set(),
+      activeRels: new Set(),
+      selectedNodeId: null,
       search: "",
-      selected: null
+      hops: 2,
+      showLabels: true
     };
 
     const metaEl = document.getElementById("meta");
-    const typeEl = document.getElementById("types");
-    const detailEl = document.getElementById("detail");
+    const hudEl = document.getElementById("hud");
+    const detailsEl = document.getElementById("details");
+    const typeChipsEl = document.getElementById("type-chips");
+    const relChipsEl = document.getElementById("rel-chips");
     const searchEl = document.getElementById("search");
+    const hopsEl = document.getElementById("hops");
+    const hopsValEl = document.getElementById("hops-val");
+    const showLabelsEl = document.getElementById("show-labels");
+    const resetBtn = document.getElementById("reset-btn");
+    const tooltipEl = document.getElementById("tooltip");
+
     const svg = d3.select("#graph");
     const g = svg.append("g");
+    const linkLayer = g.append("g");
+    const nodeLayer = g.append("g");
+    const labelLayer = g.append("g");
 
     const zoom = d3.zoom().scaleExtent([0.2, 5]).on("zoom", (event) => {
       g.attr("transform", event.transform);
     });
     svg.call(zoom);
 
-    const linkLayer = g.append("g");
-    const nodeLayer = g.append("g");
-    const labelLayer = g.append("g");
-
-    function colorForType(type) {
-      return typeColors[type] || "#9db2d8";
-    }
-
-    function safeStr(v) {
+    function safe(v) {
       return String(v == null ? "" : v);
     }
 
-    function renderDetail(node, neighbors) {
-      if (!node) {
-        detailEl.textContent = "点击图中的节点查看详情";
-        return;
-      }
-      const rows = [
-        `<div><span class="k">名称：</span>${safeStr(node.id)}</div>`,
-        `<div><span class="k">类型：</span>${safeStr(node.type)}</div>`,
-        `<div><span class="k">分类：</span>${safeStr(node.category || "-")}</div>`,
-        `<div><span class="k">英文名：</span>${safeStr(node.name_en || "-")}</div>`,
-        `<div><span class="k">邻接节点：</span>${neighbors.length}</div>`
-      ];
-      detailEl.innerHTML = rows.join("");
+    function ellipsis(v, n = 120) {
+      const s = safe(v).trim();
+      if (!s) return "";
+      return s.length > n ? s.slice(0, n - 1).trim() + "…" : s;
     }
 
-    function buildTypeFilters(types) {
-      typeEl.innerHTML = "";
-      types.forEach((t) => {
+    function relColor(rel) {
+      if (REL_COLORS[rel]) return REL_COLORS[rel];
+      if (rel.startsWith("结合_")) return "#9e89ff";
+      return "#7f95bd";
+    }
+
+    function typeColor(type) {
+      return TYPE_COLORS[type] || "#95abcf";
+    }
+
+    function buildChips(container, entries, activeSet, onChange, colorFn) {
+      container.innerHTML = "";
+      entries.forEach((entry) => {
+        const key = entry.key;
         const chip = document.createElement("button");
-        chip.className = "chip";
-        chip.textContent = t;
-        chip.style.borderColor = colorForType(t);
+        chip.className = "chip on";
+        chip.style.borderColor = colorFn(key);
+        chip.textContent = `${key} (${entry.count})`;
         chip.onclick = () => {
-          if (state.activeTypes.has(t)) {
-            state.activeTypes.delete(t);
-            chip.classList.add("off");
+          if (activeSet.has(key)) {
+            activeSet.delete(key);
+            chip.classList.remove("on");
           } else {
-            state.activeTypes.add(t);
-            chip.classList.remove("off");
+            activeSet.add(key);
+            chip.classList.add("on");
           }
-          update();
+          onChange();
         };
-        typeEl.appendChild(chip);
+        container.appendChild(chip);
       });
     }
 
-    function filteredData() {
-      const q = state.search.trim().toLowerCase();
-      const typeSet = state.activeTypes;
-      const nodes = state.raw.nodes.filter((n) => typeSet.has(n.type));
-      const idSet = new Set(nodes.map((n) => n.id));
+    function nodeMatchesQuery(node, queryLower) {
+      const blob = [
+        node.id,
+        node.type,
+        node.category,
+        node.name_en,
+        node.half_life,
+        node.tmax,
+        node.tdm_range,
+        node.tdm_alert,
+        node.bbw
+      ].map(safe).join(" ").toLowerCase();
+      return blob.includes(queryLower);
+    }
 
-      let edges = state.raw.edges.filter((e) => idSet.has(e.source) && idSet.has(e.target));
-      if (q) {
-        const hitNodeIds = new Set(
-          nodes
-            .filter((n) => (safeStr(n.id) + " " + safeStr(n.name_en) + " " + safeStr(n.category)).toLowerCase().includes(q))
-            .map((n) => n.id)
-        );
-        edges = edges.filter((e) => hitNodeIds.has(e.source) || hitNodeIds.has(e.target));
-        const keep = new Set();
-        edges.forEach((e) => { keep.add(e.source); keep.add(e.target); });
-        return {
-          nodes: nodes.filter((n) => keep.has(n.id)),
-          edges
-        };
+    function buildAdjacency(edges) {
+      const adj = new Map();
+      for (const e of edges) {
+        if (!adj.has(e.source)) adj.set(e.source, new Set());
+        if (!adj.has(e.target)) adj.set(e.target, new Set());
+        adj.get(e.source).add(e.target);
+        adj.get(e.target).add(e.source);
       }
+      return adj;
+    }
+
+    function bfsNeighborhood(seeds, adj, hops) {
+      const keep = new Set(seeds);
+      let frontier = new Set(seeds);
+      for (let h = 0; h < hops; h += 1) {
+        const next = new Set();
+        for (const id of frontier) {
+          const neighbors = adj.get(id);
+          if (!neighbors) continue;
+          for (const n of neighbors) {
+            if (!keep.has(n)) next.add(n);
+          }
+        }
+        if (next.size === 0) break;
+        for (const n of next) keep.add(n);
+        frontier = next;
+      }
+      return keep;
+    }
+
+    function computeVisible() {
+      const query = state.search.trim().toLowerCase();
+      const allNodes = state.raw.nodes.filter((n) => state.activeTypes.has(n.type));
+      const allNodeIds = new Set(allNodes.map((n) => n.id));
+
+      let allEdges = state.raw.edges.filter((e) =>
+        state.activeRels.has(e.relation) &&
+        allNodeIds.has(e.source) &&
+        allNodeIds.has(e.target)
+      );
+
+      let seeds = [];
+      if (state.selectedNodeId && allNodeIds.has(state.selectedNodeId)) {
+        seeds = [state.selectedNodeId];
+      } else if (query) {
+        seeds = allNodes.filter((n) => nodeMatchesQuery(n, query)).map((n) => n.id);
+      }
+
+      let keepIds;
+      if (seeds.length > 0) {
+        const adj = buildAdjacency(allEdges);
+        keepIds = bfsNeighborhood(seeds, adj, state.hops);
+      } else if (query) {
+        keepIds = new Set();
+      } else {
+        keepIds = allNodeIds;
+      }
+
+      const nodes = allNodes.filter((n) => keepIds.has(n.id));
+      const nodeSet = new Set(nodes.map((n) => n.id));
+      const edges = allEdges.filter((e) => nodeSet.has(e.source) && nodeSet.has(e.target));
       return { nodes, edges };
     }
 
-    let simulation;
-    function update() {
-      const data = filteredData();
-      state.nodes = data.nodes.map((n) => ({ ...n }));
-      state.edges = data.edges.map((e) => ({ ...e }));
+    function renderDetails(node) {
+      if (!node) {
+        detailsEl.textContent = "Click a node to view details.";
+        return;
+      }
 
-      metaEl.innerHTML =
-        `总节点：${state.raw.nodes.length} / 当前：${state.nodes.length}<br>` +
-        `总关系：${state.raw.edges.length} / 当前：${state.edges.length}`;
+      const edges = state.visibleEdges.filter((e) => e.source === node.id || e.target === node.id);
+      const rows = [];
+      rows.push(`<div class="d-title">${safe(node.id)}</div>`);
+      rows.push(`<div class="d-type">${safe(node.type)}${node.category ? " · " + safe(node.category) : ""}</div>`);
+      if (node.name_en) rows.push(`<div class="kv"><span class="k">EN</span>${safe(node.name_en)}</div>`);
+      if (node.half_life) rows.push(`<div class="kv"><span class="k">Half-life</span>${safe(node.half_life)}</div>`);
+      if (node.tmax) rows.push(`<div class="kv"><span class="k">Tmax</span>${safe(node.tmax)}</div>`);
+      if (node.tdm_range) rows.push(`<div class="kv"><span class="k">TDM range</span>${safe(node.tdm_range)}</div>`);
+      if (node.tdm_alert) rows.push(`<div class="kv"><span class="k">TDM alert</span>${safe(node.tdm_alert)}</div>`);
+      if (node.bbw) rows.push(`<div class="kv"><span class="k">BBW</span>${safe(node.bbw)}</div>`);
+      rows.push(`<div class="kv"><span class="k">Visible relations</span>${edges.length}</div>`);
 
-      const nodeById = new Map(state.nodes.map((n) => [n.id, n]));
-      const edgeData = state.edges.filter((e) => nodeById.has(e.source) && nodeById.has(e.target));
+      const relHtml = edges
+        .slice(0, 30)
+        .map((e) => {
+          const other = e.source === node.id ? e.target : e.source;
+          const dir = e.source === node.id ? "→" : "←";
+          const ki = e.ki !== undefined ? ` | Ki=${safe(e.ki)}` : "";
+          const ap = (e.nmpa !== undefined || e.fda !== undefined)
+            ? ` | NMPA=${safe(e.nmpa)} FDA=${safe(e.fda)}`
+            : "";
+          const detail = e.detail ? `<div class="rel-meta">${ellipsis(e.detail, 180)}</div>` : "";
+          return `<div class="rel-item" data-target="${safe(other)}">
+            <div class="rel-head">${safe(node.id)} ${dir} [${safe(e.relation)}] ${safe(other)}</div>
+            <div class="rel-meta">${ki}${ap}</div>
+            ${detail}
+          </div>`;
+        }).join("");
 
-      const links = linkLayer.selectAll("line").data(edgeData, (d) => `${d.source}|${d.target}|${d.relation}`);
-      links.exit().remove();
-      const linkEnter = links.enter().append("line")
-        .attr("stroke", "#314868")
-        .attr("stroke-opacity", 0.35)
-        .attr("stroke-width", 1.1);
-      const linkMerge = linkEnter.merge(links);
+      rows.push(`<div class="rel-list">${relHtml || "<div class='rel-meta'>No relation in current filtered view.</div>"}</div>`);
+      detailsEl.innerHTML = rows.join("");
 
-      const nodes = nodeLayer.selectAll("circle").data(state.nodes, (d) => d.id);
-      nodes.exit().remove();
-      const nodeEnter = nodes.enter().append("circle")
-        .attr("r", (d) => d.type === "药物" ? 6 : 4.2)
-        .attr("fill", (d) => colorForType(d.type))
-        .attr("stroke", "#0a1321")
-        .attr("stroke-width", 1.2)
-        .on("click", (event, d) => {
-          event.stopPropagation();
-          state.selected = d.id;
-          const neighbors = edgeData
-            .filter((e) => e.source === d.id || e.target === d.id)
-            .map((e) => e.source === d.id ? e.target : e.source);
-          renderDetail(d, neighbors);
-          paintHighlight();
-        })
-        .call(
-          d3.drag()
-            .on("start", dragStart)
-            .on("drag", dragged)
-            .on("end", dragEnd)
-        );
-      const nodeMerge = nodeEnter.merge(nodes);
-
-      const labels = labelLayer.selectAll("text").data(state.nodes.filter((d) => d.type === "药物"), (d) => d.id);
-      labels.exit().remove();
-      const labelEnter = labels.enter().append("text")
-        .text((d) => d.id)
-        .attr("font-size", 9)
-        .attr("fill", "#b7c8ea")
-        .attr("pointer-events", "none");
-      const labelMerge = labelEnter.merge(labels);
-
-      simulation = d3.forceSimulation(state.nodes)
-        .force("link", d3.forceLink(edgeData).id((d) => d.id).distance((d) => d.relation.startsWith("结合_") ? 52 : 70))
-        .force("charge", d3.forceManyBody().strength(-58))
-        .force("center", d3.forceCenter(window.innerWidth * 0.35, window.innerHeight * 0.5))
-        .force("collide", d3.forceCollide().radius((d) => (d.type === "药物" ? 12 : 8)))
-        .on("tick", () => {
-          linkMerge
-            .attr("x1", (d) => d.source.x)
-            .attr("y1", (d) => d.source.y)
-            .attr("x2", (d) => d.target.x)
-            .attr("y2", (d) => d.target.y);
-          nodeMerge
-            .attr("cx", (d) => d.x)
-            .attr("cy", (d) => d.y);
-          labelMerge
-            .attr("x", (d) => d.x + 7)
-            .attr("y", (d) => d.y - 7);
+      detailsEl.querySelectorAll(".rel-item").forEach((el) => {
+        el.addEventListener("click", () => {
+          const target = el.getAttribute("data-target");
+          if (target && state.nodeMap.has(target)) {
+            state.selectedNodeId = target;
+            updateGraph();
+          }
         });
-
-      paintHighlight();
+      });
     }
 
-    function paintHighlight() {
-      const selected = state.selected;
-      const edgeKeys = new Set();
+    function showTooltip(html, x, y) {
+      tooltipEl.innerHTML = html;
+      tooltipEl.style.left = `${x + 12}px`;
+      tooltipEl.style.top = `${y + 12}px`;
+      tooltipEl.classList.add("show");
+    }
+    function hideTooltip() {
+      tooltipEl.classList.remove("show");
+    }
+
+    function applyHighlight() {
+      const selected = state.selectedNodeId;
+      const edgeKey = new Set();
       if (selected) {
-        state.edges.forEach((e) => {
+        state.visibleEdges.forEach((e) => {
           if (e.source === selected || e.target === selected) {
-            edgeKeys.add(`${e.source}|${e.target}|${e.relation}`);
+            edgeKey.add(`${e.source}|${e.target}|${e.relation}`);
           }
         });
       }
+
       linkLayer.selectAll("line")
-        .attr("stroke-opacity", (d) => !selected ? 0.35 : (edgeKeys.has(`${d.source}|${d.target}|${d.relation}`) ? 0.9 : 0.08))
-        .attr("stroke", (d) => !selected ? "#314868" : (edgeKeys.has(`${d.source}|${d.target}|${d.relation}`) ? "#7aa6ff" : "#314868"));
+        .attr("stroke-opacity", (d) => !selected ? 0.38 : (edgeKey.has(`${d.source.id}|${d.target.id}|${d.relation}`) ? 0.95 : 0.08))
+        .attr("stroke-width", (d) => !selected ? 1.1 : (edgeKey.has(`${d.source.id}|${d.target.id}|${d.relation}`) ? 1.8 : 1.0));
+
       nodeLayer.selectAll("circle")
         .attr("opacity", (d) => {
           if (!selected) return 1;
           if (d.id === selected) return 1;
-          for (const e of state.edges) {
+          for (const e of state.visibleEdges) {
             if ((e.source === selected && e.target === d.id) || (e.target === selected && e.source === d.id)) {
               return 1;
             }
           }
           return 0.2;
-        });
+        })
+        .attr("stroke-width", (d) => d.id === selected ? 2.2 : 1.0);
     }
 
-    function dragStart(event, d) {
-      if (!event.active) simulation.alphaTarget(0.3).restart();
-      d.fx = d.x;
-      d.fy = d.y;
-    }
-    function dragged(event, d) {
-      d.fx = event.x;
-      d.fy = event.y;
-    }
-    function dragEnd(event, d) {
-      if (!event.active) simulation.alphaTarget(0);
-      d.fx = null;
-      d.fy = null;
-    }
+    let simulation = null;
+    function updateGraph() {
+      const { nodes, edges } = computeVisible();
+      state.visibleNodes = nodes;
+      state.visibleEdges = edges;
+      state.nodeMap = new Map(nodes.map((n) => [n.id, n]));
 
-    searchEl.addEventListener("input", (e) => {
-      state.search = e.target.value || "";
-      update();
-    });
-    svg.on("click", () => {
-      state.selected = null;
-      renderDetail(null, []);
-      paintHighlight();
-    });
-
-    window.addEventListener("resize", () => {
-      if (simulation) {
-        simulation.force("center", d3.forceCenter(window.innerWidth * 0.35, window.innerHeight * 0.5));
-        simulation.alpha(0.25).restart();
+      if (state.selectedNodeId && !state.nodeMap.has(state.selectedNodeId)) {
+        state.selectedNodeId = null;
       }
-    });
+
+      hudEl.innerHTML = `Nodes: ${nodes.length}<br>Edges: ${edges.length}`;
+      renderDetails(state.selectedNodeId ? state.nodeMap.get(state.selectedNodeId) : null);
+
+      const nodeData = nodes.map((n) => ({ ...n }));
+      const linksData = edges.map((e) => ({ ...e }));
+
+      const links = linkLayer.selectAll("line")
+        .data(linksData, (d) => `${d.source}|${d.target}|${d.relation}`);
+      links.exit().remove();
+      const linksEnter = links.enter().append("line")
+        .attr("stroke", (d) => relColor(d.relation))
+        .attr("stroke-opacity", 0.38)
+        .attr("stroke-width", 1.1)
+        .on("mousemove", (event, d) => {
+          const extra = [];
+          if (d.ki !== undefined) extra.push(`Ki=${safe(d.ki)}`);
+          if (d.nmpa !== undefined || d.fda !== undefined) extra.push(`NMPA=${safe(d.nmpa)} FDA=${safe(d.fda)}`);
+          const detail = d.detail ? `<div>${ellipsis(d.detail, 220)}</div>` : "";
+          showTooltip(
+            `<div><b>${safe(d.relation)}</b></div>
+             <div>${safe(d.source)} → ${safe(d.target)}</div>
+             <div>${extra.join(" | ")}</div>${detail}`,
+            event.clientX, event.clientY
+          );
+        })
+        .on("mouseleave", hideTooltip);
+      const linksMerge = linksEnter.merge(links)
+        .attr("stroke", (d) => relColor(d.relation));
+
+      const nodesSel = nodeLayer.selectAll("circle")
+        .data(nodeData, (d) => d.id);
+      nodesSel.exit().remove();
+      const nodesEnter = nodesSel.enter().append("circle")
+        .attr("r", (d) => d.type === "药物" ? 6.5 : 4.5)
+        .attr("fill", (d) => typeColor(d.type))
+        .attr("stroke", "#0a1322")
+        .attr("stroke-width", 1.0)
+        .on("click", (event, d) => {
+          event.stopPropagation();
+          state.selectedNodeId = d.id;
+          updateGraph();
+        })
+        .on("mousemove", (event, d) => {
+          showTooltip(
+            `<div><b>${safe(d.id)}</b></div>
+             <div>${safe(d.type)}${d.category ? " · " + safe(d.category) : ""}</div>
+             ${d.name_en ? `<div>${safe(d.name_en)}</div>` : ""}`,
+            event.clientX, event.clientY
+          );
+        })
+        .on("mouseleave", hideTooltip)
+        .call(
+          d3.drag()
+            .on("start", (event, d) => {
+              if (!event.active && simulation) simulation.alphaTarget(0.3).restart();
+              d.fx = d.x;
+              d.fy = d.y;
+            })
+            .on("drag", (event, d) => {
+              d.fx = event.x;
+              d.fy = event.y;
+            })
+            .on("end", (event, d) => {
+              if (!event.active && simulation) simulation.alphaTarget(0);
+              d.fx = null;
+              d.fy = null;
+            })
+        );
+      const nodesMerge = nodesEnter.merge(nodesSel);
+
+      const labels = labelLayer.selectAll("text")
+        .data(
+          nodeData.filter((d) => {
+            if (!state.showLabels) return false;
+            if (d.type === "药物") return true;
+            if (!state.selectedNodeId) return false;
+            return edges.some((e) =>
+              (e.source === state.selectedNodeId && e.target === d.id) ||
+              (e.target === state.selectedNodeId && e.source === d.id)
+            );
+          }),
+          (d) => d.id
+        );
+      labels.exit().remove();
+      const labelsEnter = labels.enter().append("text")
+        .attr("font-size", 9)
+        .attr("fill", "#c2d5f5")
+        .attr("pointer-events", "none")
+        .text((d) => d.id);
+      const labelsMerge = labelsEnter.merge(labels);
+
+      if (simulation) simulation.stop();
+      simulation = d3.forceSimulation(nodeData)
+        .force("link", d3.forceLink(linksData).id((d) => d.id).distance((d) => d.relation.startsWith("结合_") ? 52 : 72))
+        .force("charge", d3.forceManyBody().strength(-80))
+        .force("center", d3.forceCenter(window.innerWidth * 0.35, window.innerHeight * 0.5))
+        .force("collide", d3.forceCollide().radius((d) => d.type === "药物" ? 12 : 8))
+        .on("tick", () => {
+          linksMerge
+            .attr("x1", (d) => d.source.x)
+            .attr("y1", (d) => d.source.y)
+            .attr("x2", (d) => d.target.x)
+            .attr("y2", (d) => d.target.y);
+
+          nodesMerge
+            .attr("cx", (d) => d.x)
+            .attr("cy", (d) => d.y);
+
+          labelsMerge
+            .attr("x", (d) => d.x + 7)
+            .attr("y", (d) => d.y - 6);
+        });
+
+      applyHighlight();
+    }
+
+    function setupControls() {
+      searchEl.addEventListener("input", (e) => {
+        state.search = e.target.value || "";
+        if (!state.search.trim()) {
+          // keep selection if query cleared
+        } else {
+          // query mode should not be blocked by stale non-visible selection
+          if (state.selectedNodeId && !state.nodeMap.has(state.selectedNodeId)) {
+            state.selectedNodeId = null;
+          }
+        }
+        updateGraph();
+      });
+
+      hopsEl.addEventListener("input", () => {
+        state.hops = Number(hopsEl.value) || 2;
+        hopsValEl.textContent = String(state.hops);
+        updateGraph();
+      });
+
+      showLabelsEl.addEventListener("change", () => {
+        state.showLabels = !!showLabelsEl.checked;
+        updateGraph();
+      });
+
+      resetBtn.addEventListener("click", () => {
+        state.search = "";
+        state.selectedNodeId = null;
+        state.hops = 2;
+        searchEl.value = "";
+        hopsEl.value = "2";
+        hopsValEl.textContent = "2";
+        svg.transition().duration(320).call(zoom.transform, d3.zoomIdentity);
+        updateGraph();
+      });
+
+      svg.on("click", () => {
+        state.selectedNodeId = null;
+        updateGraph();
+      });
+
+      window.addEventListener("resize", () => {
+        if (simulation) {
+          simulation.force("center", d3.forceCenter(window.innerWidth * 0.35, window.innerHeight * 0.5));
+          simulation.alpha(0.2).restart();
+        }
+      });
+    }
 
     Promise.all([
       fetch("./data/graph.json").then((r) => r.json()),
       fetch("./data/meta.json").then((r) => r.json()).catch(() => null)
     ]).then(([graph, meta]) => {
       state.raw = graph;
-      const types = [...new Set(graph.nodes.map((n) => n.type))];
-      types.forEach((t) => state.activeTypes.add(t));
-      buildTypeFilters(types);
+
+      const typeCounts = new Map();
+      graph.nodes.forEach((n) => {
+        typeCounts.set(n.type, (typeCounts.get(n.type) || 0) + 1);
+      });
+      const relCounts = new Map();
+      graph.edges.forEach((e) => {
+        relCounts.set(e.relation, (relCounts.get(e.relation) || 0) + 1);
+      });
+
+      const types = [...typeCounts.entries()]
+        .sort((a, b) => b[1] - a[1])
+        .map(([key, count]) => ({ key, count }));
+      const rels = [...relCounts.entries()]
+        .sort((a, b) => b[1] - a[1])
+        .map(([key, count]) => ({ key, count }));
+
+      types.forEach((t) => state.activeTypes.add(t.key));
+      rels.forEach((r) => state.activeRels.add(r.key));
+
+      buildChips(typeChipsEl, types, state.activeTypes, updateGraph, typeColor);
+      buildChips(relChipsEl, rels, state.activeRels, updateGraph, relColor);
+      setupControls();
+
       if (meta) {
         metaEl.innerHTML =
-          `总节点：${meta.node_count}<br>总关系：${meta.edge_count}<br>导出时间：${meta.generated_at}`;
+          `Nodes: ${meta.node_count}<br>` +
+          `Edges: ${meta.edge_count}<br>` +
+          `Exported: ${meta.generated_at}`;
+      } else {
+        metaEl.innerHTML =
+          `Nodes: ${graph.nodes.length}<br>` +
+          `Edges: ${graph.edges.length}`;
       }
-      update();
+
+      updateGraph();
     }).catch((err) => {
-      metaEl.textContent = "加载失败，请检查 data/graph.json";
+      metaEl.textContent = "Load failed: data/graph.json";
       console.error(err);
     });
   </script>
