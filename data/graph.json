@@ -1,0 +1,5407 @@
+{
+  "nodes": [
+    {
+      "id": "氨磺必利 (口服常释剂型)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "amisulpride (oral IR)"
+    },
+    {
+      "id": "D2受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "D3受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "5-HT7受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "精神分裂症",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "抑郁障碍",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "阿立哌唑 (口服常释剂型)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "aripiprazole (oral IR)"
+    },
+    {
+      "id": "CYP2D6",
+      "type": "代谢酶"
+    },
+    {
+      "id": "CYP3A4",
+      "type": "代谢酶"
+    },
+    {
+      "id": "D2",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "5-HT2A",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "5-HT1A",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "H1",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "M1",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "α1",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "双相障碍",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "重度抑郁障碍",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "自闭症相关易激惹",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "Tourette综合征",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "老年人",
+      "type": "特殊人群"
+    },
+    {
+      "id": "妊娠期",
+      "type": "特殊人群"
+    },
+    {
+      "id": "哺乳期",
+      "type": "特殊人群"
+    },
+    {
+      "id": "儿童及青少年",
+      "type": "特殊人群"
+    },
+    {
+      "id": "肝肾功能不全",
+      "type": "特殊人群"
+    },
+    {
+      "id": "阿立哌唑 (长效针剂)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "aripiprazole (LAI - Abilify Maintena / Aristada)"
+    },
+    {
+      "id": "喹硫平 (口服常释剂型)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "quetiapine (oral IR)"
+    },
+    {
+      "id": "双相障碍抑郁发作",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "喹硫平 (口服缓释剂型)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "quetiapine (XR / extended-release)"
+    },
+    {
+      "id": "利培酮 (口服常释剂型)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "risperidone (oral IR)"
+    },
+    {
+      "id": "利培酮 (长效针剂)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "risperidone (LAI - Risperdal Consta)"
+    },
+    {
+      "id": "奥氮平 (口服常释剂型)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "olanzapine (oral IR)"
+    },
+    {
+      "id": "UGT",
+      "type": "代谢酶"
+    },
+    {
+      "id": "CYP1A2",
+      "type": "代谢酶"
+    },
+    {
+      "id": "双相障碍维持治疗",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "难治性抑郁",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "奥氮平 (短效肌注)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "olanzapine (short-acting IM)"
+    },
+    {
+      "id": "急性激越状态",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "齐拉西酮 (口服常释剂型)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "ziprasidone (oral IR)"
+    },
+    {
+      "id": "醛氧化酶",
+      "type": "代谢酶"
+    },
+    {
+      "id": "SERT",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "NET",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "齐拉西酮 (短效肌注)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "ziprasidone (short-acting IM)"
+    },
+    {
+      "id": "帕利哌酮 (口服缓释片)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "paliperidone (oral ER - Invega)"
+    },
+    {
+      "id": "分裂情感性障碍",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "帕利哌酮 (1月长效针剂/善思达)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "paliperidone palmitate (1-month LAI - Invega Sustenna)"
+    },
+    {
+      "id": "氯氮平 (口服)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "clozapine (oral)"
+    },
+    {
+      "id": "鲁拉西酮 (口服)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "lurasidone (oral)"
+    },
+    {
+      "id": "5-HT2A受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "5-HT1A受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "α2C受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "布南色林 (口服)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "blonanserin (oral)"
+    },
+    {
+      "id": "舒必利 (口服)",
+      "type": "药物",
+      "category": "非典型抗精神病药（苯甲酰胺类）",
+      "name_en": "sulpiride (oral)"
+    },
+    {
+      "id": "抑郁/焦虑",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "哌罗匹隆 (口服)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "perospirone (oral)"
+    },
+    {
+      "id": "卡利拉嗪 (口服)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "cariprazine (oral - Vraylar)"
+    },
+    {
+      "id": "D3",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "布瑞哌唑 (口服)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "brexpiprazole (oral - Rexulti)"
+    },
+    {
+      "id": "MDD辅助治疗",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "阿尔茨海默病相关激越",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "卢美哌隆 (口服)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "lumateperone (oral - Caplyta)"
+    },
+    {
+      "id": "D1受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "双相I/II型障碍抑郁发作",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "阿塞那平 (舌下含片)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "asenapine (sublingual - Saphris)"
+    },
+    {
+      "id": "UGT1A4",
+      "type": "代谢酶"
+    },
+    {
+      "id": "5-HT2C受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "α2受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "H1受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "伊潘立酮/伊洛哌酮 (口服)",
+      "type": "药物",
+      "category": "非典型抗精神病药",
+      "name_en": "iloperidone (oral - Fanapt)"
+    },
+    {
+      "id": "α1A受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "氟哌啶醇 (口服常释剂型)",
+      "type": "药物",
+      "category": "典型抗精神病药（丁酰苯类）",
+      "name_en": "haloperidol (oral IR)"
+    },
+    {
+      "id": "急性激越/攻击行为",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "氟哌啶醇 (短效肌注)",
+      "type": "药物",
+      "category": "典型抗精神病药",
+      "name_en": "haloperidol (short-acting IM)"
+    },
+    {
+      "id": "葡萄糖醛酸化",
+      "type": "代谢酶"
+    },
+    {
+      "id": "急性激越/精神运动性兴奋",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "type": "药物",
+      "category": "典型抗精神病药",
+      "name_en": "haloperidol decanoate (LAI)"
+    },
+    {
+      "id": "氯丙嗪 (口服)",
+      "type": "药物",
+      "category": "典型抗精神病药（吩噻嗪类）",
+      "name_en": "chlorpromazine (oral)"
+    },
+    {
+      "id": "恶心呕吐",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "术前焦虑/顽固性呃逆",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "奋乃静 (口服)",
+      "type": "药物",
+      "category": "典型抗精神病药（吩噻嗪类）",
+      "name_en": "perphenazine (oral)"
+    },
+    {
+      "id": "α1受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "氟哌噻吨 (口服)",
+      "type": "药物",
+      "category": "典型抗精神病药（噻吨类）",
+      "name_en": "flupentixol (oral/LAI - Fluanxol)"
+    },
+    {
+      "id": "抑郁",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "氟哌噻吨 (长效针剂)",
+      "type": "药物",
+      "category": "典型抗精神病药（噻吨类）",
+      "name_en": "flupentixol (LAI - Fluanxol Depot)"
+    },
+    {
+      "id": "氯丙嗪 (注射)",
+      "type": "药物",
+      "category": "典型抗精神病药（吩噻嗪类）",
+      "name_en": "chlorpromazine (injection)"
+    },
+    {
+      "id": "氟西汀 (口服)",
+      "type": "药物",
+      "category": "SSRI",
+      "name_en": "fluoxetine (oral)"
+    },
+    {
+      "id": "5-HT2C",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "强迫症",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "神经性贪食症",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "恐慌症",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "舍曲林 (口服)",
+      "type": "药物",
+      "category": "SSRI",
+      "name_en": "sertraline (oral)"
+    },
+    {
+      "id": "CYP2C19",
+      "type": "代谢酶"
+    },
+    {
+      "id": "CYP2B6",
+      "type": "代谢酶"
+    },
+    {
+      "id": "DAT",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "Sigma-1",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "恐慌症/PTSD/社交焦虑障碍",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "经前期烦躁障碍",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "帕罗西汀 (口服常释剂型)",
+      "type": "药物",
+      "category": "SSRI",
+      "name_en": "paroxetine (oral)"
+    },
+    {
+      "id": "NOS",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "强迫症/恐慌症/社交焦虑障碍/GAD/PTSD",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "西酞普兰 (口服)",
+      "type": "药物",
+      "category": "SSRI",
+      "name_en": "citalopram (oral)"
+    },
+    {
+      "id": "氟伏沙明 (口服)",
+      "type": "药物",
+      "category": "SSRI",
+      "name_en": "fluvoxamine (oral)"
+    },
+    {
+      "id": "σ1受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "维拉佐酮 (口服)",
+      "type": "药物",
+      "category": "SSRI + 5-HT1A部分激动",
+      "name_en": "vilazodone (oral - Viibryd)"
+    },
+    {
+      "id": "帕罗西汀 (口服缓释剂型)",
+      "type": "药物",
+      "category": "SSRI",
+      "name_en": "paroxetine (oral CR - Paxil CR)"
+    },
+    {
+      "id": "文拉法辛 (口服缓释剂型)",
+      "type": "药物",
+      "category": "SNRI",
+      "name_en": "venlafaxine (XR)"
+    },
+    {
+      "id": "广泛性焦虑障碍",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "社交焦虑障碍",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "度洛西汀 (口服)",
+      "type": "药物",
+      "category": "SNRI",
+      "name_en": "duloxetine (oral)"
+    },
+    {
+      "id": "糖尿病周围神经痛",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "纤维肌痛",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "慢性肌骨骼痛",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "地文拉法辛 (口服)",
+      "type": "药物",
+      "category": "SNRI",
+      "name_en": "desvenlafaxine (oral)"
+    },
+    {
+      "id": "托鲁地文拉法辛 (口服)",
+      "type": "药物",
+      "category": "SNRI",
+      "name_en": "toludesvenlafaxine (oral - Ruoxinlin)"
+    },
+    {
+      "id": "安非他酮 (口服缓释剂型)",
+      "type": "药物",
+      "category": "NDRI",
+      "name_en": "bupropion (SR/XL)"
+    },
+    {
+      "id": "戒烟辅助",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "季节性情感障碍预防",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "米氮平 (口服)",
+      "type": "药物",
+      "category": "NaSSA",
+      "name_en": "mirtazapine (oral)"
+    },
+    {
+      "id": "α2",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "5-HT3",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "米安色林 (口服)",
+      "type": "药物",
+      "category": "四环类抗抑郁药（NaSSA前体）",
+      "name_en": "mianserin (口服)"
+    },
+    {
+      "id": "抑郁症",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "曲唑酮 (口服)",
+      "type": "药物",
+      "category": "SARI",
+      "name_en": "trazodone (oral)"
+    },
+    {
+      "id": "失眠",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "阿米替林 (口服)",
+      "type": "药物",
+      "category": "TCA（三环类）",
+      "name_en": "amitriptyline (oral)"
+    },
+    {
+      "id": "M1受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "神经病理性疼痛",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "偏头痛预防",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "多塞平 (口服)",
+      "type": "药物",
+      "category": "TCA（三环类）",
+      "name_en": "doxepin (oral)"
+    },
+    {
+      "id": "氯米帕明 (口服)",
+      "type": "药物",
+      "category": "TCA（三环类）",
+      "name_en": "clomipramine (oral)"
+    },
+    {
+      "id": "伏硫西汀 (口服)",
+      "type": "药物",
+      "category": "多模式抗抑郁药",
+      "name_en": "vortioxetine (oral - Trintellix)"
+    },
+    {
+      "id": "5-HT7",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "阿戈美拉汀 (口服)",
+      "type": "药物",
+      "category": "MT1/MT2激动+5-HT2C拮抗",
+      "name_en": "agomelatine (oral - Valdoxan)"
+    },
+    {
+      "id": "CYP2C9",
+      "type": "代谢酶"
+    },
+    {
+      "id": "MT1",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "MT2",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "奥氮平/氟西汀复方 (口服)",
+      "type": "药物",
+      "category": "抗抑郁药",
+      "name_en": "olanzapine/fluoxetine (oral - Symbyax)"
+    },
+    {
+      "id": "双相情感障碍抑郁发作",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "难治性抑郁症",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "艾司氯胺酮 (鼻喷剂)",
+      "type": "药物",
+      "category": "NMDA受体拮抗剂",
+      "name_en": "esketamine (nasal spray - Spravato)"
+    },
+    {
+      "id": "NMDA受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "μ阿片受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "σ受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "伴急性自杀意念的MDD",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "祖拉诺酮 (口服)",
+      "type": "药物",
+      "category": "GABA-A受体正向别构调节剂",
+      "name_en": "zuranolone (oral - Zurzuvae)"
+    },
+    {
+      "id": "GABAA受体",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "艾司氯胺酮 (注射)",
+      "type": "药物",
+      "category": "NMDA受体拮抗剂",
+      "name_en": "esketamine (injection)"
+    },
+    {
+      "id": "右美沙芬/安非他酮 (口服)",
+      "type": "药物",
+      "category": "NMDA拮抗+NDRI复方",
+      "name_en": "dextromethorphan-bupropion (oral - Auvelity)"
+    },
+    {
+      "id": "NET/DAT",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "氟哌噻吨美利曲辛片 (黛力新)",
+      "type": "药物",
+      "category": "抗抑郁药（复方制剂）",
+      "name_en": "flupentixol and melitracen"
+    },
+    {
+      "id": "轻、中度抑郁和焦虑",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "丁螺环酮 (口服)",
+      "type": "药物",
+      "category": "5-HT1A部分激动剂",
+      "name_en": "buspirone (oral)"
+    },
+    {
+      "id": "坦度螺酮 (口服)",
+      "type": "药物",
+      "category": "抗焦虑药与催眠药",
+      "name_en": "tandospirone (oral)"
+    },
+    {
+      "id": "各种神经症所致的焦虑状态",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "阿普唑仑 (口服)",
+      "type": "药物",
+      "category": "苯二氮卓类",
+      "name_en": "alprazolam (oral)"
+    },
+    {
+      "id": "GABA-A",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "劳拉西泮 (口服)",
+      "type": "药物",
+      "category": "苯二氮卓类",
+      "name_en": "lorazepam (oral)"
+    },
+    {
+      "id": "焦虑障碍",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "地西泮 (口服)",
+      "type": "药物",
+      "category": "苯二氮卓类",
+      "name_en": "diazepam (oral)"
+    },
+    {
+      "id": "肌肉痉挛",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "癫痫持续状态辅助",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "酒精戒断",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "咪达唑仑 (口服)",
+      "type": "药物",
+      "category": "苯二氮卓类",
+      "name_en": "midazolam (oral/IM/IV)"
+    },
+    {
+      "id": "术前镇静/操作前镇静",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "癫痫持续状态",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "艾司唑仑 (口服)",
+      "type": "药物",
+      "category": "苯二氮卓类",
+      "name_en": "estazolam (oral)"
+    },
+    {
+      "id": "奥沙西泮 (口服)",
+      "type": "药物",
+      "category": "苯二氮卓类",
+      "name_en": "oxazepam (oral)"
+    },
+    {
+      "id": "氯硝西泮 (口服)",
+      "type": "药物",
+      "category": "苯二氮卓类",
+      "name_en": "clonazepam (oral)"
+    },
+    {
+      "id": "癫痫/Lennox-Gastaut综合征",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "地达西尼 (口服)",
+      "type": "药物",
+      "category": "苯二氮卓类（GABAA部分正向别构调节剂）",
+      "name_en": "dimdazenil (oral - Jingnuoning)"
+    },
+    {
+      "id": "GABAA α1亚型",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "GABAA其他α亚型",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "成人失眠障碍",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "咪达唑仑 (注射)",
+      "type": "药物",
+      "category": "苯二氮卓类",
+      "name_en": "midazolam (injection)"
+    },
+    {
+      "id": "劳拉西泮 (注射)",
+      "type": "药物",
+      "category": "苯二氮卓类",
+      "name_en": "lorazepam (injection)"
+    },
+    {
+      "id": "地西泮 (注射)",
+      "type": "药物",
+      "category": "苯二氮卓类",
+      "name_en": "diazepam (injection)"
+    },
+    {
+      "id": "唑吡坦 (口服)",
+      "type": "药物",
+      "category": "非苯二氮卓类催眠药（Z类）",
+      "name_en": "zolpidem (oral - Ambien)"
+    },
+    {
+      "id": "扎来普隆 (口服)",
+      "type": "药物",
+      "category": "抗焦虑药与催眠药",
+      "name_en": "zaleplon (oral - Sonata)"
+    },
+    {
+      "id": "佐匹克隆 (口服)",
+      "type": "药物",
+      "category": "非苯二氮卓类催眠药（Z类）",
+      "name_en": "zopiclone (oral)"
+    },
+    {
+      "id": "CYP2E1",
+      "type": "代谢酶"
+    },
+    {
+      "id": "右佐匹克隆 (口服)",
+      "type": "药物",
+      "category": "非苯二氮卓类催眠药（Z类）",
+      "name_en": "eszopiclone (oral - Lunesta)"
+    },
+    {
+      "id": "苏沃雷生 (口服)",
+      "type": "药物",
+      "category": "双食欲素受体拮抗剂（DORA）",
+      "name_en": "suvorexant (oral - Belsomra)"
+    },
+    {
+      "id": "OX1R",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "OX2R",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "莱博雷生 (口服)",
+      "type": "药物",
+      "category": "双食欲素受体拮抗剂（DORA）",
+      "name_en": "lemborexant (oral - Dayvigo)"
+    },
+    {
+      "id": "达利雷生 (口服)",
+      "type": "药物",
+      "category": "双食欲素受体拮抗剂（DORA）",
+      "name_en": "daridorexant (oral - Quviviq)"
+    },
+    {
+      "id": "OX1R (食欲素1受体)",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "OX2R (食欲素2受体)",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "成人失眠",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "雷美替胺 (口服)",
+      "type": "药物",
+      "category": "MT1/MT2褪黑素受体激动剂（催眠药）",
+      "name_en": "ramelteon (口服)"
+    },
+    {
+      "id": "碳酸锂 (口服常释剂型)",
+      "type": "药物",
+      "category": "心境稳定剂",
+      "name_en": "lithium carbonate (IR capsule/tablet)"
+    },
+    {
+      "id": "VSSC",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "VSCC",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "抗抑郁药增效",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "降低自杀风险",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "碳酸锂 (口服缓释剂型)",
+      "type": "药物",
+      "category": "心境稳定剂",
+      "name_en": "lithium carbonate (ER / extended-release)"
+    },
+    {
+      "id": "抗抑郁药增效/降低自杀风险",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "拉莫三嗪 (口服常释剂型)",
+      "type": "药物",
+      "category": "心境稳定剂/抗癫痫",
+      "name_en": "lamotrigine (oral)"
+    },
+    {
+      "id": "癫痫",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "合用丙戊酸盐时",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "卡马西平 (口服常释剂型)",
+      "type": "药物",
+      "category": "心境稳定剂/抗癫痫",
+      "name_en": "carbamazepine (oral)"
+    },
+    {
+      "id": "三叉神经痛",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "HLA-B*1502",
+      "type": "基因"
+    },
+    {
+      "id": "HLA-A*3101",
+      "type": "基因"
+    },
+    {
+      "id": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "type": "药物",
+      "category": "心境稳定剂/抗癫痫",
+      "name_en": "valproate (IR / gastro-resistant - Epilim/Depakote)"
+    },
+    {
+      "id": "β-氧化",
+      "type": "代谢酶"
+    },
+    {
+      "id": "POLG",
+      "type": "基因"
+    },
+    {
+      "id": "丙戊酸钠 (口服缓释剂型)",
+      "type": "药物",
+      "category": "心境稳定剂/抗癫痫",
+      "name_en": "valproate (CR / ER - Epilim Chrono/Depakote ER)"
+    },
+    {
+      "id": "丙戊酸镁 (口服缓释片)",
+      "type": "药物",
+      "category": "心境稳定剂/抗癫痫药",
+      "name_en": "Magnesium Valproate (Sustained Release Tablets)"
+    },
+    {
+      "id": "双相情感障碍躁狂发作",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "HLA-A*24:02",
+      "type": "基因"
+    },
+    {
+      "id": "UGT2B7",
+      "type": "基因"
+    },
+    {
+      "id": "UGT1A6",
+      "type": "基因"
+    },
+    {
+      "id": "奥卡西平 (口服常释剂型)",
+      "type": "药物",
+      "category": "抗癫痫/心境稳定剂",
+      "name_en": "oxcarbazepine (oral - Trileptal)"
+    },
+    {
+      "id": "卡马西平 (口服缓释剂型)",
+      "type": "药物",
+      "category": "心境稳定剂/抗癫痫",
+      "name_en": "carbamazepine (oral ER - Tegretol XR)"
+    },
+    {
+      "id": "拉莫三嗪 (口服缓释剂型)",
+      "type": "药物",
+      "category": "心境稳定剂/抗癫痫",
+      "name_en": "lamotrigine (oral ER - Lamictal XR)"
+    },
+    {
+      "id": "奥卡西平 (口服缓释剂型)",
+      "type": "药物",
+      "category": "抗癫痫/心境稳定剂",
+      "name_en": "oxcarbazepine (oral ER - Oxtellar XR)"
+    },
+    {
+      "id": "丙戊酸钠 (注射)",
+      "type": "药物",
+      "category": "心境稳定剂与抗癫痫药",
+      "name_en": "valproate sodium (injection)"
+    },
+    {
+      "id": "癫痫发作/双相躁狂的静脉替代治疗",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "托吡酯 (口服常释剂型)",
+      "type": "药物",
+      "category": "抗癫痫",
+      "name_en": "topiramate (oral)"
+    },
+    {
+      "id": "双相障碍辅助",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "左乙拉西坦 (口服)",
+      "type": "药物",
+      "category": "抗癫痫",
+      "name_en": "levetiracetam (oral)"
+    },
+    {
+      "id": "苯巴比妥 (口服)",
+      "type": "药物",
+      "category": "巴比妥类/抗癫痫",
+      "name_en": "phenobarbital (oral)"
+    },
+    {
+      "id": "镇静",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "普瑞巴林 (口服)",
+      "type": "药物",
+      "category": "钙通道α2δ配体",
+      "name_en": "pregabalin (oral - Lyrica)"
+    },
+    {
+      "id": "α2δ钙通道亚基",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "癫痫辅助",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "苯巴比妥 (注射)",
+      "type": "药物",
+      "category": "巴比妥类/抗癫痫",
+      "name_en": "phenobarbital (injection)"
+    },
+    {
+      "id": "左乙拉西坦 (注射)",
+      "type": "药物",
+      "category": "抗癫痫",
+      "name_en": "levetiracetam (injection - Keppra IV)"
+    },
+    {
+      "id": "托吡酯 (口服缓释剂型)",
+      "type": "药物",
+      "category": "抗癫痫",
+      "name_en": "topiramate (oral ER - Trokendi XR)"
+    },
+    {
+      "id": "哌甲酯 (口服常释剂型)",
+      "type": "药物",
+      "category": "中枢兴奋药（ADHD）",
+      "name_en": "dexmethylphenidate (口服)"
+    },
+    {
+      "id": "ADHD",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "安非他命 (口服常释剂型)",
+      "type": "药物",
+      "category": "中枢兴奋药（ADHD）",
+      "name_en": "amphetamine (口服)"
+    },
+    {
+      "id": "哌甲酯 (口服缓释剂型)",
+      "type": "药物",
+      "category": "中枢兴奋药（ADHD）",
+      "name_en": "methylphenidate (oral ER - Concerta)"
+    },
+    {
+      "id": "哌甲酯 (透皮贴剂)",
+      "type": "药物",
+      "category": "中枢兴奋药（ADHD）",
+      "name_en": "methylphenidate (transdermal - Daytrana)"
+    },
+    {
+      "id": "安非他命 (口服缓释剂型)",
+      "type": "药物",
+      "category": "中枢兴奋药（ADHD）",
+      "name_en": "amphetamine (oral ER - Adderall XR)"
+    },
+    {
+      "id": "托莫西汀 (口服)",
+      "type": "药物",
+      "category": "选择性NE再摄取抑制剂（ADHD）",
+      "name_en": "atomoxetine (口服)"
+    },
+    {
+      "id": "维洛沙秦 (口服)",
+      "type": "药物",
+      "category": "选择性NE再摄取抑制剂（ADHD）",
+      "name_en": "viloxazine (口服)"
+    },
+    {
+      "id": "UGT1A9",
+      "type": "代谢酶"
+    },
+    {
+      "id": "可乐定 (口服常释剂型)",
+      "type": "药物",
+      "category": "α2肾上腺素能受体激动剂",
+      "name_en": "clonidine (口服)"
+    },
+    {
+      "id": "高血压",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "ADHD辅助",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "胍法辛 (口服常释剂型)",
+      "type": "药物",
+      "category": "α2A肾上腺素能受体激动剂（ADHD）",
+      "name_en": "guanfacine (口服)"
+    },
+    {
+      "id": "可乐定 (口服缓释剂型)",
+      "type": "药物",
+      "category": "α2肾上腺素能受体激动剂",
+      "name_en": "clonidine (oral ER - Kapvay)"
+    },
+    {
+      "id": "可乐定 (透皮贴剂)",
+      "type": "药物",
+      "category": "α2肾上腺素能受体激动剂",
+      "name_en": "clonidine (transdermal - Catapres-TTS)"
+    },
+    {
+      "id": "胍法辛 (口服缓释剂型)",
+      "type": "药物",
+      "category": "α2A肾上腺素能受体激动剂（ADHD）",
+      "name_en": "guanfacine (oral ER - Intuniv)"
+    },
+    {
+      "id": "加兰他敏 (口服)",
+      "type": "药物",
+      "category": "胆碱酯酶抑制剂（抗痴呆药）",
+      "name_en": "galantamine (口服)"
+    },
+    {
+      "id": "轻至中度阿尔茨海默型痴呆",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "卡巴拉汀 (口服)",
+      "type": "药物",
+      "category": "胆碱酯酶抑制剂（抗痴呆药）",
+      "name_en": "rivastigmine (口服/透皮)"
+    },
+    {
+      "id": "帕金森病痴呆",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "多奈哌齐 (口服)",
+      "type": "药物",
+      "category": "胆碱酯酶抑制剂（抗痴呆药）",
+      "name_en": "donepezil (口服)"
+    },
+    {
+      "id": "中至重度阿尔茨海默型痴呆",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "卡巴拉汀 (透皮贴剂)",
+      "type": "药物",
+      "category": "胆碱酯酶抑制剂（抗痴呆药）",
+      "name_en": "rivastigmine (transdermal - Exelon Patch)"
+    },
+    {
+      "id": "美金刚 (口服常释剂型)",
+      "type": "药物",
+      "category": "NMDA受体拮抗剂（抗痴呆药）",
+      "name_en": "memantine (口服)"
+    },
+    {
+      "id": "美金刚 (口服缓释剂型)",
+      "type": "药物",
+      "category": "NMDA受体拮抗剂（抗痴呆药）",
+      "name_en": "memantine (oral ER - Namenda XR)"
+    },
+    {
+      "id": "双硫仑 (口服)",
+      "type": "药物",
+      "category": "乙醛脱氢酶抑制剂（戒酒药）",
+      "name_en": "disulfiram (口服)"
+    },
+    {
+      "id": "慢性酒精依赖的辅助治疗",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "阿坎酸 (口服)",
+      "type": "药物",
+      "category": "NMDA/GABA调节剂（戒酒药）",
+      "name_en": "acamprosate (口服)"
+    },
+    {
+      "id": "酒精依赖维持戒断",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "丁丙诺啡 (舌下片/口腔膜)",
+      "type": "药物",
+      "category": "阿片类部分激动剂",
+      "name_en": "buprenorphine (舌下/注射/透皮)"
+    },
+    {
+      "id": "CYP2C8",
+      "type": "代谢酶"
+    },
+    {
+      "id": "阿片类药物使用障碍维持治疗",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "中重度慢性疼痛",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "纳曲酮 (口服)",
+      "type": "药物",
+      "category": "阿片受体拮抗剂（戒酒/戒毒）",
+      "name_en": "naltrexone (口服/长效注射)"
+    },
+    {
+      "id": "酒精依赖",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "阿片依赖",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "美沙酮 (口服)",
+      "type": "药物",
+      "category": "阿片受体激动剂（替代维持治疗）",
+      "name_en": "methadone (口服)"
+    },
+    {
+      "id": "丁丙诺啡 (长效注射)",
+      "type": "药物",
+      "category": "阿片类部分激动剂",
+      "name_en": "buprenorphine (LAI - Sublocade)"
+    },
+    {
+      "id": "丁丙诺啡 (透皮贴剂)",
+      "type": "药物",
+      "category": "阿片类部分激动剂",
+      "name_en": "buprenorphine (transdermal - Butrans)"
+    },
+    {
+      "id": "纳曲酮 (长效注射)",
+      "type": "药物",
+      "category": "阿片受体拮抗剂（戒酒/戒毒）",
+      "name_en": "naltrexone (LAI - Vivitrol)"
+    },
+    {
+      "id": "美沙酮 (注射)",
+      "type": "药物",
+      "category": "阿片受体激动剂（替代维持治疗）",
+      "name_en": "methadone (injection)"
+    },
+    {
+      "id": "伐尼克兰 (口服)",
+      "type": "药物",
+      "category": "烟碱受体部分激动剂（戒烟药）",
+      "name_en": "varenicline (口服)"
+    },
+    {
+      "id": "戒烟辅助治疗",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "缬苯那嗪 (口服)",
+      "type": "药物",
+      "category": "VMAT2抑制剂",
+      "name_en": "valbenazine (oral - Ingrezza)"
+    },
+    {
+      "id": "VMAT2",
+      "type": "受体/靶点"
+    },
+    {
+      "id": "迟发性运动障碍",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "氘丁苯那嗪 (口服)",
+      "type": "药物",
+      "category": "VMAT2抑制剂",
+      "name_en": "deutetrabenazine (oral - Austedo)"
+    },
+    {
+      "id": "亨廷顿舞蹈症相关舞蹈运动",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "氨磺必利 (短效静脉针剂)",
+      "type": "药物",
+      "category": "非典型抗精神病药 / 止吐药",
+      "name_en": "amisulpride (IV injection)"
+    },
+    {
+      "id": "术后恶心呕吐  的预防与治疗",
+      "type": "疾病/适应症"
+    },
+    {
+      "id": "匹马吉林 (口服)",
+      "type": "药物",
+      "category": "5-HT2A反向激动剂",
+      "name_en": "pimavanserin (oral - Nuplazid)"
+    },
+    {
+      "id": "CYP3A5",
+      "type": "代谢酶"
+    },
+    {
+      "id": "帕金森病精神病性障碍相关的幻觉和妄想",
+      "type": "疾病/适应症"
+    }
+  ],
+  "edges": [
+    {
+      "source": "氨磺必利 (口服常释剂型)",
+      "target": "D2受体",
+      "relation": "结合_拮抗",
+      "ki": 2.8
+    },
+    {
+      "source": "氨磺必利 (口服常释剂型)",
+      "target": "D3受体",
+      "relation": "结合_拮抗",
+      "ki": 3.2
+    },
+    {
+      "source": "氨磺必利 (口服常释剂型)",
+      "target": "5-HT7受体",
+      "relation": "结合_拮抗",
+      "ki": 11.5
+    },
+    {
+      "source": "氨磺必利 (口服常释剂型)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "氨磺必利 (口服常释剂型)",
+      "target": "抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "D2",
+      "relation": "结合_部分激动",
+      "ki": ""
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "5-HT1A",
+      "relation": "结合_部分激动",
+      "ki": ""
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "自闭症相关易激惹",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "Tourette综合征",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "老年人",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "妊娠期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "儿童及青少年",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "阿立哌唑 (口服常释剂型)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "阿立哌唑 (长效针剂)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "阿立哌唑 (长效针剂)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "阿立哌唑 (长效针剂)",
+      "target": "D2",
+      "relation": "结合_部分激动",
+      "ki": ""
+    },
+    {
+      "source": "阿立哌唑 (长效针剂)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "阿立哌唑 (长效针剂)",
+      "target": "5-HT1A",
+      "relation": "结合_部分激动",
+      "ki": ""
+    },
+    {
+      "source": "阿立哌唑 (长效针剂)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "阿立哌唑 (长效针剂)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "阿立哌唑 (长效针剂)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "阿立哌唑 (长效针剂)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿立哌唑 (长效针剂)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "喹硫平 (口服常释剂型)",
+      "target": "CYP3A4",
+      "relation": "基因关联"
+    },
+    {
+      "source": "喹硫平 (口服常释剂型)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "喹硫平 (口服常释剂型)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "喹硫平 (口服常释剂型)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "喹硫平 (口服常释剂型)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "喹硫平 (口服常释剂型)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "喹硫平 (口服常释剂型)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "喹硫平 (口服常释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "喹硫平 (口服常释剂型)",
+      "target": "双相障碍抑郁发作",
+      "relation": "治疗"
+    },
+    {
+      "source": "喹硫平 (口服缓释剂型)",
+      "target": "CYP3A4",
+      "relation": "基因关联"
+    },
+    {
+      "source": "喹硫平 (口服缓释剂型)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "喹硫平 (口服缓释剂型)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "喹硫平 (口服缓释剂型)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "喹硫平 (口服缓释剂型)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "喹硫平 (口服缓释剂型)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "喹硫平 (口服缓释剂型)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "喹硫平 (口服缓释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "喹硫平 (口服缓释剂型)",
+      "target": "双相障碍抑郁发作",
+      "relation": "治疗"
+    },
+    {
+      "source": "喹硫平 (口服缓释剂型)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "利培酮 (口服常释剂型)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "利培酮 (口服常释剂型)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "利培酮 (口服常释剂型)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "利培酮 (口服常释剂型)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "利培酮 (口服常释剂型)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "利培酮 (口服常释剂型)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "利培酮 (口服常释剂型)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "利培酮 (口服常释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "利培酮 (口服常释剂型)",
+      "target": "自闭症相关易激惹",
+      "relation": "治疗"
+    },
+    {
+      "source": "利培酮 (口服常释剂型)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "利培酮 (口服常释剂型)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "利培酮 (长效针剂)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "利培酮 (长效针剂)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "利培酮 (长效针剂)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "利培酮 (长效针剂)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "利培酮 (长效针剂)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "利培酮 (长效针剂)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "利培酮 (长效针剂)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "利培酮 (长效针剂)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "利培酮 (长效针剂)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "UGT",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "CYP1A2",
+      "relation": "基因关联"
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "双相障碍维持治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "难治性抑郁",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "奥氮平 (口服常释剂型)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "奥氮平 (短效肌注)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥氮平 (短效肌注)",
+      "target": "CYP1A2",
+      "relation": "基因关联"
+    },
+    {
+      "source": "奥氮平 (短效肌注)",
+      "target": "UGT",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥氮平 (短效肌注)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "奥氮平 (短效肌注)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "奥氮平 (短效肌注)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "奥氮平 (短效肌注)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "奥氮平 (短效肌注)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "奥氮平 (短效肌注)",
+      "target": "急性激越状态",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥氮平 (短效肌注)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "奥氮平 (短效肌注)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "齐拉西酮 (口服常释剂型)",
+      "target": "醛氧化酶",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "齐拉西酮 (口服常释剂型)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "齐拉西酮 (口服常释剂型)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (口服常释剂型)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (口服常释剂型)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (口服常释剂型)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (口服常释剂型)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (口服常释剂型)",
+      "target": "5-HT1A",
+      "relation": "结合_激动",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (口服常释剂型)",
+      "target": "SERT",
+      "relation": "结合_抑制",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (口服常释剂型)",
+      "target": "NET",
+      "relation": "结合_抑制",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (口服常释剂型)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "齐拉西酮 (口服常释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "齐拉西酮 (短效肌注)",
+      "target": "醛氧化酶",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "齐拉西酮 (短效肌注)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "齐拉西酮 (短效肌注)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (短效肌注)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (短效肌注)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (短效肌注)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (短效肌注)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (短效肌注)",
+      "target": "5-HT1A",
+      "relation": "结合_激动",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (短效肌注)",
+      "target": "SERT",
+      "relation": "结合_抑制",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (短效肌注)",
+      "target": "NET",
+      "relation": "结合_抑制",
+      "ki": ""
+    },
+    {
+      "source": "齐拉西酮 (短效肌注)",
+      "target": "急性激越状态",
+      "relation": "治疗"
+    },
+    {
+      "source": "帕利哌酮 (口服缓释片)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "帕利哌酮 (口服缓释片)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "帕利哌酮 (口服缓释片)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "帕利哌酮 (口服缓释片)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "帕利哌酮 (口服缓释片)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "帕利哌酮 (口服缓释片)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "帕利哌酮 (口服缓释片)",
+      "target": "分裂情感性障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "帕利哌酮 (口服缓释片)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "帕利哌酮 (口服缓释片)",
+      "target": "老年人",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "帕利哌酮 (口服缓释片)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "老年人",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "妊娠期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "儿童及青少年",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "帕利哌酮 (1月长效针剂/善思达)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氯氮平 (口服)",
+      "target": "CYP1A2",
+      "relation": "基因关联"
+    },
+    {
+      "source": "氯氮平 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "氯氮平 (口服)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氯氮平 (口服)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氯氮平 (口服)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氯氮平 (口服)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氯氮平 (口服)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氯氮平 (口服)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "氯氮平 (口服)",
+      "target": "老年人",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氯氮平 (口服)",
+      "target": "妊娠期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氯氮平 (口服)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "鲁拉西酮 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "鲁拉西酮 (口服)",
+      "target": "D2受体",
+      "relation": "结合_拮抗",
+      "ki": 1.0
+    },
+    {
+      "source": "鲁拉西酮 (口服)",
+      "target": "5-HT2A受体",
+      "relation": "结合_拮抗",
+      "ki": 0.5
+    },
+    {
+      "source": "鲁拉西酮 (口服)",
+      "target": "5-HT7受体",
+      "relation": "结合_拮抗",
+      "ki": 0.5
+    },
+    {
+      "source": "鲁拉西酮 (口服)",
+      "target": "5-HT1A受体",
+      "relation": "结合_部分激动",
+      "ki": 6.4
+    },
+    {
+      "source": "鲁拉西酮 (口服)",
+      "target": "α2C受体",
+      "relation": "结合_拮抗",
+      "ki": 10.8
+    },
+    {
+      "source": "鲁拉西酮 (口服)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "鲁拉西酮 (口服)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "布南色林 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "布南色林 (口服)",
+      "target": "D2受体",
+      "relation": "结合_拮抗",
+      "ki": 0.142
+    },
+    {
+      "source": "布南色林 (口服)",
+      "target": "D3受体",
+      "relation": "结合_拮抗",
+      "ki": 0.494
+    },
+    {
+      "source": "布南色林 (口服)",
+      "target": "5-HT2A受体",
+      "relation": "结合_拮抗",
+      "ki": 0.812
+    },
+    {
+      "source": "布南色林 (口服)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "布南色林 (口服)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "布南色林 (口服)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "舒必利 (口服)",
+      "target": "D2受体",
+      "relation": "结合_拮抗",
+      "ki": 8.1
+    },
+    {
+      "source": "舒必利 (口服)",
+      "target": "D3受体",
+      "relation": "结合_拮抗",
+      "ki": 7.4
+    },
+    {
+      "source": "舒必利 (口服)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "舒必利 (口服)",
+      "target": "抑郁/焦虑",
+      "relation": "治疗"
+    },
+    {
+      "source": "舒必利 (口服)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "舒必利 (口服)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "哌罗匹隆 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "哌罗匹隆 (口服)",
+      "target": "D2受体",
+      "relation": "结合_拮抗",
+      "ki": 1.4
+    },
+    {
+      "source": "哌罗匹隆 (口服)",
+      "target": "5-HT2A受体",
+      "relation": "结合_拮抗",
+      "ki": 2.2
+    },
+    {
+      "source": "哌罗匹隆 (口服)",
+      "target": "5-HT1A受体",
+      "relation": "结合_部分激动",
+      "ki": 2.9
+    },
+    {
+      "source": "哌罗匹隆 (口服)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "哌罗匹隆 (口服)",
+      "target": "老年人",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "哌罗匹隆 (口服)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "哌罗匹隆 (口服)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "卡利拉嗪 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "卡利拉嗪 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "卡利拉嗪 (口服)",
+      "target": "D3",
+      "relation": "结合_部分激动",
+      "ki": ""
+    },
+    {
+      "source": "卡利拉嗪 (口服)",
+      "target": "D2",
+      "relation": "结合_部分激动",
+      "ki": ""
+    },
+    {
+      "source": "卡利拉嗪 (口服)",
+      "target": "5-HT1A",
+      "relation": "结合_部分激动",
+      "ki": ""
+    },
+    {
+      "source": "卡利拉嗪 (口服)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "卡利拉嗪 (口服)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "卡利拉嗪 (口服)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "卡利拉嗪 (口服)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "卡利拉嗪 (口服)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "卡利拉嗪 (口服)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "卡利拉嗪 (口服)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "布瑞哌唑 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "布瑞哌唑 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "布瑞哌唑 (口服)",
+      "target": "D2",
+      "relation": "结合_部分激动",
+      "ki": ""
+    },
+    {
+      "source": "布瑞哌唑 (口服)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "布瑞哌唑 (口服)",
+      "target": "5-HT1A",
+      "relation": "结合_部分激动",
+      "ki": ""
+    },
+    {
+      "source": "布瑞哌唑 (口服)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "布瑞哌唑 (口服)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "布瑞哌唑 (口服)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "布瑞哌唑 (口服)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "布瑞哌唑 (口服)",
+      "target": "MDD辅助治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "布瑞哌唑 (口服)",
+      "target": "阿尔茨海默病相关激越",
+      "relation": "治疗"
+    },
+    {
+      "source": "卢美哌隆 (口服)",
+      "target": "CYP3A4",
+      "relation": "基因关联"
+    },
+    {
+      "source": "卢美哌隆 (口服)",
+      "target": "D2受体",
+      "relation": "结合_部分激动",
+      "ki": 32.0
+    },
+    {
+      "source": "卢美哌隆 (口服)",
+      "target": "5-HT2A受体",
+      "relation": "结合_拮抗",
+      "ki": 0.54
+    },
+    {
+      "source": "卢美哌隆 (口服)",
+      "target": "D1受体",
+      "relation": "结合_结合",
+      "ki": 52.0
+    },
+    {
+      "source": "卢美哌隆 (口服)",
+      "target": "SERT",
+      "relation": "结合_抑制",
+      "ki": 62.0
+    },
+    {
+      "source": "卢美哌隆 (口服)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "卢美哌隆 (口服)",
+      "target": "双相I/II型障碍抑郁发作",
+      "relation": "治疗"
+    },
+    {
+      "source": "卢美哌隆 (口服)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "阿塞那平 (舌下含片)",
+      "target": "UGT1A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "阿塞那平 (舌下含片)",
+      "target": "CYP1A2",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "阿塞那平 (舌下含片)",
+      "target": "5-HT2A受体",
+      "relation": "结合_结合",
+      "ki": 0.06
+    },
+    {
+      "source": "阿塞那平 (舌下含片)",
+      "target": "5-HT2C受体",
+      "relation": "结合_拮抗",
+      "ki": 0.03
+    },
+    {
+      "source": "阿塞那平 (舌下含片)",
+      "target": "D2受体",
+      "relation": "结合_拮抗",
+      "ki": 1.3
+    },
+    {
+      "source": "阿塞那平 (舌下含片)",
+      "target": "D3受体",
+      "relation": "结合_拮抗",
+      "ki": 0.42
+    },
+    {
+      "source": "阿塞那平 (舌下含片)",
+      "target": "α2受体",
+      "relation": "结合_拮抗",
+      "ki": 1.2
+    },
+    {
+      "source": "阿塞那平 (舌下含片)",
+      "target": "H1受体",
+      "relation": "结合_拮抗",
+      "ki": 1.0
+    },
+    {
+      "source": "阿塞那平 (舌下含片)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿塞那平 (舌下含片)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿塞那平 (舌下含片)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "伊潘立酮/伊洛哌酮 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "伊潘立酮/伊洛哌酮 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "伊潘立酮/伊洛哌酮 (口服)",
+      "target": "D2受体",
+      "relation": "结合_拮抗",
+      "ki": 6.3
+    },
+    {
+      "source": "伊潘立酮/伊洛哌酮 (口服)",
+      "target": "5-HT2A受体",
+      "relation": "结合_拮抗",
+      "ki": 5.6
+    },
+    {
+      "source": "伊潘立酮/伊洛哌酮 (口服)",
+      "target": "α1A受体",
+      "relation": "结合_拮抗",
+      "ki": 0.36
+    },
+    {
+      "source": "伊潘立酮/伊洛哌酮 (口服)",
+      "target": "D3受体",
+      "relation": "结合_拮抗",
+      "ki": 7.1
+    },
+    {
+      "source": "伊潘立酮/伊洛哌酮 (口服)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "伊潘立酮/伊洛哌酮 (口服)",
+      "target": "老年人",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "伊潘立酮/伊洛哌酮 (口服)",
+      "target": "妊娠期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "伊潘立酮/伊洛哌酮 (口服)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "伊潘立酮/伊洛哌酮 (口服)",
+      "target": "儿童及青少年",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "伊潘立酮/伊洛哌酮 (口服)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌啶醇 (口服常释剂型)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "氟哌啶醇 (口服常释剂型)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "氟哌啶醇 (口服常释剂型)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (口服常释剂型)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (口服常释剂型)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (口服常释剂型)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (口服常释剂型)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (口服常释剂型)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟哌啶醇 (口服常释剂型)",
+      "target": "Tourette综合征",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟哌啶醇 (口服常释剂型)",
+      "target": "急性激越/攻击行为",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟哌啶醇 (口服常释剂型)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌啶醇 (口服常释剂型)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌啶醇 (短效肌注)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "氟哌啶醇 (短效肌注)",
+      "target": "葡萄糖醛酸化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "氟哌啶醇 (短效肌注)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "氟哌啶醇 (短效肌注)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (短效肌注)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (短效肌注)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (短效肌注)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (短效肌注)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (短效肌注)",
+      "target": "急性激越/精神运动性兴奋",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟哌啶醇 (短效肌注)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌啶醇 (短效肌注)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "老年人",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "妊娠期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "儿童及青少年",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌啶醇 (长效针剂/癸酸酯)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氯丙嗪 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "氯丙嗪 (口服)",
+      "target": "D2",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氯丙嗪 (口服)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氯丙嗪 (口服)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氯丙嗪 (口服)",
+      "target": "M1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氯丙嗪 (口服)",
+      "target": "α1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氯丙嗪 (口服)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "氯丙嗪 (口服)",
+      "target": "恶心呕吐",
+      "relation": "治疗"
+    },
+    {
+      "source": "氯丙嗪 (口服)",
+      "target": "术前焦虑/顽固性呃逆",
+      "relation": "治疗"
+    },
+    {
+      "source": "氯丙嗪 (口服)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "奋乃静 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "奋乃静 (口服)",
+      "target": "D2受体",
+      "relation": "结合_拮抗",
+      "ki": 0.8
+    },
+    {
+      "source": "奋乃静 (口服)",
+      "target": "5-HT2A受体",
+      "relation": "结合_拮抗",
+      "ki": 5.6
+    },
+    {
+      "source": "奋乃静 (口服)",
+      "target": "α1受体",
+      "relation": "结合_拮抗",
+      "ki": 10.0
+    },
+    {
+      "source": "奋乃静 (口服)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "奋乃静 (口服)",
+      "target": "恶心呕吐",
+      "relation": "治疗"
+    },
+    {
+      "source": "奋乃静 (口服)",
+      "target": "老年人",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "奋乃静 (口服)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌噻吨 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "氟哌噻吨 (口服)",
+      "target": "D1受体",
+      "relation": "结合_拮抗",
+      "ki": 5.0
+    },
+    {
+      "source": "氟哌噻吨 (口服)",
+      "target": "D2受体",
+      "relation": "结合_拮抗",
+      "ki": 0.35
+    },
+    {
+      "source": "氟哌噻吨 (口服)",
+      "target": "5-HT2A受体",
+      "relation": "结合_拮抗",
+      "ki": 5.4
+    },
+    {
+      "source": "氟哌噻吨 (口服)",
+      "target": "α1受体",
+      "relation": "结合_拮抗",
+      "ki": 12.0
+    },
+    {
+      "source": "氟哌噻吨 (口服)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟哌噻吨 (口服)",
+      "target": "抑郁",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟哌噻吨 (口服)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌噻吨 (口服)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌噻吨 (长效针剂)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "氟哌噻吨 (长效针剂)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟哌噻吨 (长效针剂)",
+      "target": "抑郁",
+      "relation": "治疗"
+    },
+    {
+      "source": "氯丙嗪 (注射)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "氯丙嗪 (注射)",
+      "target": "精神分裂症",
+      "relation": "治疗"
+    },
+    {
+      "source": "氯丙嗪 (注射)",
+      "target": "恶心呕吐",
+      "relation": "治疗"
+    },
+    {
+      "source": "氯丙嗪 (注射)",
+      "target": "术前焦虑/顽固性呃逆",
+      "relation": "治疗"
+    },
+    {
+      "source": "氯丙嗪 (注射)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟西汀 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "氟西汀 (口服)",
+      "target": "SERT",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟西汀 (口服)",
+      "target": "NET",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟西汀 (口服)",
+      "target": "5-HT2C",
+      "relation": "结合_拮抗",
+      "ki": ""
+    },
+    {
+      "source": "氟西汀 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟西汀 (口服)",
+      "target": "强迫症",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟西汀 (口服)",
+      "target": "神经性贪食症",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟西汀 (口服)",
+      "target": "恐慌症",
+      "relation": "治疗"
+    },
+    {
+      "source": "舍曲林 (口服)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "舍曲林 (口服)",
+      "target": "CYP2C19",
+      "relation": "基因关联"
+    },
+    {
+      "source": "舍曲林 (口服)",
+      "target": "CYP2B6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "舍曲林 (口服)",
+      "target": "SERT",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "舍曲林 (口服)",
+      "target": "DAT",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "舍曲林 (口服)",
+      "target": "Sigma-1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "舍曲林 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "舍曲林 (口服)",
+      "target": "强迫症",
+      "relation": "治疗"
+    },
+    {
+      "source": "舍曲林 (口服)",
+      "target": "恐慌症/PTSD/社交焦虑障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "舍曲林 (口服)",
+      "target": "经前期烦躁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "帕罗西汀 (口服常释剂型)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "帕罗西汀 (口服常释剂型)",
+      "target": "SERT",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "帕罗西汀 (口服常释剂型)",
+      "target": "NET",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "帕罗西汀 (口服常释剂型)",
+      "target": "M1",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "帕罗西汀 (口服常释剂型)",
+      "target": "NOS",
+      "relation": "结合_抑制",
+      "ki": ""
+    },
+    {
+      "source": "帕罗西汀 (口服常释剂型)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "帕罗西汀 (口服常释剂型)",
+      "target": "强迫症/恐慌症/社交焦虑障碍/GAD/PTSD",
+      "relation": "治疗"
+    },
+    {
+      "source": "西酞普兰 (口服)",
+      "target": "CYP2C19",
+      "relation": "基因关联"
+    },
+    {
+      "source": "西酞普兰 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "西酞普兰 (口服)",
+      "target": "SERT",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "西酞普兰 (口服)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "西酞普兰 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟伏沙明 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "氟伏沙明 (口服)",
+      "target": "CYP2C19",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "氟伏沙明 (口服)",
+      "target": "CYP1A2",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "氟伏沙明 (口服)",
+      "target": "SERT",
+      "relation": "结合_抑制",
+      "ki": 2.2
+    },
+    {
+      "source": "氟伏沙明 (口服)",
+      "target": "σ1受体",
+      "relation": "结合_激动",
+      "ki": 36.0
+    },
+    {
+      "source": "氟伏沙明 (口服)",
+      "target": "强迫症",
+      "relation": "治疗"
+    },
+    {
+      "source": "氟伏沙明 (口服)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "维拉佐酮 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "维拉佐酮 (口服)",
+      "target": "SERT",
+      "relation": "结合_抑制",
+      "ki": 0.1
+    },
+    {
+      "source": "维拉佐酮 (口服)",
+      "target": "5-HT1A受体",
+      "relation": "结合_部分激动",
+      "ki": 0.2
+    },
+    {
+      "source": "维拉佐酮 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "帕罗西汀 (口服缓释剂型)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "帕罗西汀 (口服缓释剂型)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "帕罗西汀 (口服缓释剂型)",
+      "target": "强迫症/恐慌症/社交焦虑障碍/GAD/PTSD",
+      "relation": "治疗"
+    },
+    {
+      "source": "文拉法辛 (口服缓释剂型)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "文拉法辛 (口服缓释剂型)",
+      "target": "SERT",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "文拉法辛 (口服缓释剂型)",
+      "target": "NET",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "文拉法辛 (口服缓释剂型)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "文拉法辛 (口服缓释剂型)",
+      "target": "广泛性焦虑障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "文拉法辛 (口服缓释剂型)",
+      "target": "社交焦虑障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "文拉法辛 (口服缓释剂型)",
+      "target": "恐慌症",
+      "relation": "治疗"
+    },
+    {
+      "source": "度洛西汀 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "度洛西汀 (口服)",
+      "target": "CYP1A2",
+      "relation": "基因关联"
+    },
+    {
+      "source": "度洛西汀 (口服)",
+      "target": "SERT",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "度洛西汀 (口服)",
+      "target": "NET",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "度洛西汀 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "度洛西汀 (口服)",
+      "target": "广泛性焦虑障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "度洛西汀 (口服)",
+      "target": "糖尿病周围神经痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "度洛西汀 (口服)",
+      "target": "纤维肌痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "度洛西汀 (口服)",
+      "target": "慢性肌骨骼痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "地文拉法辛 (口服)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "地文拉法辛 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "地文拉法辛 (口服)",
+      "target": "UGT",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "地文拉法辛 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "托鲁地文拉法辛 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "安非他酮 (口服缓释剂型)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "安非他酮 (口服缓释剂型)",
+      "target": "CYP2B6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "安非他酮 (口服缓释剂型)",
+      "target": "DAT",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "安非他酮 (口服缓释剂型)",
+      "target": "NET",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "安非他酮 (口服缓释剂型)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "安非他酮 (口服缓释剂型)",
+      "target": "戒烟辅助",
+      "relation": "治疗"
+    },
+    {
+      "source": "安非他酮 (口服缓释剂型)",
+      "target": "季节性情感障碍预防",
+      "relation": "治疗"
+    },
+    {
+      "source": "米氮平 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "米氮平 (口服)",
+      "target": "CYP1A2",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "米氮平 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "米氮平 (口服)",
+      "target": "α2",
+      "relation": "结合_拮抗",
+      "ki": ""
+    },
+    {
+      "source": "米氮平 (口服)",
+      "target": "5-HT2A",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "米氮平 (口服)",
+      "target": "5-HT2C",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "米氮平 (口服)",
+      "target": "5-HT3",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "米氮平 (口服)",
+      "target": "H1",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "米氮平 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "米安色林 (口服)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "米安色林 (口服)",
+      "target": "CYP1A2",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "米安色林 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "米安色林 (口服)",
+      "target": "抑郁症",
+      "relation": "治疗"
+    },
+    {
+      "source": "曲唑酮 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "曲唑酮 (口服)",
+      "target": "5-HT2A受体",
+      "relation": "结合_拮抗",
+      "ki": 36.0
+    },
+    {
+      "source": "曲唑酮 (口服)",
+      "target": "SERT",
+      "relation": "结合_抑制",
+      "ki": 160.0
+    },
+    {
+      "source": "曲唑酮 (口服)",
+      "target": "α1受体",
+      "relation": "结合_拮抗",
+      "ki": 42.0
+    },
+    {
+      "source": "曲唑酮 (口服)",
+      "target": "H1受体",
+      "relation": "结合_拮抗",
+      "ki": 220.0
+    },
+    {
+      "source": "曲唑酮 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "曲唑酮 (口服)",
+      "target": "失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿米替林 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "阿米替林 (口服)",
+      "target": "CYP2C19",
+      "relation": "基因关联"
+    },
+    {
+      "source": "阿米替林 (口服)",
+      "target": "SERT",
+      "relation": "结合_抑制",
+      "ki": 4.3
+    },
+    {
+      "source": "阿米替林 (口服)",
+      "target": "NET",
+      "relation": "结合_抑制",
+      "ki": 35.0
+    },
+    {
+      "source": "阿米替林 (口服)",
+      "target": "H1受体",
+      "relation": "结合_拮抗",
+      "ki": 1.1
+    },
+    {
+      "source": "阿米替林 (口服)",
+      "target": "M1受体",
+      "relation": "结合_拮抗",
+      "ki": 18.0
+    },
+    {
+      "source": "阿米替林 (口服)",
+      "target": "α1受体",
+      "relation": "结合_拮抗",
+      "ki": 27.0
+    },
+    {
+      "source": "阿米替林 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿米替林 (口服)",
+      "target": "神经病理性疼痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿米替林 (口服)",
+      "target": "偏头痛预防",
+      "relation": "治疗"
+    },
+    {
+      "source": "多塞平 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "多塞平 (口服)",
+      "target": "CYP2C19",
+      "relation": "基因关联"
+    },
+    {
+      "source": "多塞平 (口服)",
+      "target": "H1受体",
+      "relation": "结合_拮抗",
+      "ki": 0.24
+    },
+    {
+      "source": "多塞平 (口服)",
+      "target": "SERT",
+      "relation": "结合_抑制",
+      "ki": 68.0
+    },
+    {
+      "source": "多塞平 (口服)",
+      "target": "NET",
+      "relation": "结合_抑制",
+      "ki": 29.0
+    },
+    {
+      "source": "多塞平 (口服)",
+      "target": "M1受体",
+      "relation": "结合_拮抗",
+      "ki": 83.0
+    },
+    {
+      "source": "多塞平 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "多塞平 (口服)",
+      "target": "失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "氯米帕明 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "氯米帕明 (口服)",
+      "target": "CYP1A2",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "氯米帕明 (口服)",
+      "target": "SERT",
+      "relation": "结合_结合",
+      "ki": 0.28
+    },
+    {
+      "source": "氯米帕明 (口服)",
+      "target": "NET",
+      "relation": "结合_抑制",
+      "ki": 38.0
+    },
+    {
+      "source": "氯米帕明 (口服)",
+      "target": "H1受体",
+      "relation": "结合_拮抗",
+      "ki": 31.0
+    },
+    {
+      "source": "氯米帕明 (口服)",
+      "target": "M1受体",
+      "relation": "结合_拮抗",
+      "ki": 37.0
+    },
+    {
+      "source": "氯米帕明 (口服)",
+      "target": "强迫症",
+      "relation": "治疗"
+    },
+    {
+      "source": "氯米帕明 (口服)",
+      "target": "CYP2C19",
+      "relation": "基因关联"
+    },
+    {
+      "source": "伏硫西汀 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "伏硫西汀 (口服)",
+      "target": "SERT",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "伏硫西汀 (口服)",
+      "target": "5-HT3",
+      "relation": "结合_拮抗",
+      "ki": ""
+    },
+    {
+      "source": "伏硫西汀 (口服)",
+      "target": "5-HT7",
+      "relation": "结合_拮抗",
+      "ki": ""
+    },
+    {
+      "source": "伏硫西汀 (口服)",
+      "target": "5-HT1A",
+      "relation": "结合_激动",
+      "ki": ""
+    },
+    {
+      "source": "伏硫西汀 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿戈美拉汀 (口服)",
+      "target": "CYP2C9",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "阿戈美拉汀 (口服)",
+      "target": "CYP1A2",
+      "relation": "基因关联"
+    },
+    {
+      "source": "阿戈美拉汀 (口服)",
+      "target": "MT1",
+      "relation": "结合_激动",
+      "ki": ""
+    },
+    {
+      "source": "阿戈美拉汀 (口服)",
+      "target": "MT2",
+      "relation": "结合_激动",
+      "ki": ""
+    },
+    {
+      "source": "阿戈美拉汀 (口服)",
+      "target": "5-HT2C",
+      "relation": "结合_拮抗",
+      "ki": ""
+    },
+    {
+      "source": "阿戈美拉汀 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥氮平/氟西汀复方 (口服)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥氮平/氟西汀复方 (口服)",
+      "target": "CYP1A2",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥氮平/氟西汀复方 (口服)",
+      "target": "UGT",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥氮平/氟西汀复方 (口服)",
+      "target": "双相情感障碍抑郁发作",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥氮平/氟西汀复方 (口服)",
+      "target": "难治性抑郁症",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥氮平/氟西汀复方 (口服)",
+      "target": "老年人",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "艾司氯胺酮 (鼻喷剂)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "艾司氯胺酮 (鼻喷剂)",
+      "target": "CYP2B6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "艾司氯胺酮 (鼻喷剂)",
+      "target": "NMDA受体",
+      "relation": "结合_拮抗",
+      "ki": ""
+    },
+    {
+      "source": "艾司氯胺酮 (鼻喷剂)",
+      "target": "μ阿片受体",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "艾司氯胺酮 (鼻喷剂)",
+      "target": "σ受体",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "艾司氯胺酮 (鼻喷剂)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "艾司氯胺酮 (鼻喷剂)",
+      "target": "伴急性自杀意念的MDD",
+      "relation": "治疗"
+    },
+    {
+      "source": "祖拉诺酮 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "祖拉诺酮 (口服)",
+      "target": "GABAA受体",
+      "relation": "结合_正向别构调节",
+      "ki": ""
+    },
+    {
+      "source": "祖拉诺酮 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "艾司氯胺酮 (注射)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "艾司氯胺酮 (注射)",
+      "target": "CYP2B6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "艾司氯胺酮 (注射)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "艾司氯胺酮 (注射)",
+      "target": "伴急性自杀意念的MDD",
+      "relation": "治疗"
+    },
+    {
+      "source": "右美沙芬/安非他酮 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "右美沙芬/安非他酮 (口服)",
+      "target": "NMDA受体",
+      "relation": "结合_拮抗",
+      "ki": ""
+    },
+    {
+      "source": "右美沙芬/安非他酮 (口服)",
+      "target": "σ1受体",
+      "relation": "结合_激动",
+      "ki": ""
+    },
+    {
+      "source": "右美沙芬/安非他酮 (口服)",
+      "target": "SERT",
+      "relation": "结合_抑制",
+      "ki": ""
+    },
+    {
+      "source": "右美沙芬/安非他酮 (口服)",
+      "target": "NET/DAT",
+      "relation": "结合_抑制",
+      "ki": ""
+    },
+    {
+      "source": "右美沙芬/安非他酮 (口服)",
+      "target": "重度抑郁障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "右美沙芬/安非他酮 (口服)",
+      "target": "老年人",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "右美沙芬/安非他酮 (口服)",
+      "target": "妊娠期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "右美沙芬/安非他酮 (口服)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "右美沙芬/安非他酮 (口服)",
+      "target": "儿童及青少年",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "右美沙芬/安非他酮 (口服)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "氟哌噻吨美利曲辛片 (黛力新)",
+      "target": "D2",
+      "relation": "结合_拮抗",
+      "ki": ""
+    },
+    {
+      "source": "氟哌噻吨美利曲辛片 (黛力新)",
+      "target": "SERT",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌噻吨美利曲辛片 (黛力新)",
+      "target": "NET",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "氟哌噻吨美利曲辛片 (黛力新)",
+      "target": "轻、中度抑郁和焦虑",
+      "relation": "治疗"
+    },
+    {
+      "source": "丁螺环酮 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丁螺环酮 (口服)",
+      "target": "5-HT1A受体",
+      "relation": "结合_部分激动",
+      "ki": 8.6
+    },
+    {
+      "source": "丁螺环酮 (口服)",
+      "target": "D2受体",
+      "relation": "结合_结合",
+      "ki": 484.0
+    },
+    {
+      "source": "丁螺环酮 (口服)",
+      "target": "广泛性焦虑障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "坦度螺酮 (口服)",
+      "target": "各种神经症所致的焦虑状态",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿普唑仑 (口服)",
+      "target": "CYP3A4",
+      "relation": "基因关联"
+    },
+    {
+      "source": "阿普唑仑 (口服)",
+      "target": "GABA-A",
+      "relation": "结合_正向别构调节",
+      "ki": ""
+    },
+    {
+      "source": "阿普唑仑 (口服)",
+      "target": "广泛性焦虑障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿普唑仑 (口服)",
+      "target": "恐慌症",
+      "relation": "治疗"
+    },
+    {
+      "source": "劳拉西泮 (口服)",
+      "target": "UGT",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "劳拉西泮 (口服)",
+      "target": "葡萄糖醛酸化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "劳拉西泮 (口服)",
+      "target": "GABA-A",
+      "relation": "结合_正向别构调节",
+      "ki": ""
+    },
+    {
+      "source": "劳拉西泮 (口服)",
+      "target": "焦虑障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "劳拉西泮 (口服)",
+      "target": "失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "地西泮 (口服)",
+      "target": "CYP2C19",
+      "relation": "基因关联"
+    },
+    {
+      "source": "地西泮 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "地西泮 (口服)",
+      "target": "GABA-A",
+      "relation": "结合_正向别构调节",
+      "ki": ""
+    },
+    {
+      "source": "地西泮 (口服)",
+      "target": "焦虑障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "地西泮 (口服)",
+      "target": "肌肉痉挛",
+      "relation": "治疗"
+    },
+    {
+      "source": "地西泮 (口服)",
+      "target": "癫痫持续状态辅助",
+      "relation": "治疗"
+    },
+    {
+      "source": "地西泮 (口服)",
+      "target": "酒精戒断",
+      "relation": "治疗"
+    },
+    {
+      "source": "咪达唑仑 (口服)",
+      "target": "CYP3A4",
+      "relation": "基因关联"
+    },
+    {
+      "source": "咪达唑仑 (口服)",
+      "target": "GABA-A",
+      "relation": "结合_正向别构调节",
+      "ki": ""
+    },
+    {
+      "source": "咪达唑仑 (口服)",
+      "target": "术前镇静/操作前镇静",
+      "relation": "治疗"
+    },
+    {
+      "source": "咪达唑仑 (口服)",
+      "target": "癫痫持续状态",
+      "relation": "治疗"
+    },
+    {
+      "source": "艾司唑仑 (口服)",
+      "target": "CYP3A4",
+      "relation": "基因关联"
+    },
+    {
+      "source": "艾司唑仑 (口服)",
+      "target": "GABA-A",
+      "relation": "结合_正向别构调节",
+      "ki": ""
+    },
+    {
+      "source": "艾司唑仑 (口服)",
+      "target": "失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥沙西泮 (口服)",
+      "target": "UGT",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥沙西泮 (口服)",
+      "target": "葡萄糖醛酸化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥沙西泮 (口服)",
+      "target": "GABA-A",
+      "relation": "结合_正向别构调节",
+      "ki": ""
+    },
+    {
+      "source": "奥沙西泮 (口服)",
+      "target": "焦虑障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥沙西泮 (口服)",
+      "target": "酒精戒断",
+      "relation": "治疗"
+    },
+    {
+      "source": "氯硝西泮 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "氯硝西泮 (口服)",
+      "target": "GABA-A",
+      "relation": "结合_正向别构调节",
+      "ki": ""
+    },
+    {
+      "source": "氯硝西泮 (口服)",
+      "target": "癫痫/Lennox-Gastaut综合征",
+      "relation": "治疗"
+    },
+    {
+      "source": "氯硝西泮 (口服)",
+      "target": "恐慌症",
+      "relation": "治疗"
+    },
+    {
+      "source": "地达西尼 (口服)",
+      "target": "GABAA α1亚型",
+      "relation": "结合_正向别构调节",
+      "ki": ""
+    },
+    {
+      "source": "地达西尼 (口服)",
+      "target": "GABAA其他α亚型",
+      "relation": "结合_结合",
+      "ki": ""
+    },
+    {
+      "source": "地达西尼 (口服)",
+      "target": "成人失眠障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "咪达唑仑 (注射)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "咪达唑仑 (注射)",
+      "target": "术前镇静/操作前镇静",
+      "relation": "治疗"
+    },
+    {
+      "source": "咪达唑仑 (注射)",
+      "target": "癫痫持续状态",
+      "relation": "治疗"
+    },
+    {
+      "source": "劳拉西泮 (注射)",
+      "target": "UGT",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "劳拉西泮 (注射)",
+      "target": "葡萄糖醛酸化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "劳拉西泮 (注射)",
+      "target": "焦虑障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "劳拉西泮 (注射)",
+      "target": "失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "地西泮 (注射)",
+      "target": "CYP2C19",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "地西泮 (注射)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "地西泮 (注射)",
+      "target": "焦虑障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "地西泮 (注射)",
+      "target": "肌肉痉挛",
+      "relation": "治疗"
+    },
+    {
+      "source": "地西泮 (注射)",
+      "target": "癫痫持续状态辅助",
+      "relation": "治疗"
+    },
+    {
+      "source": "地西泮 (注射)",
+      "target": "酒精戒断",
+      "relation": "治疗"
+    },
+    {
+      "source": "唑吡坦 (口服)",
+      "target": "CYP3A4",
+      "relation": "基因关联"
+    },
+    {
+      "source": "唑吡坦 (口服)",
+      "target": "GABA-A",
+      "relation": "结合_正向别构调节",
+      "ki": ""
+    },
+    {
+      "source": "唑吡坦 (口服)",
+      "target": "失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "扎来普隆 (口服)",
+      "target": "醛氧化酶",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "扎来普隆 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "扎来普隆 (口服)",
+      "target": "失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "佐匹克隆 (口服)",
+      "target": "CYP3A4",
+      "relation": "基因关联"
+    },
+    {
+      "source": "佐匹克隆 (口服)",
+      "target": "CYP2E1",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "佐匹克隆 (口服)",
+      "target": "GABA-A",
+      "relation": "结合_正向别构调节",
+      "ki": ""
+    },
+    {
+      "source": "佐匹克隆 (口服)",
+      "target": "失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "右佐匹克隆 (口服)",
+      "target": "CYP3A4",
+      "relation": "基因关联"
+    },
+    {
+      "source": "右佐匹克隆 (口服)",
+      "target": "CYP2E1",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "右佐匹克隆 (口服)",
+      "target": "GABA-A",
+      "relation": "结合_正向别构调节",
+      "ki": ""
+    },
+    {
+      "source": "右佐匹克隆 (口服)",
+      "target": "失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "苏沃雷生 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "苏沃雷生 (口服)",
+      "target": "OX1R",
+      "relation": "结合_拮抗",
+      "ki": 0.55
+    },
+    {
+      "source": "苏沃雷生 (口服)",
+      "target": "OX2R",
+      "relation": "结合_拮抗",
+      "ki": 0.35
+    },
+    {
+      "source": "苏沃雷生 (口服)",
+      "target": "失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "莱博雷生 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "莱博雷生 (口服)",
+      "target": "OX1R",
+      "relation": "结合_拮抗",
+      "ki": 7.3
+    },
+    {
+      "source": "莱博雷生 (口服)",
+      "target": "OX2R",
+      "relation": "结合_拮抗",
+      "ki": 2.6
+    },
+    {
+      "source": "莱博雷生 (口服)",
+      "target": "失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "达利雷生 (口服)",
+      "target": "CYP3A4",
+      "relation": "基因关联"
+    },
+    {
+      "source": "达利雷生 (口服)",
+      "target": "OX1R (食欲素1受体)",
+      "relation": "结合_拮抗",
+      "ki": 0.47
+    },
+    {
+      "source": "达利雷生 (口服)",
+      "target": "OX2R (食欲素2受体)",
+      "relation": "结合_拮抗",
+      "ki": 0.93
+    },
+    {
+      "source": "达利雷生 (口服)",
+      "target": "成人失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "雷美替胺 (口服)",
+      "target": "CYP1A2",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "雷美替胺 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "雷美替胺 (口服)",
+      "target": "失眠",
+      "relation": "治疗"
+    },
+    {
+      "source": "碳酸锂 (口服常释剂型)",
+      "target": "VSSC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "碳酸锂 (口服常释剂型)",
+      "target": "VSCC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "碳酸锂 (口服常释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "碳酸锂 (口服常释剂型)",
+      "target": "双相障碍维持治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "碳酸锂 (口服常释剂型)",
+      "target": "抗抑郁药增效",
+      "relation": "治疗"
+    },
+    {
+      "source": "碳酸锂 (口服常释剂型)",
+      "target": "降低自杀风险",
+      "relation": "治疗"
+    },
+    {
+      "source": "碳酸锂 (口服缓释剂型)",
+      "target": "VSSC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "碳酸锂 (口服缓释剂型)",
+      "target": "VSCC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "碳酸锂 (口服缓释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "碳酸锂 (口服缓释剂型)",
+      "target": "双相障碍维持治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "碳酸锂 (口服缓释剂型)",
+      "target": "抗抑郁药增效/降低自杀风险",
+      "relation": "治疗"
+    },
+    {
+      "source": "拉莫三嗪 (口服常释剂型)",
+      "target": "葡萄糖醛酸化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "拉莫三嗪 (口服常释剂型)",
+      "target": "UGT1A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "拉莫三嗪 (口服常释剂型)",
+      "target": "VSSC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "拉莫三嗪 (口服常释剂型)",
+      "target": "VSCC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "拉莫三嗪 (口服常释剂型)",
+      "target": "双相障碍维持治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "拉莫三嗪 (口服常释剂型)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "拉莫三嗪 (口服常释剂型)",
+      "target": "合用丙戊酸盐时",
+      "relation": "治疗"
+    },
+    {
+      "source": "卡马西平 (口服常释剂型)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "卡马西平 (口服常释剂型)",
+      "target": "VSSC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "卡马西平 (口服常释剂型)",
+      "target": "VSCC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "卡马西平 (口服常释剂型)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "卡马西平 (口服常释剂型)",
+      "target": "三叉神经痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "卡马西平 (口服常释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "卡马西平 (口服常释剂型)",
+      "target": "HLA-B*1502",
+      "relation": "基因关联"
+    },
+    {
+      "source": "卡马西平 (口服常释剂型)",
+      "target": "HLA-A*3101",
+      "relation": "基因关联"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "UGT",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "葡萄糖醛酸化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "CYP2C9",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "β-氧化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "VSSC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "VSCC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "偏头痛预防",
+      "relation": "治疗"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "POLG",
+      "relation": "基因关联"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "老年人",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "妊娠期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "哺乳期",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "儿童及青少年",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "丙戊酸钠 (口服常释/肠溶剂型)",
+      "target": "肝肾功能不全",
+      "relation": "特殊人群_注意"
+    },
+    {
+      "source": "丙戊酸钠 (口服缓释剂型)",
+      "target": "葡萄糖醛酸化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丙戊酸钠 (口服缓释剂型)",
+      "target": "CYP2C9",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丙戊酸钠 (口服缓释剂型)",
+      "target": "β-氧化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丙戊酸钠 (口服缓释剂型)",
+      "target": "VSSC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "丙戊酸钠 (口服缓释剂型)",
+      "target": "VSCC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "丙戊酸钠 (口服缓释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "丙戊酸钠 (口服缓释剂型)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "丙戊酸钠 (口服缓释剂型)",
+      "target": "偏头痛预防",
+      "relation": "治疗"
+    },
+    {
+      "source": "丙戊酸钠 (口服缓释剂型)",
+      "target": "POLG",
+      "relation": "基因关联"
+    },
+    {
+      "source": "丙戊酸镁 (口服缓释片)",
+      "target": "β-氧化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丙戊酸镁 (口服缓释片)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "丙戊酸镁 (口服缓释片)",
+      "target": "双相情感障碍躁狂发作",
+      "relation": "治疗"
+    },
+    {
+      "source": "丙戊酸镁 (口服缓释片)",
+      "target": "CYP2C9",
+      "relation": "基因关联"
+    },
+    {
+      "source": "丙戊酸镁 (口服缓释片)",
+      "target": "HLA-A*24:02",
+      "relation": "基因关联"
+    },
+    {
+      "source": "丙戊酸镁 (口服缓释片)",
+      "target": "UGT2B7",
+      "relation": "基因关联"
+    },
+    {
+      "source": "丙戊酸镁 (口服缓释片)",
+      "target": "POLG",
+      "relation": "基因关联"
+    },
+    {
+      "source": "丙戊酸镁 (口服缓释片)",
+      "target": "UGT1A6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "奥卡西平 (口服常释剂型)",
+      "target": "UGT",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥卡西平 (口服常释剂型)",
+      "target": "葡萄糖醛酸化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥卡西平 (口服常释剂型)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥卡西平 (口服常释剂型)",
+      "target": "VSSC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "奥卡西平 (口服常释剂型)",
+      "target": "VSCC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "奥卡西平 (口服常释剂型)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥卡西平 (口服常释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥卡西平 (口服常释剂型)",
+      "target": "HLA-B*1502",
+      "relation": "基因关联"
+    },
+    {
+      "source": "卡马西平 (口服缓释剂型)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "卡马西平 (口服缓释剂型)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "卡马西平 (口服缓释剂型)",
+      "target": "三叉神经痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "卡马西平 (口服缓释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "拉莫三嗪 (口服缓释剂型)",
+      "target": "葡萄糖醛酸化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "拉莫三嗪 (口服缓释剂型)",
+      "target": "UGT1A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "拉莫三嗪 (口服缓释剂型)",
+      "target": "双相障碍维持治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "拉莫三嗪 (口服缓释剂型)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "拉莫三嗪 (口服缓释剂型)",
+      "target": "合用丙戊酸盐时",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥卡西平 (口服缓释剂型)",
+      "target": "UGT",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥卡西平 (口服缓释剂型)",
+      "target": "葡萄糖醛酸化",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥卡西平 (口服缓释剂型)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "奥卡西平 (口服缓释剂型)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "奥卡西平 (口服缓释剂型)",
+      "target": "双相障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "丙戊酸钠 (注射)",
+      "target": "UGT",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丙戊酸钠 (注射)",
+      "target": "癫痫发作/双相躁狂的静脉替代治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "托吡酯 (口服常释剂型)",
+      "target": "VSSC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "托吡酯 (口服常释剂型)",
+      "target": "VSCC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "托吡酯 (口服常释剂型)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "托吡酯 (口服常释剂型)",
+      "target": "偏头痛预防",
+      "relation": "治疗"
+    },
+    {
+      "source": "托吡酯 (口服常释剂型)",
+      "target": "双相障碍辅助",
+      "relation": "治疗"
+    },
+    {
+      "source": "左乙拉西坦 (口服)",
+      "target": "VSSC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "左乙拉西坦 (口服)",
+      "target": "VSCC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "左乙拉西坦 (口服)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "苯巴比妥 (口服)",
+      "target": "CYP2C19",
+      "relation": "基因关联"
+    },
+    {
+      "source": "苯巴比妥 (口服)",
+      "target": "CYP2C9",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "苯巴比妥 (口服)",
+      "target": "CYP1A2",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "苯巴比妥 (口服)",
+      "target": "CYP2E1",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "苯巴比妥 (口服)",
+      "target": "VSSC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "苯巴比妥 (口服)",
+      "target": "VSCC",
+      "relation": "结合_阻断",
+      "ki": ""
+    },
+    {
+      "source": "苯巴比妥 (口服)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "苯巴比妥 (口服)",
+      "target": "镇静",
+      "relation": "治疗"
+    },
+    {
+      "source": "普瑞巴林 (口服)",
+      "target": "α2δ钙通道亚基",
+      "relation": "结合_结合",
+      "ki": 6.0
+    },
+    {
+      "source": "普瑞巴林 (口服)",
+      "target": "广泛性焦虑障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "普瑞巴林 (口服)",
+      "target": "神经病理性疼痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "普瑞巴林 (口服)",
+      "target": "纤维肌痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "普瑞巴林 (口服)",
+      "target": "癫痫辅助",
+      "relation": "治疗"
+    },
+    {
+      "source": "苯巴比妥 (注射)",
+      "target": "CYP2C19",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "苯巴比妥 (注射)",
+      "target": "CYP2C9",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "苯巴比妥 (注射)",
+      "target": "CYP1A2",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "苯巴比妥 (注射)",
+      "target": "CYP2E1",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "苯巴比妥 (注射)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "苯巴比妥 (注射)",
+      "target": "镇静",
+      "relation": "治疗"
+    },
+    {
+      "source": "左乙拉西坦 (注射)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "托吡酯 (口服缓释剂型)",
+      "target": "癫痫",
+      "relation": "治疗"
+    },
+    {
+      "source": "托吡酯 (口服缓释剂型)",
+      "target": "偏头痛预防",
+      "relation": "治疗"
+    },
+    {
+      "source": "托吡酯 (口服缓释剂型)",
+      "target": "双相障碍辅助",
+      "relation": "治疗"
+    },
+    {
+      "source": "哌甲酯 (口服常释剂型)",
+      "target": "ADHD",
+      "relation": "治疗"
+    },
+    {
+      "source": "安非他命 (口服常释剂型)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "安非他命 (口服常释剂型)",
+      "target": "ADHD",
+      "relation": "治疗"
+    },
+    {
+      "source": "哌甲酯 (口服缓释剂型)",
+      "target": "ADHD",
+      "relation": "治疗"
+    },
+    {
+      "source": "哌甲酯 (透皮贴剂)",
+      "target": "ADHD",
+      "relation": "治疗"
+    },
+    {
+      "source": "安非他命 (口服缓释剂型)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "安非他命 (口服缓释剂型)",
+      "target": "ADHD",
+      "relation": "治疗"
+    },
+    {
+      "source": "托莫西汀 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "托莫西汀 (口服)",
+      "target": "ADHD",
+      "relation": "治疗"
+    },
+    {
+      "source": "维洛沙秦 (口服)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "维洛沙秦 (口服)",
+      "target": "CYP1A2",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "维洛沙秦 (口服)",
+      "target": "UGT1A9",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "维洛沙秦 (口服)",
+      "target": "ADHD",
+      "relation": "治疗"
+    },
+    {
+      "source": "可乐定 (口服常释剂型)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "可乐定 (口服常释剂型)",
+      "target": "高血压",
+      "relation": "治疗"
+    },
+    {
+      "source": "可乐定 (口服常释剂型)",
+      "target": "ADHD辅助",
+      "relation": "治疗"
+    },
+    {
+      "source": "胍法辛 (口服常释剂型)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "胍法辛 (口服常释剂型)",
+      "target": "高血压",
+      "relation": "治疗"
+    },
+    {
+      "source": "胍法辛 (口服常释剂型)",
+      "target": "ADHD",
+      "relation": "治疗"
+    },
+    {
+      "source": "可乐定 (口服缓释剂型)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "可乐定 (口服缓释剂型)",
+      "target": "高血压",
+      "relation": "治疗"
+    },
+    {
+      "source": "可乐定 (口服缓释剂型)",
+      "target": "ADHD辅助",
+      "relation": "治疗"
+    },
+    {
+      "source": "可乐定 (透皮贴剂)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "可乐定 (透皮贴剂)",
+      "target": "高血压",
+      "relation": "治疗"
+    },
+    {
+      "source": "可乐定 (透皮贴剂)",
+      "target": "ADHD辅助",
+      "relation": "治疗"
+    },
+    {
+      "source": "胍法辛 (口服缓释剂型)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "胍法辛 (口服缓释剂型)",
+      "target": "高血压",
+      "relation": "治疗"
+    },
+    {
+      "source": "胍法辛 (口服缓释剂型)",
+      "target": "ADHD",
+      "relation": "治疗"
+    },
+    {
+      "source": "加兰他敏 (口服)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "加兰他敏 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "加兰他敏 (口服)",
+      "target": "轻至中度阿尔茨海默型痴呆",
+      "relation": "治疗"
+    },
+    {
+      "source": "卡巴拉汀 (口服)",
+      "target": "轻至中度阿尔茨海默型痴呆",
+      "relation": "治疗"
+    },
+    {
+      "source": "卡巴拉汀 (口服)",
+      "target": "帕金森病痴呆",
+      "relation": "治疗"
+    },
+    {
+      "source": "多奈哌齐 (口服)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "多奈哌齐 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "多奈哌齐 (口服)",
+      "target": "轻至中度阿尔茨海默型痴呆",
+      "relation": "治疗"
+    },
+    {
+      "source": "多奈哌齐 (口服)",
+      "target": "中至重度阿尔茨海默型痴呆",
+      "relation": "治疗"
+    },
+    {
+      "source": "卡巴拉汀 (透皮贴剂)",
+      "target": "轻至中度阿尔茨海默型痴呆",
+      "relation": "治疗"
+    },
+    {
+      "source": "卡巴拉汀 (透皮贴剂)",
+      "target": "帕金森病痴呆",
+      "relation": "治疗"
+    },
+    {
+      "source": "美金刚 (口服常释剂型)",
+      "target": "中至重度阿尔茨海默型痴呆",
+      "relation": "治疗"
+    },
+    {
+      "source": "美金刚 (口服缓释剂型)",
+      "target": "中至重度阿尔茨海默型痴呆",
+      "relation": "治疗"
+    },
+    {
+      "source": "双硫仑 (口服)",
+      "target": "CYP2E1",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "双硫仑 (口服)",
+      "target": "慢性酒精依赖的辅助治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "阿坎酸 (口服)",
+      "target": "酒精依赖维持戒断",
+      "relation": "治疗"
+    },
+    {
+      "source": "丁丙诺啡 (舌下片/口腔膜)",
+      "target": "CYP2C8",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丁丙诺啡 (舌下片/口腔膜)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丁丙诺啡 (舌下片/口腔膜)",
+      "target": "阿片类药物使用障碍维持治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "丁丙诺啡 (舌下片/口腔膜)",
+      "target": "中重度慢性疼痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "纳曲酮 (口服)",
+      "target": "酒精依赖",
+      "relation": "治疗"
+    },
+    {
+      "source": "纳曲酮 (口服)",
+      "target": "阿片依赖",
+      "relation": "治疗"
+    },
+    {
+      "source": "美沙酮 (口服)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "美沙酮 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "美沙酮 (口服)",
+      "target": "CYP2B6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "美沙酮 (口服)",
+      "target": "阿片类药物使用障碍维持治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "美沙酮 (口服)",
+      "target": "中重度慢性疼痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "丁丙诺啡 (长效注射)",
+      "target": "CYP2C8",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丁丙诺啡 (长效注射)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丁丙诺啡 (长效注射)",
+      "target": "阿片类药物使用障碍维持治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "丁丙诺啡 (长效注射)",
+      "target": "中重度慢性疼痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "丁丙诺啡 (透皮贴剂)",
+      "target": "CYP2C8",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丁丙诺啡 (透皮贴剂)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "丁丙诺啡 (透皮贴剂)",
+      "target": "阿片类药物使用障碍维持治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "丁丙诺啡 (透皮贴剂)",
+      "target": "中重度慢性疼痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "纳曲酮 (长效注射)",
+      "target": "酒精依赖",
+      "relation": "治疗"
+    },
+    {
+      "source": "纳曲酮 (长效注射)",
+      "target": "阿片依赖",
+      "relation": "治疗"
+    },
+    {
+      "source": "美沙酮 (注射)",
+      "target": "CYP2D6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "美沙酮 (注射)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "美沙酮 (注射)",
+      "target": "CYP2B6",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "美沙酮 (注射)",
+      "target": "阿片类药物使用障碍维持治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "美沙酮 (注射)",
+      "target": "中重度慢性疼痛",
+      "relation": "治疗"
+    },
+    {
+      "source": "伐尼克兰 (口服)",
+      "target": "戒烟辅助治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "缬苯那嗪 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "缬苯那嗪 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "缬苯那嗪 (口服)",
+      "target": "VMAT2",
+      "relation": "结合_抑制",
+      "ki": 150.0
+    },
+    {
+      "source": "缬苯那嗪 (口服)",
+      "target": "迟发性运动障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "氘丁苯那嗪 (口服)",
+      "target": "CYP2D6",
+      "relation": "基因关联"
+    },
+    {
+      "source": "氘丁苯那嗪 (口服)",
+      "target": "VMAT2",
+      "relation": "结合_抑制",
+      "ki": 100.0
+    },
+    {
+      "source": "氘丁苯那嗪 (口服)",
+      "target": "迟发性运动障碍",
+      "relation": "治疗"
+    },
+    {
+      "source": "氘丁苯那嗪 (口服)",
+      "target": "亨廷顿舞蹈症相关舞蹈运动",
+      "relation": "治疗"
+    },
+    {
+      "source": "氨磺必利 (短效静脉针剂)",
+      "target": "D2受体",
+      "relation": "结合_拮抗",
+      "ki": 2.8
+    },
+    {
+      "source": "氨磺必利 (短效静脉针剂)",
+      "target": "D3受体",
+      "relation": "结合_拮抗",
+      "ki": 3.2
+    },
+    {
+      "source": "氨磺必利 (短效静脉针剂)",
+      "target": "5-HT7受体",
+      "relation": "结合_拮抗",
+      "ki": 11.5
+    },
+    {
+      "source": "氨磺必利 (短效静脉针剂)",
+      "target": "术后恶心呕吐  的预防与治疗",
+      "relation": "治疗"
+    },
+    {
+      "source": "匹马吉林 (口服)",
+      "target": "CYP3A5",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "匹马吉林 (口服)",
+      "target": "CYP3A4",
+      "relation": "代谢_经由"
+    },
+    {
+      "source": "匹马吉林 (口服)",
+      "target": "帕金森病精神病性障碍相关的幻觉和妄想",
+      "relation": "治疗"
+    }
+  ]
+}

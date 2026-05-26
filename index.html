@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>精神科药物知识图谱</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #111a2b;
+      --line: #24324a;
+      --text: #dbe7ff;
+      --muted: #8fa3c8;
+      --accent: #5b8cff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      overflow: hidden;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      height: 100vh;
+    }
+    .sidebar {
+      background: var(--panel);
+      border-right: 1px solid var(--line);
+      padding: 12px;
+      overflow: auto;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 18px;
+      margin: 2px 0 10px;
+    }
+    .meta {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+    .input {
+      width: 100%;
+      border: 1px solid #2f4366;
+      background: #0a1321;
+      color: var(--text);
+      padding: 8px 10px;
+      border-radius: 8px;
+      outline: none;
+    }
+    .input:focus { border-color: var(--accent); }
+    .group-title {
+      margin: 12px 0 8px;
+      font-size: 12px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .type-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .chip {
+      border: 1px solid #30415f;
+      border-radius: 999px;
+      font-size: 12px;
+      padding: 4px 10px;
+      cursor: pointer;
+      color: var(--text);
+      background: #121d31;
+      user-select: none;
+    }
+    .chip.off {
+      opacity: 0.45;
+      background: #0f1728;
+    }
+    .detail {
+      margin-top: 12px;
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #d3def4;
+      word-break: break-word;
+    }
+    .detail .k { color: var(--muted); }
+    .canvas-wrap {
+      position: relative;
+      height: 100vh;
+    }
+    #graph {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .help {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      font-size: 12px;
+      color: #b4c6ea;
+      background: rgba(11, 18, 32, 0.72);
+      border: 1px solid #2c3c5a;
+      border-radius: 8px;
+      padding: 8px 10px;
+      backdrop-filter: blur(6px);
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="title">精神科药物知识图谱</div>
+      <div class="meta" id="meta">加载中...</div>
+      <input id="search" class="input" placeholder="搜索药物/靶点/疾病..." />
+      <div class="group-title">节点类型筛选</div>
+      <div id="types" class="type-list"></div>
+      <div class="detail" id="detail">
+        点击图中的节点查看详情
+      </div>
+    </aside>
+    <main class="canvas-wrap">
+      <svg id="graph"></svg>
+      <div class="help">拖动节点；滚轮缩放；单击节点高亮邻居</div>
+    </main>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+    const typeColors = {
+      "药物": "#7aa6ff",
+      "疾病/适应症": "#f8c95f",
+      "受体/靶点": "#f78bc4",
+      "代谢酶": "#5fd4b4",
+      "基因": "#ff9562",
+      "特殊人群": "#69c7ff"
+    };
+
+    const state = {
+      raw: null,
+      nodes: [],
+      edges: [],
+      activeTypes: new Set(),
+      search: "",
+      selected: null
+    };
+
+    const metaEl = document.getElementById("meta");
+    const typeEl = document.getElementById("types");
+    const detailEl = document.getElementById("detail");
+    const searchEl = document.getElementById("search");
+    const svg = d3.select("#graph");
+    const g = svg.append("g");
+
+    const zoom = d3.zoom().scaleExtent([0.2, 5]).on("zoom", (event) => {
+      g.attr("transform", event.transform);
+    });
+    svg.call(zoom);
+
+    const linkLayer = g.append("g");
+    const nodeLayer = g.append("g");
+    const labelLayer = g.append("g");
+
+    function colorForType(type) {
+      return typeColors[type] || "#9db2d8";
+    }
+
+    function safeStr(v) {
+      return String(v == null ? "" : v);
+    }
+
+    function renderDetail(node, neighbors) {
+      if (!node) {
+        detailEl.textContent = "点击图中的节点查看详情";
+        return;
+      }
+      const rows = [
+        `<div><span class="k">名称：</span>${safeStr(node.id)}</div>`,
+        `<div><span class="k">类型：</span>${safeStr(node.type)}</div>`,
+        `<div><span class="k">分类：</span>${safeStr(node.category || "-")}</div>`,
+        `<div><span class="k">英文名：</span>${safeStr(node.name_en || "-")}</div>`,
+        `<div><span class="k">邻接节点：</span>${neighbors.length}</div>`
+      ];
+      detailEl.innerHTML = rows.join("");
+    }
+
+    function buildTypeFilters(types) {
+      typeEl.innerHTML = "";
+      types.forEach((t) => {
+        const chip = document.createElement("button");
+        chip.className = "chip";
+        chip.textContent = t;
+        chip.style.borderColor = colorForType(t);
+        chip.onclick = () => {
+          if (state.activeTypes.has(t)) {
+            state.activeTypes.delete(t);
+            chip.classList.add("off");
+          } else {
+            state.activeTypes.add(t);
+            chip.classList.remove("off");
+          }
+          update();
+        };
+        typeEl.appendChild(chip);
+      });
+    }
+
+    function filteredData() {
+      const q = state.search.trim().toLowerCase();
+      const typeSet = state.activeTypes;
+      const nodes = state.raw.nodes.filter((n) => typeSet.has(n.type));
+      const idSet = new Set(nodes.map((n) => n.id));
+
+      let edges = state.raw.edges.filter((e) => idSet.has(e.source) && idSet.has(e.target));
+      if (q) {
+        const hitNodeIds = new Set(
+          nodes
+            .filter((n) => (safeStr(n.id) + " " + safeStr(n.name_en) + " " + safeStr(n.category)).toLowerCase().includes(q))
+            .map((n) => n.id)
+        );
+        edges = edges.filter((e) => hitNodeIds.has(e.source) || hitNodeIds.has(e.target));
+        const keep = new Set();
+        edges.forEach((e) => { keep.add(e.source); keep.add(e.target); });
+        return {
+          nodes: nodes.filter((n) => keep.has(n.id)),
+          edges
+        };
+      }
+      return { nodes, edges };
+    }
+
+    let simulation;
+    function update() {
+      const data = filteredData();
+      state.nodes = data.nodes.map((n) => ({ ...n }));
+      state.edges = data.edges.map((e) => ({ ...e }));
+
+      metaEl.innerHTML =
+        `总节点：${state.raw.nodes.length} / 当前：${state.nodes.length}<br>` +
+        `总关系：${state.raw.edges.length} / 当前：${state.edges.length}`;
+
+      const nodeById = new Map(state.nodes.map((n) => [n.id, n]));
+      const edgeData = state.edges.filter((e) => nodeById.has(e.source) && nodeById.has(e.target));
+
+      const links = linkLayer.selectAll("line").data(edgeData, (d) => `${d.source}|${d.target}|${d.relation}`);
+      links.exit().remove();
+      const linkEnter = links.enter().append("line")
+        .attr("stroke", "#314868")
+        .attr("stroke-opacity", 0.35)
+        .attr("stroke-width", 1.1);
+      const linkMerge = linkEnter.merge(links);
+
+      const nodes = nodeLayer.selectAll("circle").data(state.nodes, (d) => d.id);
+      nodes.exit().remove();
+      const nodeEnter = nodes.enter().append("circle")
+        .attr("r", (d) => d.type === "药物" ? 6 : 4.2)
+        .attr("fill", (d) => colorForType(d.type))
+        .attr("stroke", "#0a1321")
+        .attr("stroke-width", 1.2)
+        .on("click", (event, d) => {
+          event.stopPropagation();
+          state.selected = d.id;
+          const neighbors = edgeData
+            .filter((e) => e.source === d.id || e.target === d.id)
+            .map((e) => e.source === d.id ? e.target : e.source);
+          renderDetail(d, neighbors);
+          paintHighlight();
+        })
+        .call(
+          d3.drag()
+            .on("start", dragStart)
+            .on("drag", dragged)
+            .on("end", dragEnd)
+        );
+      const nodeMerge = nodeEnter.merge(nodes);
+
+      const labels = labelLayer.selectAll("text").data(state.nodes.filter((d) => d.type === "药物"), (d) => d.id);
+      labels.exit().remove();
+      const labelEnter = labels.enter().append("text")
+        .text((d) => d.id)
+        .attr("font-size", 9)
+        .attr("fill", "#b7c8ea")
+        .attr("pointer-events", "none");
+      const labelMerge = labelEnter.merge(labels);
+
+      simulation = d3.forceSimulation(state.nodes)
+        .force("link", d3.forceLink(edgeData).id((d) => d.id).distance((d) => d.relation.startsWith("结合_") ? 52 : 70))
+        .force("charge", d3.forceManyBody().strength(-58))
+        .force("center", d3.forceCenter(window.innerWidth * 0.35, window.innerHeight * 0.5))
+        .force("collide", d3.forceCollide().radius((d) => (d.type === "药物" ? 12 : 8)))
+        .on("tick", () => {
+          linkMerge
+            .attr("x1", (d) => d.source.x)
+            .attr("y1", (d) => d.source.y)
+            .attr("x2", (d) => d.target.x)
+            .attr("y2", (d) => d.target.y);
+          nodeMerge
+            .attr("cx", (d) => d.x)
+            .attr("cy", (d) => d.y);
+          labelMerge
+            .attr("x", (d) => d.x + 7)
+            .attr("y", (d) => d.y - 7);
+        });
+
+      paintHighlight();
+    }
+
+    function paintHighlight() {
+      const selected = state.selected;
+      const edgeKeys = new Set();
+      if (selected) {
+        state.edges.forEach((e) => {
+          if (e.source === selected || e.target === selected) {
+            edgeKeys.add(`${e.source}|${e.target}|${e.relation}`);
+          }
+        });
+      }
+      linkLayer.selectAll("line")
+        .attr("stroke-opacity", (d) => !selected ? 0.35 : (edgeKeys.has(`${d.source}|${d.target}|${d.relation}`) ? 0.9 : 0.08))
+        .attr("stroke", (d) => !selected ? "#314868" : (edgeKeys.has(`${d.source}|${d.target}|${d.relation}`) ? "#7aa6ff" : "#314868"));
+      nodeLayer.selectAll("circle")
+        .attr("opacity", (d) => {
+          if (!selected) return 1;
+          if (d.id === selected) return 1;
+          for (const e of state.edges) {
+            if ((e.source === selected && e.target === d.id) || (e.target === selected && e.source === d.id)) {
+              return 1;
+            }
+          }
+          return 0.2;
+        });
+    }
+
+    function dragStart(event, d) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
+    }
+    function dragged(event, d) {
+      d.fx = event.x;
+      d.fy = event.y;
+    }
+    function dragEnd(event, d) {
+      if (!event.active) simulation.alphaTarget(0);
+      d.fx = null;
+      d.fy = null;
+    }
+
+    searchEl.addEventListener("input", (e) => {
+      state.search = e.target.value || "";
+      update();
+    });
+    svg.on("click", () => {
+      state.selected = null;
+      renderDetail(null, []);
+      paintHighlight();
+    });
+
+    window.addEventListener("resize", () => {
+      if (simulation) {
+        simulation.force("center", d3.forceCenter(window.innerWidth * 0.35, window.innerHeight * 0.5));
+        simulation.alpha(0.25).restart();
+      }
+    });
+
+    Promise.all([
+      fetch("./data/graph.json").then((r) => r.json()),
+      fetch("./data/meta.json").then((r) => r.json()).catch(() => null)
+    ]).then(([graph, meta]) => {
+      state.raw = graph;
+      const types = [...new Set(graph.nodes.map((n) => n.type))];
+      types.forEach((t) => state.activeTypes.add(t));
+      buildTypeFilters(types);
+      if (meta) {
+        metaEl.innerHTML =
+          `总节点：${meta.node_count}<br>总关系：${meta.edge_count}<br>导出时间：${meta.generated_at}`;
+      }
+      update();
+    }).catch((err) => {
+      metaEl.textContent = "加载失败，请检查 data/graph.json";
+      console.error(err);
+    });
+  </script>
+</body>
+</html>
